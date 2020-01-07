@@ -1,0 +1,32 @@
+Reading Layer Conversion File 
+Reading DXF file...
+NOTE: Replacing illegal character $ with X in $MODEL_SPACE.
+NOTE: Replacing illegal character $ with X in $PAPER_SPACE.
+NOTE: Replacing illegal character * with X in *U2.
+NOTE: Replacing illegal character * with X in *U4.
+NOTE: Replacing illegal character * with X in *U5.
+NOTE: Replacing illegal character * with X in *U6.
+NOTE: Replacing illegal character * with X in *U7.
+NOTE: Replacing illegal character * with X in *U8.
+NOTE: Replacing illegal character * with X in *U9.
+NOTE: Replacing illegal character * with X in *U10.
+NOTE: Replacing illegal character * with X in *U11.
+NOTE: Replacing illegal character * with X in *U12.
+NOTE: Replacing illegal character * with X in *U4.
+NOTE: Replacing illegal character * with X in *U5.
+NOTE: Replacing illegal character * with X in *U6.
+NOTE: Replacing illegal character * with X in *U7.
+NOTE: Replacing illegal character * with X in *U8.
+NOTE: Replacing illegal character * with X in *U9.
+NOTE: Replacing illegal character * with X in *U11.
+NOTE: Replacing illegal character * with X in *U12.
+done.
+Layer conversion file: E:/Allegro/Km3Board/PCB/border_l.cnv
+DXF file: E:/Allegro/Km3Board/PCB/border.dxf
+BRD file: E:/PCBLib/ORCAD/PAD/LIB/Lib/#Taaaaal15344.tmp
+Update existing design?: NO
+Use default text?: NO
+DXF units: MILLIMETERS
+Design units: MILS
+Design precision: 4
+dxf2a complete.

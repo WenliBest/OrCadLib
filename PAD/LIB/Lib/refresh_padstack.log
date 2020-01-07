@@ -1,0 +1,50 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : BD9-Female.dra                                )
+(    Software Version : 17.2060                                       )
+(    Date/Time        : Mon Nov 18 15:02:41 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Mon Nov 18 15:02:41 2019				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'E:/PCBLib/ORCAD/PAD/LIB/Lib/BD9-Female.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  E:/PCBLib/ORCAD/PAD/LIB/Lib/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Via/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Pad/ 
+
+PADPATH =  E:/PCBLib/ORCAD/PAD/LIB/Pad/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Via/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Lib/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'TH_C3D3X5D3'  pad stack refresh starting.
+
+     'TH_C3D3X5D3'  pad stack refreshed successfully.
+     
+'TH_R1D0X1D8'  pad stack refresh starting.
+
+     'TH_R1D0X1D8'  pad stack refreshed successfully.
+     
+'TH_C1D0X1D8'  pad stack refresh starting.
+
+     'TH_C1D0X1D8'  pad stack refreshed successfully.
+     
+'SM_R4D0X5D0'  pad stack refresh starting.
+
+     'SM_R4D0X5D0'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

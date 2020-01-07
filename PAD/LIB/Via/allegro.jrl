@@ -1,0 +1,32 @@
+\t (00:00:01) allegro 17.2 S051 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Wed May 15 10:13:05 2019
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=17360 CPUs=4
+\t (00:00:01) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe E:\PCBLib\ORCAD\PAD\LIB\Via\via3d0cir5d0.dra
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged via3d0cir5d0
+\d (00:00:01) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Via/via3d0cir5d0.dra
+\i (00:00:02) trapsize 539
+\i (00:00:02) trapsize 554
+\i (00:00:02) trapsize 539
+\i (00:00:02) trapsize 517
+\i (00:00:02) trapsize 517
+\i (00:00:03) etchedit 
+\i (00:00:12) replace padstack 
+\i (00:00:13) setwindow form.mini
+\i (00:00:13) FORM mini oldname_browse  
+\i (00:00:16) fillin "Th_C3d0x6d0"
+\i (00:00:18) FORM mini newname_browse  
+\i (00:00:32) fillin "Th_C3d0x5d0"
+\i (00:00:34) FORM mini replace  
+\t (00:00:34) Done, updated padstack.
+\t (00:00:34) 1 out of 1 old padstack TH_C3D0X6D0 were replaced with new padstack TH_C3D0X5D0.
+\i (00:00:36) setwindow pcb
+\i (00:00:36) save 
+\t (00:00:36) Performing DRC...
+\t (00:00:36) No DRC errors detected.
+\i (00:00:37) fillin yes 
+\t (00:00:40) Symbol 'via3d0cir5d0.psm' created.
+\i (00:00:40) exit 
+\t (00:00:41)     Journal end - Wed May 15 10:13:44 2019

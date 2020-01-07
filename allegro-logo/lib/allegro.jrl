@@ -1,0 +1,53 @@
+\t (00:00:02) allegro 17.2 S045 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Thu Sep 06 12:45:37 2018
+\t (00:00:02)         Host=DESKTOP-P5LE3FE User=master Pid=17232 CPUs=4
+\t (00:00:02) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe E:\PCBLib\ORCAD\allegro-logo\lib\mark.dra
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:02) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged mark
+\d (00:00:02) Design opened: E:/PCBLib/ORCAD/allegro-logo/lib/mark.dra
+\i (00:00:03) trapsize 513
+\i (00:00:03) trapsize 528
+\i (00:00:03) trapsize 513
+\i (00:00:03) trapsize 496
+\i (00:00:03) trapsize 496
+\i (00:00:04) etchedit 
+\i (00:00:15) artwork 
+\i (00:00:20) setwindow form.film_control
+\i (00:00:20) FORM film_control cancel  
+\i (00:00:20) setwindow pcb
+\i (00:00:20) etchedit 
+\i (00:00:23) add pin 
+\t (00:00:23) Using 'MARK1.pad'.
+\i (00:00:24) setwindow form.mini
+\i (00:00:24) FORM mini pad_browse  
+\i (00:00:26) fillin "menu_cancel"
+\i (00:00:33) setwindow pcb
+\i (00:00:33) replace padstack 
+\t (00:00:33) Exiting from Add Pin.
+\i (00:00:35) setwindow form.mini
+\i (00:00:35) FORM mini oldname_browse  
+\i (00:00:36) fillin "Mark1"
+\i (00:00:38) FORM mini newname_browse  
+\i (00:02:31) fillin "menu_cancel"
+\i (00:02:32) FORM mini newname_browse  
+\i (00:02:36) fillin "Mark_C1d0x2d0"
+\i (00:02:38) FORM mini replace  
+\t (00:02:38) Done, updated padstack.
+\t (00:02:38) 1 out of 1 old padstack MARK1 were replaced with new padstack MARK_C1D0X2D0.
+\i (00:02:41) FORM mini oldname_browse  
+\i (00:02:44) fillin "Mark_C1d0x2d0"
+\i (00:02:58) FORM mini newname_browse  
+\i (00:03:04) fillin "menu_cancel"
+\i (00:03:06) setwindow pcb
+\i (00:03:06) pick grid 3.3609 -0.1171
+\t (00:03:06) last pick:  3.3020 0.0000
+\i (00:03:07) save 
+\t (00:03:07) Performing DRC...
+\t (00:03:07) No DRC errors detected.
+\i (00:03:08) fillin yes 
+\t (00:03:09) Symbol 'mark.bsm' created.
+\i (00:03:09) etchedit 
+\i (00:03:10) exit 
+\t (00:03:10)     Journal end - Thu Sep 06 12:48:46 2018

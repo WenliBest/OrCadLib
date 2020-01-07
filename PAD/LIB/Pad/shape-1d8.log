@@ -1,0 +1,44 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : shape-1d8.dra                                 )
+(    Software Version : 17.2S056                                      )
+(    Date/Time        : Tue Aug 20 12:07:23 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: SHAPE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Pad
+    Name      = shape-1d8.ssm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+ ERROR(SPMHCS-3): Shape symbol cannot have a void in a shape. 2273274304 
+SHAPE        @2273274304
+1)  mask              = 40
+2)  class             = 6 = ETCH
+3)  subclass          = 0 = TOP
+4)  branch_link       = 2273274264
+5)  branch_ptr        = 2273274264
+6)  symbol_ins_link   = 0
+7)  symbol_ins_ptr    = 0
+8)  first_connection       = 0
+9)  first_void        = 2273274824
+10) first_outline_seg = 2273274448
+11) first_patch_set   = 0
+12) shape_fill        = 1
+13) first_text        = 0
+14) first_relation    = 0
+15) extents.min       = (-8000, -8000)
+16) extents.max       = (30000, 8000)
+17) prev_branch_item  = 2273274264
+
+ ERROR(SPMHCS-3): Shape symbol cannot have a void in a shape. 
+
+ERROR(SPMHA1-291): Create symbol has been aborted.
+

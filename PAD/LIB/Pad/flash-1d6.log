@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : flash-1d6.dra                                 )
+(    Software Version : 17.2S045                                      )
+(    Date/Time        : Tue Sep 04 10:25:58 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Pad/new
+    Name      = flash-1d6.fsm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

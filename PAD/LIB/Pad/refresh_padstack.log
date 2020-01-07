@@ -1,0 +1,42 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : goldfinger_2.dra                              )
+(    Software Version : 17.2S056                                      )
+(    Date/Time        : Tue Aug 20 14:54:31 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Tue Aug 20 14:54:31 2019				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'goldfinger_2.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  E:/PCBLib/ORCAD/PAD/LIB/Lib/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Via/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Pad/ 
+
+PADPATH =  E:/PCBLib/ORCAD/PAD/LIB/Pad/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Via/ 
+           E:/PCBLib/ORCAD/PAD/LIB/Lib/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'TH_C1D0X1D6_3D0X1D6'  pad stack refresh starting.
+
+     'TH_C1D0X1D6_3D0X1D6'  pad stack refreshed successfully.
+     
+'TSP_32MIL'  pad stack refresh starting.
+
+     'TSP_32MIL'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

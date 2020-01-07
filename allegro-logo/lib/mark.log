@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : mark.dra                                      )
+(    Software Version : 17.2S045                                      )
+(    Date/Time        : Thu Sep 06 12:48:44 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: MECHANICAL
+    Directory = E:/PCBLib/ORCAD/allegro-logo/lib
+    Name      = mark.bsm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

@@ -1,0 +1,23 @@
+\t (00:00:01) allegro 17.2 S056 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Tue Aug 20 15:02:30 2019
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=16276 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) 
+   (00:00:01) --------------------------------------------------------------------
+   (00:00:01) > Kbeda Skill license expire... 
+   (00:00:01) --------------------------------------------------------------------
+\t (00:00:02) Starting new design...
+\i (00:00:03) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged goldfinger_2
+\i (00:00:03) trapsize 21
+\i (00:00:03) trapsize 22
+\i (00:00:03) trapsize 21
+\i (00:00:03) trapsize 20
+\i (00:00:03) trapsize 29
+\i (00:00:03) generaledit 
+\i (00:00:10) new 
+\e (00:00:10) Do you want to save the changes you made to goldfinger_2.dra?
+\i (00:00:11) fillin no 
+\i (00:00:34) newdrawfillin "goldfinger_4.dra" "Package Symbol"
+\t (00:00:34)     Journal end - Tue Aug 20 15:03:03 2019
