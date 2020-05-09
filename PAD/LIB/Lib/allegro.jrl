@@ -1,192 +1,254 @@
-\t (00:00:13) allegro 17.2 S060 Windows SPB 64-bit Edition
-\t (00:00:13)     Journal start - Wed Jan 08 18:05:47 2020
-\t (00:00:13)         Host=DESKTOP-P5LE3FE User=master Pid=18756 CPUs=4
-\t (00:00:13) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:13) 
-\d (00:00:13) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/KF011C.dra
-\i (00:00:13) trapsize 907
-\i (00:00:13) etchedit 
-\i (00:00:15) 3d 
-\i (00:00:16) etchedit 
-\i (00:00:19) QtSignal pcb3dViewer pcb3dViewerCanvas keyPressEvent 50 536870912 false 1 2
-\i (00:00:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1338 660 1338 706 0 0 120
-\i (00:00:21) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1338 659 1338 705 0 0 120
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1412 668 1412 714 0 0 -120
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1412 668 1412 714 4 4 +
-\i (00:00:22) QtSignal 0 3178.3 -218.563 -31.0967
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.3 -218.563 -31.0967 3174.53 +
-\i (00:00:22) QtSignal -218.563 -31.0967
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.31 -218.563 -31.0967 3174.53 +
-\i (00:00:22) QtSignal -218.563 -31.0967
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.31 -218.563 -31.0967 3174.54 +
-\i (00:00:22) QtSignal -218.563 -31.0967
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.31 -218.563 -31.0967 3125.5 +
-\i (00:00:22) QtSignal -218.563 -31.0967
-\i (00:00:22) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.34 -218.563 -31.0967 3167.03 +
-\i (00:00:22) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.35 -218.563 -31.0967 3159.49 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.36 -218.563 -31.0967 3174.59 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.37 -218.563 -31.0967 3170.82 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.37 -218.563 -31.0967 3151.96 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.39 -218.563 -31.0967 3174.61 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.39 -218.563 -31.0967 3174.62 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.39 -218.563 -31.0967 3170.85 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.4 -218.563 -31.0967 3170.85 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.4 -218.563 -31.0967 3170.86 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.41 -218.563 -31.0967 3170.86 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.41 -218.563 -31.0967 3144.46 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.43 -218.563 -31.0967 3170.89 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.44 -218.563 -31.0967 3170.89 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.44 -218.563 -31.0967 3152.03 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.46 -218.563 -31.0967 3174.69 +
-\i (00:00:23) QtSignal -218.563 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.46 -218.563 -31.0967 3167.14 +
-\i (00:00:23) QtSignal -222.333 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.47 -218.559 -31.0967 3148.29 +
-\i (00:00:23) QtSignal -222.329 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.49 -218.554 -31.0967 3174.71 +
-\i (00:00:23) QtSignal -218.554 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.49 -218.554 -31.0967 3159.63 +
-\i (00:00:23) QtSignal -222.325 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.5 -218.55 -31.0967 3087.96 +
-\i (00:00:23) QtSignal -233.631 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.56 -218.533 -31.0967 3121.97 +
-\i (00:00:23) QtSignal -226.073 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.59 -218.524 -31.0967 3118.23 +
-\i (00:00:23) QtSignal -229.835 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.63 -218.511 -31.0967 3171.08 +
-\i (00:00:23) QtSignal -222.282 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.63 -218.507 -31.0967 3159.77 +
-\i (00:00:23) QtSignal -222.277 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.64 -218.503 -31.0967 3156.01 +
-\i (00:00:23) QtSignal -222.273 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.66 -218.498 -31.0967 3144.71 +
-\i (00:00:23) QtSignal -226.039 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.68 -218.49 -31.0967 3174.91 +
-\i (00:00:23) QtSignal -218.49 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.68 -218.49 -31.0967 3171.14 +
-\i (00:00:23) QtSignal -222.26 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.69 -218.486 -31.0967 3174.91 +
-\i (00:00:23) QtSignal -218.486 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.69 -218.486 -31.0967 3171.14 +
-\i (00:00:23) QtSignal -222.256 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 3178.69 -218.481 -31.0967 3174.92 +
-\i (00:00:23) QtSignal -222.252 -31.0967
-\i (00:00:23) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 1245 648 1245 694 4 +
-\i (00:00:23) QtSignal 0 0 3178.7 -218.477 -31.0967
-\i (00:00:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1237 655 1237 701 0 0 120
-\i (00:00:24) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1227 649 1227 695 0 0 120
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMousePressEvent 1403 695 1403 741 4 4 +
-\i (00:00:25) QtSignal 0 2963.98 -391.46 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2963.98 -391.46 -31.0967 2961.56 +
-\i (00:00:25) QtSignal -391.46 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2963.98 -391.46 -31.0967 2956.73 +
-\i (00:00:25) QtSignal -391.46 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2963.98 -391.46 -31.0967 2118.98 +
-\i (00:00:25) QtSignal -586.914 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.51 -391.236 -31.0967 2937.95 +
-\i (00:00:25) QtSignal -403.301 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.52 -391.222 -31.0967 2887.27 +
-\i (00:00:25) QtSignal -425.005 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.57 -391.184 -31.0967 2959.74 +
-\i (00:00:25) QtSignal -393.597 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.57 -391.181 -31.0967 2954.92 +
-\i (00:00:25) QtSignal -393.594 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.58 -391.178 -31.0967 2916.29 +
-\i (00:00:25) QtSignal -422.547 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.61 -391.142 -31.0967 2959.78 +
-\i (00:00:25) QtSignal -391.142 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.61 -391.142 -31.0967 2962.2 +
-\i (00:00:25) QtSignal -393.555 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.61 -391.139 -31.0967 2947.71 +
-\i (00:00:25) QtSignal -403.204 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.62 -391.126 -31.0967 2952.55 +
-\i (00:00:25) QtSignal -395.952 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.63 -391.12 -31.0967 2962.22 +
-\i (00:00:25) QtSignal -395.946 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasPanEvent 2964.63 -391.115 -31.0967 2959.8 +
-\i (00:00:25) QtSignal -391.115 -31.0967
-\i (00:00:25) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasMouseReleaseEvent 962 570 962 616 4 0 +
-\i (00:00:25) QtSignal 0 2964.64 -391.115 -31.0967
-\i (00:00:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1011 621 1011 667 0 0 120
-\i (00:00:26) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1011 621 1011 667 0 0 120
-\i (00:00:27) QtSignal pcb3dViewer pcb3dViewerCanvas CanvasWheelEvent 1251 525 1251 571 0 0 -120
-\i (00:00:28) QtSignal pcb3dViewer pcb3dViewer closed
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 19.9329 -7.2498
-\i (00:00:29) trapsize 1813
-\i (00:00:29) zoom out 1 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) zoom out 20.0054 -7.3948
-\i (00:00:29) trapsize 3627
-\i (00:00:30) roam start
-\i (00:00:30) roam x -80
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -208
-\i (00:00:30) roam y 32
-\i (00:00:30) roam x -128
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -64
-\i (00:00:30) roam x 80
-\i (00:00:30) roam y -32
-\i (00:00:30) roam x 224
-\i (00:00:30) roam y -64
-\i (00:00:30) roam x 80
-\i (00:00:30) roam y -16
-\i (00:00:30) roam x 160
-\i (00:00:30) roam y -32
-\i (00:00:30) roam x 144
-\i (00:00:30) roam y -16
-\i (00:00:31) roam x 96
-\i (00:00:31) roam y -16
-\i (00:00:31) roam end
-\i (00:00:31) zoom in 1 
-\i (00:00:31) setwindow pcb
-\i (00:00:31) zoom in 35.9969 -3.0289
-\i (00:00:31) trapsize 1813
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 33.9658 -3.9718
-\i (00:00:32) trapsize 907
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 31.2819 -2.3215
-\i (00:00:32) trapsize 453
-\i (00:00:32) zoom in 1 
-\i (00:00:33) setwindow pcb
-\i (00:00:33) zoom in 31.3001 -2.2671
-\i (00:00:33) trapsize 227
-\i (00:00:34) zoom out 1 
-\i (00:00:34) setwindow pcb
-\i (00:00:34) zoom out 31.5132 -2.1809
-\i (00:00:34) trapsize 453
-\i (00:00:35) zoom out 1 
-\i (00:00:35) setwindow pcb
-\i (00:00:35) zoom out 31.5132 -2.1809
-\i (00:00:35) trapsize 907
-\i (00:00:37) show element 
-\i (00:00:38) pick grid 30.5522 -2.4166
-\t (00:00:38) last pick:  30.6000 -2.4000
-\i (00:00:48) setwindow text
-\i (00:00:48) close
-\i (00:00:49) pick grid 39.2749 2.6611
-\t (00:00:49) last pick:  39.3000 2.7000
-\i (00:01:03) exit 
-\e (00:01:03) Do you want to save the changes you made to KF011C.dra?
-\i (00:01:04) fillin no 
-\t (00:01:04)     Journal end - Wed Jan 08 18:06:39 2020
+\t (00:00:01) allegro 17.2 S065 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Sat May 09 15:44:53 2020
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=4456 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) 
+   (00:00:01) --------------------------------------------------------------------
+   (00:00:01) > Kbeda Skill license expire... 
+   (00:00:01) --------------------------------------------------------------------
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DIP-18X6-6P-2D5
+\d (00:00:04) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-18X6-6P-2D5.dra
+\i (00:00:04) trapsize 785
+\i (00:00:04) trapsize 807
+\i (00:00:04) trapsize 785
+\i (00:00:04) trapsize 752
+\i (00:00:04) trapsize 752
+\i (00:00:05) generaledit 
+\i (00:00:07) pick grid -15.5784 8.8107
+\t (00:00:07) last pick:  -15.6000 8.8000
+\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:13) open 
+\i (00:00:25) fillin "SMD-5032_2P.dra"
+\i (00:00:25) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged DIP-18X6-6P-2D5
+\t (00:00:25) Opening existing design...
+\i (00:00:26) trapsize 526
+\i (00:00:26) trapsize 540
+\i (00:00:26) trapsize 526
+\i (00:00:26) trapsize 551
+\d (00:00:26) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/SMD-5032_2P.dra
+\i (00:00:26) generaledit 
+\i (00:00:36) add pin 
+\t (00:00:36) Using 'TSP_32MIL.pad'.
+\i (00:00:37) setwindow form.mini
+\i (00:00:37) FORM mini pad_browse  
+\i (00:01:09) fillin "Sm_R1d13x1d80"
+\t (00:01:09) Using 'SM_R1D13X1D80.pad'.
+\i (00:01:14) setwindow pcb
+\i (00:01:14) prepopup 1.3406 2.8590
+\i (00:01:17) oops 
+\t (00:01:17) Using 'TSP_32MIL.pad'.
+\i (00:01:18) setwindow form.mini
+\i (00:01:18) FORM mini pad_browse  
+\i (00:01:22) fillin "menu_cancel"
+\i (00:01:23) setwindow pcb
+\i (00:01:23) prepopup 3.5222 2.6277
+\i (00:01:24) cancel 
+\t (00:01:25) Exiting from Add Pin.
+\i (00:01:25) generaledit 
+\i (00:01:26) delete 
+\i (00:01:28) pick grid 2.9934 -0.0829
+\t (00:01:28) last pick:  3.0000 -0.1000
+\t (00:01:28) Pin "Sm_R2d4x1d9, 2"
+\i (00:01:29) drag_start grid 4.2054 -1.9781
+\i (00:01:29) drag_stop 3.8969 -1.8459
+\i (00:01:30) pick grid -1.7997 0.9198
+\t (00:01:30) last pick:  -1.8000 0.9000
+\t (00:01:30) Pin "Sm_R2d4x1d9, 1"
+\i (00:01:30) pick grid -0.6318 0.1044
+\t (00:01:30) last pick:  -0.6000 0.1000
+\t (00:01:30) Text "Ref"
+\i (00:01:31) pick grid 0.1175 0.0934
+\t (00:01:31) last pick:  0.1000 0.1000
+\t (00:01:31) Filled Rectangle "Package Geometry/Assembly_Top"
+\i (00:01:32) prepopup 0.7676 0.4129
+\i (00:01:33) oops 
+\t (00:01:33) last pick:  -0.6000 0.1000
+\i (00:01:34) prepopup -3.7059 2.9582
+\i (00:01:36) cancel 
+\i (00:01:36) generaledit 
+\i (00:01:38) delete 
+\i (00:01:40) pick grid 3.1366 -1.0966
+\t (00:01:40) last pick:  3.1000 -1.1000
+\i (00:01:41) pick grid 3.3129 -1.4492
+\t (00:01:41) last pick:  3.3000 -1.4000
+\t (00:01:41) Line "Package Geometry/Silkscreen_Top"
+\i (00:01:42) pick grid 2.7289 -0.6669
+\t (00:01:42) last pick:  2.7000 -0.7000
+\t (00:01:42) Pin "Sm_R2d4x1d9, 2"
+\i (00:01:43) pick grid 1.5169 -1.0746
+\t (00:01:43) last pick:  1.5000 -1.1000
+\t (00:01:43) Filled Rectangle "Package Geometry/Assembly_Top"
+\i (00:01:44) pick grid -1.6675 -1.1076
+\t (00:01:44) last pick:  -1.7000 -1.1000
+\t (00:01:44) Pin "Sm_R2d4x1d9, 1"
+\i (00:01:45) pick grid -2.5490 -0.2372
+\t (00:01:45) last pick:  -2.5000 -0.2000
+\t (00:01:45) Line "Package Geometry/Place_Bound_Top"
+\i (00:01:46) pick grid -2.5380 -1.0195
+\t (00:01:46) last pick:  -2.5000 -1.0000
+\i (00:01:47) pick grid -3.4415 0.8977
+\t (00:01:47) last pick:  -3.4000 0.9000
+\i (00:01:48) pick grid 3.3570 1.1622
+\t (00:01:48) last pick:  3.4000 1.2000
+\t (00:01:48) Line "Package Geometry/Silkscreen_Top"
+\i (00:01:49) pick grid -2.5710 0.7765
+\t (00:01:49) last pick:  -2.6000 0.8000
+\i (00:01:54) save_as 
+\i (00:02:11) fillin "SMD-3215_2P.dra"
+\t (00:02:11) Symbol 'smd-3215_2p.psm' created.
+\i (00:02:11) generaledit 
+\i (00:02:18) add pin 
+\t (00:02:18) Using 'TSP_32MIL.pad'.
+\i (00:02:19) setwindow form.mini
+\i (00:02:19) FORM mini pad_browse  
+\i (00:02:30) fillin "Sm_R1d13x1d80"
+\t (00:02:30) Using 'SM_R1D13X1D80.pad'.
+\i (00:03:21) FORM mini x_spacing 2.5000 
+\i (00:03:22) FORM mini x_count 2 
+\i (00:03:25) setwindow pcb
+\i (00:03:25) pick -1.25 0 
+\t (00:03:25) last pick:  -1.2500 0.0000
+\t (00:03:25) Using 'SM_R1D13X1D80.pad'.
+\i (00:03:26) prepopup 2.2882 0.6333
+\i (00:03:27) done 
+\t (00:03:27) Exiting from Add Pin.
+\i (00:03:27) generaledit 
+\i (00:03:32) prmed 
+\i (00:03:34) setwindow form.prmedit
+\i (00:03:34) FORM prmedit design  
+\i (00:03:35) FORM prmedit shapes  
+\i (00:03:36) FORM prmedit text  
+\i (00:03:36) FORM prmedit design  
+\i (00:03:41) FORM prmedit display  
+\i (00:03:42) FORM prmedit view_grids_button  
+\t (00:03:42) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:03:44) setwindow form.grid
+\i (00:03:44) FORM grid done  
+\i (00:03:45) setwindow form.prmedit
+\i (00:03:45) FORM prmedit cancel  
+\i (00:03:45) setwindow pcb
+\i (00:03:45) generaledit 
+\i (00:03:47) zoom in 1 
+\i (00:03:47) setwindow pcb
+\i (00:03:47) zoom in -0.3673 0.2476
+\i (00:03:47) trapsize 275
+\i (00:03:48) roam start
+\i (00:03:48) roam x 64
+\i (00:03:48) roam y 64
+\i (00:03:48) roam x 48
+\i (00:03:48) roam y 32
+\i (00:03:49) roam x 32
+\i (00:03:49) roam y 32
+\i (00:03:49) roam x -16
+\i (00:03:49) roam x -32
+\i (00:03:49) roam y -16
+\i (00:03:49) roam x -16
+\i (00:03:49) roam end
+\i (00:03:52) move 
+\t (00:03:52) Select element(s) to move.
+\i (00:03:53) pick grid -0.4363 0.4618
+\t (00:03:53) last pick:  -0.4000 0.5000
+\t (00:03:53) last pick:  -1.0160 0.1270
+\t (00:03:53) Pick new location for the element(s).
+\i (00:03:55) pick grid -1.0533 1.3103
+\t (00:03:55) last pick:  -1.1000 1.3000
+\i (00:04:22) add line 
+\i (00:04:24) setwindow form.mini
+\i (00:04:24) FORM mini class PACKAGE GEOMETRY 
+\i (00:04:27) FORM mini subclass SILKSCREEN_TOP 
+\i (00:04:30) FORM mini line_width 0.1000 
+\i (00:22:31) setwindow pcb
+\i (00:22:31) add line 
+\i (00:23:38) pick 1.95 1 
+\t (00:23:38) last pick:  1.9500 1.0000
+\i (00:23:42) prepopup 0.3791 0.9577
+\i (00:23:44) oops 
+\i (00:23:47) add line 
+\i (00:23:57) pick 1.95 1.2 
+\t (00:23:57) last pick:  1.9500 1.2000
+\i (00:23:59) prepopup -2.0119 0.1974
+\i (00:24:01) oops 
+\i (00:24:03) add line 
+\i (00:24:56) pick 1.95 1.05 
+\t (00:24:56) last pick:  1.9500 1.0500
+\i (00:25:24) ipick 0 -2.1 
+\t (00:25:24) last pick:  1.9500 -1.0500
+\i (00:25:44) ipick -1.4 
+\t (00:25:45) last pick:  0.5500 -1.0500
+\i (00:25:51) prepopup 0.4507 -1.1083
+\i (00:25:52) done 
+\i (00:25:52) generaledit 
+\i (00:25:55) add line 
+\i (00:25:57) pick grid 1.9438 1.0568
+\t (00:25:57) last pick:  1.9000 1.1000
+\t (00:25:57) last pick:  1.9500 1.0500
+\i (00:26:03) ipick -1.4 
+\t (00:26:03) last pick:  0.5500 1.0500
+\i (00:26:05) prepopup 1.2771 1.3709
+\i (00:26:05) done 
+\i (00:26:06) generaledit 
+\i (00:26:10) add line 
+\i (00:26:21) pick -1.95 -1.05 
+\t (00:26:21) last pick:  -1.9500 -1.0500
+\i (00:26:26) ipick 1.4 
+\t (00:26:26) last pick:  -0.5500 -1.0500
+\i (00:26:27) prepopup -1.2957 -1.4168
+\i (00:26:28) done 
+\i (00:26:28) generaledit 
+\i (00:26:30) add line 
+\i (00:26:31) pick grid -1.9513 -1.0477
+\t (00:26:31) last pick:  -2.0000 -1.0000
+\t (00:26:31) last pick:  -1.9500 -1.0500
+\i (00:26:36) ipick 0 2.1 
+\t (00:26:36) last pick:  -1.9500 1.0500
+\i (00:26:39) ipick 1.4 
+\t (00:26:39) last pick:  -0.5500 1.0500
+\i (00:26:41) prepopup -0.5409 0.2745
+\i (00:26:41) done 
+\i (00:26:42) generaledit 
+\i (00:26:45) save 
+\i (00:26:48) fillin yes 
+\t (00:26:48) Symbol 'smd-3215_2p.psm' created.
+\i (00:26:48) generaledit 
+\i (00:26:59) shape add rect 
+\i (00:27:05) setwindow form.mini
+\i (00:27:05) FORM mini one_click YES 
+\i (00:27:14) FORM mini subclass PLACE_BOUND_TOP 
+\i (00:27:43) FORM mini rec_width 2.8000 
+\i (00:27:54) FORM mini rec_height 2.1000 
+\i (00:28:29) setwindow pcb
+\i (00:28:29) pick -1.4 1.05 
+\t (00:28:29) last pick:  -1.4000 1.0500
+\i (00:29:00) prepopup 1.6242 -0.1883
+\i (00:29:01) oops 
+\i (00:29:50) setwindow form.mini
+\i (00:29:50) FORM mini rec_width 5.3000 
+\i (00:30:44) FORM mini rec_width 3.9000 
+\i (00:30:56) setwindow pcb
+\i (00:30:56) pick -1.95 1.05 
+\t (00:30:56) last pick:  -1.9500 1.0500
+\i (00:30:57) prepopup -0.4858 1.1725
+\i (00:30:58) done 
+\i (00:30:59) generaledit 
+\i (00:31:02) zcopy shape 
+\t (00:31:03) Select cline, cline segment, shape, rectangle or closed polygon.
+   (00:31:03) Loading cmds.cxt 
+\i (00:31:06) setwindow form.mini
+\i (00:31:06) FORM mini class_name PACKAGE GEOMETRY 
+\i (00:31:08) FORM mini subclass_name ASSEMBLY_TOP 
+\i (00:31:11) FORM mini offset 0.1000 
+\i (00:31:12) setwindow pcb
+\i (00:31:12) pick 0.4232 0.6161
+\t (00:31:12) last pick:  0.4232 0.6161
+\i (00:31:13) prepopup 2.4892 0.8805
+\i (00:31:14) pop Done 
+\i (00:31:14) generaledit 
+\i (00:31:15) save 
+\i (00:31:17) fillin yes 
+\t (00:31:18) Symbol 'smd-3215_2p.psm' created.
+\i (00:31:18) generaledit 
+\i (00:31:34) exit 
+\t (00:31:34)     Journal end - Sat May 09 16:16:26 2020

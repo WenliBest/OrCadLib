@@ -1,15 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Compose Shapes                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : MS621FE.dra                                   )
+(    Drawing          : TO-263-3.dra                                  )
 (    Software Version : 17.2S065                                      )
-(    Date/Time        : Sat May 09 11:13:06 2020                      )
+(    Date/Time        : Wed Apr 29 17:42:38 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-current class name(ETCH)
-Find smallest gap failed. Be cautious, this may not be an error
-Retrieve closedLoop with segments (nil) failed
-A total of 1 shapes were created.
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Name      = to-263-3.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

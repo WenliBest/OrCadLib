@@ -15,9 +15,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb")
-      (Select "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"
-         "IC4442"))
+      (Path "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")

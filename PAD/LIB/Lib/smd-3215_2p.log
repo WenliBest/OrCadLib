@@ -1,15 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Compose Shapes                                                   )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : MS621FE.dra                                   )
+(    Drawing          : SMD-3215_2P.dra                               )
 (    Software Version : 17.2S065                                      )
-(    Date/Time        : Sat May 09 11:13:06 2020                      )
+(    Date/Time        : Sat May 09 16:16:10 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-current class name(ETCH)
-Find smallest gap failed. Be cautious, this may not be an error
-Retrieve closedLoop with segments (nil) failed
-A total of 1 shapes were created.
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Name      = smd-3215_2p.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
