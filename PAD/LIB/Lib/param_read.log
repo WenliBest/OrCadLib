@@ -2,15 +2,15 @@
 (                                                                     )
 (    Parameter File READ                                              )
 (                                                                     )
-(    Drawing          : GX12-2.dra                                    )
+(    Drawing          : HR913550AE.dra                                )
 (    Software Version : 17.2S065                                      )
-(    Date/Time        : Sat May 09 15:06:31 2020                      )
+(    Date/Time        : Thu May 14 16:02:06 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
-	Layout Name   : GX12-2.dra
+	Layout Name   : E:/PCBLib/ORCAD/PAD/LIB/Lib/HR913550AE.dra
 
 Reading...parameter_header:
 Reading...db_common_type:
