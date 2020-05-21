@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : UB482.dra                                     )
+(    Drawing          : Master.brd                                    )
 (    Software Version : 17.2S065                                      )
-(    Date/Time        : Wed Apr 29 14:48:48 2020                      )
+(    Date/Time        : Thu May 21 09:55:34 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  72
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

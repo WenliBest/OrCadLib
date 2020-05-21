@@ -1,0 +1,22 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  E:/PCBLib/ORCAD/PAD/LIB/Lib/Master.brd                                      |
+|                                                    Thu May 21 09:51:05 2020  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ N13971            DIFFERENTIAL_P DIFF_OSC
+ N14058            DIFFERENTIAL_P DIFF_OSC
+ SCL1              DIFFERENTIAL_P DIFF_IIC1
+ SCL2              DIFFERENTIAL_P DIFF_IIC2
+ SDA1              DIFFERENTIAL_P DIFF_IIC1
+ SDA2              DIFFERENTIAL_P DIFF_IIC2
+|------------------------------------------------------------------------------|
+|       Net property added    :       6                                        |
+|                                                                              |
+|   Total ECO changes reported:       6                                        |
+|------------------------------------------------------------------------------|

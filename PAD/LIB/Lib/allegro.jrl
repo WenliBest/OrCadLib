@@ -1,6 +1,6 @@
 \t (00:00:01) allegro 17.2 S065 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu May 14 16:04:44 2020
-\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=15896 CPUs=4
+\t (00:00:01)     Journal start - Thu May 21 10:32:50 2020
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=16108 CPUs=4
 \t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
@@ -8,148 +8,16 @@
    (00:00:01) --------------------------------------------------------------------
    (00:00:01) > Kbeda Skill license expire... 
    (00:00:01) --------------------------------------------------------------------
-\t (00:00:01) Opening existing design...
-\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged HR913550AE
-\d (00:00:01) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/HR913550AE.dra
-\i (00:00:01) trapsize 738
-\i (00:00:01) trapsize 759
-\i (00:00:01) trapsize 738
-\i (00:00:01) trapsize 707
-\i (00:00:01) trapsize 707
-\i (00:00:02) generaledit 
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
-\i (00:00:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged HR913550AE
-\i (00:00:06) opencd E:/PCBLib/ORCAD/PAD/LIB/Lib/UB482.dra 
-\t (00:00:06) Opening existing design...
-\i (00:00:06) trapsize 593
-\i (00:00:06) trapsize 609
-\i (00:00:06) trapsize 593
-\i (00:00:06) trapsize 621
-\d (00:00:06) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/UB482.dra
-\i (00:00:07) generaledit 
-\i (00:00:09) roam start
-\i (00:00:09) roam x -288
-\i (00:00:09) roam x -384
-\i (00:00:09) roam x -288
-\i (00:00:09) roam y -16
-\i (00:00:09) roam x -256
-\i (00:00:09) roam y -48
-\i (00:00:09) roam x -208
-\i (00:00:09) roam y -32
-\i (00:00:09) roam x -160
-\i (00:00:09) roam y -16
-\i (00:00:09) roam x -16
-\i (00:00:09) roam x -96
-\i (00:00:09) roam x -80
-\i (00:00:09) roam y -16
-\i (00:00:09) roam x -160
-\i (00:00:09) roam x -480
-\i (00:00:09) roam x -320
-\i (00:00:09) roam y 32
-\i (00:00:09) roam x -96
-\i (00:00:09) roam y 16
-\i (00:00:09) roam x -112
-\i (00:00:10) roam end
-\i (00:00:12) roam start
-\i (00:00:12) roam x 112
-\i (00:00:12) roam y 32
-\i (00:00:12) roam x 160
-\i (00:00:12) roam y 48
-\i (00:00:12) roam x 48
-\i (00:00:12) roam y 16
-\i (00:00:12) roam x 32
-\i (00:00:12) roam end
-\i (00:00:15) pick grid -29.3968 66.1275
-\t (00:00:15) last pick:  -29.4000 66.1000
-\i (00:00:17) prepopup -38.0673 69.3447
-\i (00:00:18) pick grid -38.7132 70.1025
-\t (00:00:18) last pick:  -38.7000 70.1000
-\i (00:00:19) delete 
-\i (00:00:21) setwindow form.find
-\i (00:00:21) FORM find pins NO 
-\i (00:00:23) setwindow pcb
-\i (00:00:23) pick grid -30.2167 66.8479
-\t (00:00:23) last pick:  -30.2000 66.8000
-\t (00:00:23) Text "31"
-\i (00:00:24) pick grid -37.7319 69.7174
-\t (00:00:24) last pick:  -37.7000 69.7000
-\i (00:00:24) prepopup -37.7319 69.7174
-\i (00:00:25) done 
-\i (00:00:25) generaledit 
-\i (00:00:32) show element 
-\i (00:00:32) pick grid -29.6204 67.6305
-\t (00:00:32) last pick:  -29.6000 67.6000
-\i (00:00:35) setwindow text
-\i (00:00:35) close
-\i (00:00:36) prepopup -37.6077 69.5559
-\i (00:00:36) done 
-\i (00:00:36) generaledit 
-\i (00:00:44) pick grid -36.4028 69.5062
-\t (00:00:44) last pick:  -36.4000 69.5000
-\i (00:00:44) add text 
-\t (00:00:45) Pick an element to attach the text to.
-\i (00:00:48) pick grid -30.2042 65.9163
-\t (00:00:48) last pick:  -30.2000 65.9000
-\t (00:00:48) Pick text location.
-\i (00:00:51) pick grid -30.3285 66.0405
-\t (00:00:51) last pick:  -30.3000 66.0000
-\t (00:00:51) Enter text string.
-\i (00:00:54) setwindow pcb
-\i (00:00:54) prepopup -30.2167 66.1896
-\i (00:00:54) done 
-\i (00:00:54) setwindow pcb
-\i (00:00:54) pick -30.3000 66.0000
-\i (00:00:55) setwindow pcb
-\i (00:00:55) generaledit 
-\i (00:00:56) roam start
-\i (00:00:56) roam x 16
-\i (00:00:56) roam y 64
-\i (00:00:56) roam x 128
-\i (00:00:56) roam y 560
-\i (00:00:56) roam x 32
-\i (00:00:56) roam y 176
-\i (00:00:56) roam x 16
-\i (00:00:56) roam y 176
-\i (00:00:56) roam x 32
-\i (00:00:56) roam y 240
-\i (00:00:56) roam y 80
-\i (00:00:56) roam y 160
-\i (00:00:56) roam y 144
-\i (00:00:57) roam x -32
-\i (00:00:57) roam y 128
-\i (00:00:57) roam x -16
-\i (00:00:57) roam y 128
-\i (00:00:57) roam x -64
-\i (00:00:57) roam y 176
-\i (00:00:57) roam x -112
-\i (00:00:57) roam y 240
-\i (00:00:57) roam x -16
-\i (00:00:57) roam y 48
-\i (00:00:57) roam end
-\i (00:00:57) zoom out 1 
-\i (00:00:57) setwindow pcb
-\i (00:00:57) zoom out -29.6080 38.1410
-\i (00:00:57) trapsize 1242
-\i (00:00:57) zoom out 1 
-\i (00:00:57) setwindow pcb
-\i (00:00:57) zoom out -29.6081 38.1410
-\i (00:00:57) trapsize 2484
-\i (00:00:57) zoom out 1 
-\i (00:00:57) setwindow pcb
-\i (00:00:57) zoom out -29.5583 38.0417
-\i (00:00:57) trapsize 4969
-\i (00:00:58) roam start
-\i (00:00:58) roam y 128
-\i (00:00:58) roam y 160
-\i (00:00:58) roam x 16
-\i (00:00:58) roam y 64
-\i (00:00:58) roam end
-\i (00:01:02) prepopup -4.9129 -21.5086
-\i (00:01:03) pick grid -15.1485 -17.5336
-\t (00:01:03) last pick:  -15.1000 -17.5000
-\i (00:01:04) save 
-\i (00:01:05) fillin yes 
-\t (00:01:05) Symbol 'ub482.psm' created.
-\i (00:01:05) generaledit 
-\i (00:01:06) exit 
-\t (00:01:07)     Journal end - Thu May 14 16:05:50 2020
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Master
+\d (00:00:05) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/Master.brd
+\i (00:00:05) trapsize 4380
+\i (00:00:05) trapsize 4504
+\i (00:00:05) trapsize 4549
+\i (00:00:05) trapsize 3436
+\i (00:00:05) trapsize 3436
+\i (00:00:06) etchedit 
+\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:00:20) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Master
+\i (00:00:22) exit 
+\t (00:00:22)     Journal end - Thu May 21 10:33:12 2020
