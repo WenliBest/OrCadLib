@@ -1,23 +1,345 @@
 \t (00:00:01) allegro 17.2 S065 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu May 21 10:32:50 2020
-\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=16108 CPUs=4
-\t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:01)     Journal start - Fri May 29 16:03:19 2020
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=11672 CPUs=4
+\t (00:00:01) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\allegro.exe E:\PCBLib\ORCAD\PAD\LIB\Lib\0603_C.dra
 \t (00:00:01) 
    (00:00:01) Loading axlcore.cxt 
    (00:00:01) 
    (00:00:01) --------------------------------------------------------------------
    (00:00:01) > Kbeda Skill license expire... 
    (00:00:01) --------------------------------------------------------------------
-\t (00:00:05) Opening existing design...
-\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Master
-\d (00:00:05) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/Master.brd
-\i (00:00:05) trapsize 4380
-\i (00:00:05) trapsize 4504
-\i (00:00:05) trapsize 4549
-\i (00:00:05) trapsize 3436
-\i (00:00:05) trapsize 3436
-\i (00:00:06) etchedit 
-\i (00:00:11) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
-\i (00:00:20) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged Master
-\i (00:00:22) exit 
-\t (00:00:22)     Journal end - Thu May 21 10:33:12 2020
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged 0603_C
+\d (00:00:01) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/0603_C.dra
+\i (00:00:02) trapsize 235
+\i (00:00:02) trapsize 241
+\i (00:00:02) trapsize 235
+\i (00:00:02) trapsize 225
+\i (00:00:02) trapsize 225
+\i (00:00:02) etchedit 
+\i (00:00:23) setwindow form.kbreg
+\i (00:00:23) FORM kbreg licfile_exit  
+\i (00:00:28) setwindow pcb
+\i (00:00:28) prmed 
+\i (00:00:30) setwindow form.prmedit
+\i (00:00:30) FORM prmedit design  
+\i (00:00:31) FORM prmedit text  
+\i (00:00:32) FORM prmedit text_setup_button  
+\i (00:00:34) setwindow form.textblock
+\i (00:00:34) FORM textblock cancel  
+\i (00:00:34) setwindow form.prmedit
+\i (00:00:34) FORM prmedit cancel  
+\i (00:00:34) setwindow pcb
+\i (00:00:34) etchedit 
+\i (00:00:37) open 
+\i (00:00:39) fillin "0603_L.dra"
+\t (00:00:39) Opening existing design...
+\i (00:00:39) trapsize 293
+\i (00:00:39) trapsize 301
+\i (00:00:39) trapsize 293
+\i (00:00:39) trapsize 307
+\d (00:00:39) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/0603_L.dra
+\i (00:00:40) etchedit 
+\i (00:00:43) prmed 
+\i (00:00:44) setwindow form.prmedit
+\i (00:00:44) FORM prmedit shapes  
+\i (00:00:45) FORM prmedit text  
+\i (00:00:46) FORM prmedit text_setup_button  
+\i (00:00:47) setwindow form.textblock
+\i (00:00:47) FORM textblock cancel  
+\i (00:00:48) setwindow form.prmedit
+\i (00:00:48) FORM prmedit cancel  
+\i (00:00:48) setwindow pcb
+\i (00:00:48) etchedit 
+\i (00:00:50) open 
+\i (00:00:53) fillin "0603_LED.dra"
+\t (00:00:53) Opening existing design...
+\i (00:00:53) trapsize 567
+\i (00:00:53) trapsize 583
+\i (00:00:53) trapsize 567
+\i (00:00:53) trapsize 594
+\d (00:00:53) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/0603_LED.dra
+\i (00:00:54) etchedit 
+\i (00:00:57) prmed 
+\i (00:00:59) setwindow form.prmedit
+\i (00:00:59) FORM prmedit text_setup_button  
+\i (00:01:00) setwindow form.textblock
+\i (00:01:00) FORM textblock cancel  
+\i (00:01:01) setwindow form.prmedit
+\i (00:01:01) FORM prmedit cancel  
+\i (00:01:01) setwindow pcb
+\i (00:01:01) etchedit 
+\i (00:01:05) open 
+\i (00:01:08) fillin "0603_R.dra"
+\t (00:01:08) Opening existing design...
+\i (00:01:08) trapsize 293
+\i (00:01:08) trapsize 301
+\i (00:01:08) trapsize 293
+\i (00:01:08) trapsize 307
+\d (00:01:08) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/0603_R.dra
+\i (00:01:09) etchedit 
+\i (00:01:12) prmed 
+\i (00:01:15) setwindow form.prmedit
+\i (00:01:15) FORM prmedit text_setup_button  
+\i (00:01:17) setwindow form.textblock
+\i (00:01:17) FORM textblock cancel  
+\i (00:01:17) setwindow form.prmedit
+\i (00:01:17) FORM prmedit cancel  
+\i (00:01:17) setwindow pcb
+\i (00:01:17) etchedit 
+\i (00:01:22) open 
+\i (00:01:27) fillin "0805_C.dra"
+\t (00:01:27) Opening existing design...
+\i (00:01:27) trapsize 668
+\i (00:01:27) trapsize 686
+\i (00:01:27) trapsize 668
+\i (00:01:27) trapsize 699
+\d (00:01:27) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/0805_C.dra
+\i (00:01:28) etchedit 
+\i (00:01:37) prmed 
+\i (00:01:39) setwindow form.prmedit
+\i (00:01:39) FORM prmedit text_setup_button  
+\i (00:01:41) setwindow form.textblock
+\i (00:01:41) FORM textblock cancel  
+\i (00:01:42) setwindow form.prmedit
+\i (00:01:42) FORM prmedit cancel  
+\i (00:01:42) setwindow pcb
+\i (00:01:42) etchedit 
+\i (00:01:47) param in 
+\i (00:01:47) setwindow form.parm_in
+\i (00:01:47) FORM parm_in libbrowse  
+\i (00:01:49) fillin "AllegroEnvSet"
+\i (00:01:50) FORM parm_in execute  
+\t (00:01:50) Starting Importing parameter file...
+\t (00:01:50) Opening existing design...
+\i (00:01:50) setwindow pcb
+\i (00:01:50) trapsize 699
+\i (00:01:51) trapsize 718
+\i (00:01:51) trapsize 699
+\i (00:01:51) trapsize 732
+\t (00:01:52) Parameter file read completed.
+\i (00:01:52) setwindow form.parm_in
+\i (00:01:52) FORM parm_in cancel  
+\i (00:01:53) setwindow pcb
+\i (00:01:53) etchedit 
+\i (00:01:54) save 
+\i (00:01:55) fillin yes 
+\t (00:01:55) Symbol '0805_c.psm' created.
+\i (00:01:55) etchedit 
+\i (00:01:58) open 
+\i (00:02:09) fillin "KF2EDGRH-3x81-1x6P.dra"
+\t (00:02:09) Opening existing design...
+\i (00:02:09) trapsize 1073
+\i (00:02:09) trapsize 1102
+\i (00:02:10) trapsize 1073
+\i (00:02:10) trapsize 1123
+\d (00:02:10) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/KF2EDGRH-3x81-1x6P.dra
+\i (00:02:10) etchedit 
+\i (00:02:14) prmed 
+\i (00:02:15) setwindow form.prmedit
+\i (00:02:15) FORM prmedit text_setup_button  
+\i (00:02:17) setwindow form.textblock
+\i (00:02:17) FORM textblock cancel  
+\i (00:02:18) setwindow form.prmedit
+\i (00:02:18) FORM prmedit cancel  
+\i (00:02:18) setwindow pcb
+\i (00:02:18) etchedit 
+\i (00:04:01) prmed 
+\i (00:04:02) setwindow form.prmedit
+\i (00:04:02) FORM prmedit text_setup_button  
+\i (00:04:04) setwindow form.textblock
+\i (00:04:04) FORM textblock cancel  
+\i (00:04:05) setwindow form.prmedit
+\i (00:04:05) FORM prmedit cancel  
+\i (00:04:05) setwindow pcb
+\i (00:04:05) etchedit 
+\i (00:04:07) open 
+\i (00:04:19) fillin "DC3-2X3P-2D54-SMD.dra"
+\t (00:04:19) Opening existing design...
+\i (00:04:19) trapsize 1126
+\i (00:04:20) trapsize 1157
+\i (00:04:20) trapsize 1126
+\i (00:04:20) trapsize 1174
+\d (00:04:20) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DC3-2X3P-2D54-SMD.dra
+\i (00:04:20) etchedit 
+\i (00:04:24) prmed 
+\i (00:04:25) setwindow form.prmedit
+\i (00:04:25) FORM prmedit text_setup_button  
+\i (00:04:27) setwindow form.textblock
+\i (00:04:27) FORM textblock cancel  
+\i (00:04:28) setwindow form.prmedit
+\i (00:04:28) FORM prmedit cancel  
+\i (00:04:28) setwindow pcb
+\i (00:04:28) etchedit 
+\i (00:04:32) open 
+\i (00:04:41) fillin "DO-213AA.dra"
+\t (00:04:41) Opening existing design...
+\i (00:04:41) trapsize 256
+\i (00:04:41) trapsize 263
+\i (00:04:41) trapsize 256
+\i (00:04:41) trapsize 268
+\d (00:04:41) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DO-213AA.dra
+\i (00:04:42) etchedit 
+\i (00:04:44) prmed 
+\i (00:04:46) setwindow form.prmedit
+\i (00:04:46) FORM prmedit text_setup_button  
+\i (00:04:55) setwindow form.textblock
+\i (00:04:55) FORM textblock 3 character_spacing 0.0127 
+\i (00:04:55) FORM textblock done  
+\i (00:04:57) setwindow form.prmedit
+\i (00:04:57) FORM prmedit apply  
+\i (00:04:57) setwindow pcb
+\i (00:04:57) trapsize 276
+\i (00:04:57) trapsize 268
+\i (00:04:59) setwindow form.prmedit
+\i (00:04:59) FORM prmedit done  
+\i (00:04:59) setwindow pcb
+\i (00:04:59) etchedit 
+\i (00:05:01) save 
+\i (00:05:02) fillin yes 
+\t (00:05:03) Symbol 'do-213aa.psm' created.
+\i (00:05:03) etchedit 
+\i (00:05:07) open 
+\i (00:05:08) fillin "DO-214AA.dra"
+\t (00:05:08) Opening existing design...
+\i (00:05:09) trapsize 562
+\i (00:05:09) trapsize 577
+\i (00:05:09) trapsize 562
+\i (00:05:09) trapsize 588
+\d (00:05:09) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DO-214AA.dra
+\i (00:05:09) etchedit 
+\i (00:05:13) prmed 
+\i (00:05:15) setwindow form.prmedit
+\i (00:05:15) FORM prmedit text_setup_button  
+\i (00:05:17) setwindow form.textblock
+\i (00:05:17) FORM textblock cancel  
+\i (00:05:17) setwindow form.prmedit
+\i (00:05:17) FORM prmedit cancel  
+\i (00:05:17) setwindow pcb
+\i (00:05:17) etchedit 
+\i (00:05:19) open 
+\i (00:05:28) fillin "1206_C.dra"
+\t (00:05:28) Opening existing design...
+\i (00:05:29) trapsize 592
+\i (00:05:29) trapsize 609
+\i (00:05:29) trapsize 592
+\i (00:05:29) trapsize 620
+\d (00:05:29) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/1206_C.dra
+\i (00:05:30) etchedit 
+\i (00:05:33) prmed 
+\i (00:05:34) setwindow form.prmedit
+\i (00:05:34) FORM prmedit text_setup_button  
+\i (00:05:36) setwindow form.textblock
+\i (00:05:36) FORM textblock cancel  
+\i (00:05:36) setwindow form.prmedit
+\i (00:05:36) FORM prmedit cancel  
+\i (00:05:36) setwindow pcb
+\i (00:05:36) etchedit 
+\i (00:05:40) open 
+\i (00:05:52) fillin "DIP-13X6-4P-2D5.dra"
+\t (00:05:52) Opening existing design...
+\i (00:05:52) trapsize 802
+\i (00:05:52) trapsize 824
+\i (00:05:52) trapsize 802
+\i (00:05:52) trapsize 840
+\d (00:05:52) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-13X6-4P-2D5.dra
+\i (00:05:53) etchedit 
+\i (00:05:56) prmed 
+\i (00:05:58) setwindow form.prmedit
+\i (00:05:58) FORM prmedit text_setup_button  
+\i (00:06:03) setwindow form.textblock
+\i (00:06:03) FORM textblock cancel  
+\i (00:06:04) setwindow form.prmedit
+\i (00:06:04) FORM prmedit cancel  
+\i (00:06:04) setwindow pcb
+\i (00:06:04) etchedit 
+\i (00:06:06) open 
+\i (00:06:12) fillin "DIP-13X6-4P-2D5.dra"
+\t (00:06:12) Opening existing design...
+\i (00:06:12) trapsize 802
+\i (00:06:12) trapsize 824
+\i (00:06:12) trapsize 802
+\i (00:06:13) trapsize 840
+\d (00:06:13) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-13X6-4P-2D5.dra
+\i (00:06:13) etchedit 
+\i (00:06:17) open 
+\i (00:06:18) fillin "DIP-13X6-4P-2D5-V.dra"
+\t (00:06:18) Opening existing design...
+\i (00:06:19) trapsize 1604
+\i (00:06:19) trapsize 1648
+\i (00:06:19) trapsize 1604
+\i (00:06:19) trapsize 1680
+\d (00:06:19) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-13X6-4P-2D5-V.dra
+\i (00:06:19) etchedit 
+\i (00:06:27) prmed 
+\i (00:06:28) setwindow form.prmedit
+\i (00:06:28) FORM prmedit text_setup_button  
+\i (00:06:30) setwindow form.textblock
+\i (00:06:30) FORM textblock cancel  
+\i (00:06:31) setwindow form.prmedit
+\i (00:06:31) FORM prmedit cancel  
+\i (00:06:31) setwindow pcb
+\i (00:06:31) etchedit 
+\i (00:06:35) open 
+\i (00:06:39) fillin "DIP-15X6-5P-2D5.dra"
+\t (00:06:39) Opening existing design...
+\i (00:06:39) trapsize 1650
+\i (00:06:39) trapsize 1694
+\i (00:06:40) trapsize 1650
+\i (00:06:40) trapsize 1727
+\d (00:06:40) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-15X6-5P-2D5.dra
+\i (00:06:40) etchedit 
+\i (00:06:42) prmed 
+\i (00:06:44) setwindow form.prmedit
+\i (00:06:44) FORM prmedit text_setup_button  
+\i (00:06:46) setwindow form.textblock
+\i (00:06:46) FORM textblock cancel  
+\i (00:06:46) setwindow form.prmedit
+\i (00:06:46) FORM prmedit cancel  
+\i (00:06:47) setwindow pcb
+\i (00:06:47) etchedit 
+\i (00:06:49) open 
+\i (00:07:10) fillin "LQFP-48_7x7x05P.dra"
+\t (00:07:10) Opening existing design...
+\i (00:07:10) trapsize 526
+\i (00:07:10) trapsize 541
+\i (00:07:10) trapsize 526
+\i (00:07:10) trapsize 551
+\d (00:07:10) Design opened: E:/PCBLib/ORCAD/PAD/LIB/Lib/LQFP-48_7x7x05P.dra
+\i (00:07:11) etchedit 
+\i (00:07:13) prmed 
+\i (00:07:15) setwindow form.prmedit
+\i (00:07:15) FORM prmedit text_setup_button  
+\i (00:07:22) setwindow form.textblock
+\i (00:07:22) FORM textblock 3 character_spacing 0.0127 
+\i (00:07:24) FORM textblock done  
+\i (00:07:25) setwindow form.prmedit
+\i (00:07:25) FORM prmedit apply  
+\i (00:07:26) setwindow pcb
+\i (00:07:26) trapsize 566
+\i (00:07:26) trapsize 551
+\i (00:07:28) setwindow form.prmedit
+\i (00:07:28) FORM prmedit done  
+\i (00:07:28) setwindow pcb
+\i (00:07:28) etchedit 
+\i (00:07:31) save 
+\i (00:07:32) fillin yes 
+\t (00:07:33) Symbol 'lqfp-48_7x7x05p.psm' created.
+\i (00:07:33) etchedit 
+\i (00:07:44) prmed 
+\i (00:07:45) setwindow form.prmedit
+\i (00:07:45) FORM prmedit text_setup_button  
+\i (00:07:47) setwindow form.textblock
+\i (00:07:47) FORM textblock done  
+\i (00:07:48) setwindow form.prmedit
+\i (00:07:48) FORM prmedit done  
+\i (00:07:49) setwindow pcb
+\i (00:07:49) trapsize 566
+\i (00:07:49) trapsize 551
+\i (00:07:50) etchedit 
+\i (00:07:51) save 
+\i (00:07:53) fillin yes 
+\t (00:07:53) Symbol 'lqfp-48_7x7x05p.psm' created.
+\i (00:07:53) etchedit 
+\i (00:07:54) exit 
+\t (00:07:54)     Journal end - Fri May 29 16:11:12 2020

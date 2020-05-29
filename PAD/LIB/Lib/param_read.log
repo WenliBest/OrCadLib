@@ -2,15 +2,15 @@
 (                                                                     )
 (    Parameter File READ                                              )
 (                                                                     )
-(    Drawing          : Master.brd                                    )
+(    Drawing          : 0805_C.dra                                    )
 (    Software Version : 17.2S065                                      )
-(    Date/Time        : Wed May 20 14:46:03 2020                      )
+(    Date/Time        : Fri May 29 16:05:08 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
-	Layout Name   : Master.brd
+	Layout Name   : E:/PCBLib/ORCAD/PAD/LIB/Lib/0805_C.dra
 
 Reading...parameter_header:
 Reading...db_common_type:
