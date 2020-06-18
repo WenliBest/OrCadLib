@@ -6,12 +6,12 @@
   </parameter_header>
 
   <db_common_type>
-    <db_mask1>1</db_mask1>
+    <db_mask1>8388609</db_mask1>
     <fat_rats_flag>1</fat_rats_flag>
     <scm_dirpath/>
     <max_rband_count>501</max_rband_count>
     <filler_dsp>0</filler_dsp>
-    <drc_marker_size>1.1989 MM</drc_marker_size>
+    <drc_marker_size>1.5000 MM</drc_marker_size>
     <component_both_sides>false</component_both_sides>
     <auto_45>false</auto_45>
     <stacked_via>false</stacked_via>
@@ -35,7 +35,7 @@
     <dflt_sym_height>3.8100 MM</dflt_sym_height>
     <backdrill_color>57</backdrill_color>
     <dispflag>
-      <flags>58978</flags>
+      <flags>59234</flags>
     </dispflag>
     <waived_drc_display>1</waived_drc_display>
     <alignment_guides_color>192</alignment_guides_color>
@@ -50,7 +50,7 @@
     <hilite_color>82</hilite_color>
     <grid_color>82</grid_color>
     <ratsnest_color>59</ratsnest_color>
-    <rat_t_size>0.8890 MM</rat_t_size>
+    <rat_t_size>1.0000 MM</rat_t_size>
     <cpoint_size>0.2540 MM</cpoint_size>
     <snap_mode>0</snap_mode>
     <class_table>
@@ -69,8 +69,11 @@
         <user_defined_subclass>DETAILS</user_defined_subclass>
         <user_defined_subclass>TBX_CUSTOMVAR_SYS</user_defined_subclass>
         <user_defined_subclass>NCLEGEND-SLOTS-1-2</user_defined_subclass>
+        <user_defined_subclass>NCLEGEND-BL-1-2</user_defined_subclass>
       </MANUFACTURING>
-      <ANALYSIS/>
+      <ANALYSIS>
+        <user_defined_subclass>__EPB_SCRATCH_ACON_SPACE_POLY</user_defined_subclass>
+      </ANALYSIS>
       <PACKAGE_GEOMETRY>
         <user_defined_subclass>DIMENSIONS</user_defined_subclass>
         <user_defined_subclass>RFPCB_TEMP</user_defined_subclass>
@@ -278,24 +281,24 @@
       <shape_bound>2.5400 MM</shape_bound>
     </art_film_block_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>PACKAGE GEOMETRY</class>
-      <subclass>ASSEMBLY_BOTTOM</subclass>
+      <class>PIN</class>
+      <subclass>BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
       <class>REF DES</class>
       <subclass>ASSEMBLY_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
-      <class>PIN</class>
-      <subclass>BOTTOM</subclass>
+      <class>PACKAGE GEOMETRY</class>
+      <subclass>ASSEMBLY_BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>CUTOUT</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -335,15 +338,7 @@
       <shape_bound>2.5400 MM</shape_bound>
     </art_film_block_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>PACKAGE GEOMETRY</class>
+      <class>REF DES</class>
       <subclass>ASSEMBLY_TOP</subclass>
     </art_class_type>
     <art_class_type>
@@ -351,8 +346,16 @@
       <subclass>TOP</subclass>
     </art_class_type>
     <art_class_type>
-      <class>REF DES</class>
+      <class>PACKAGE GEOMETRY</class>
       <subclass>ASSEMBLY_TOP</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>CUTOUT</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -362,7 +365,7 @@
       <sequence>11</sequence>
       <film_name>11-DRILL</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -393,11 +396,11 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
       <class>MANUFACTURING</class>
-      <subclass>NCDRILL_FIGURE</subclass>
+      <subclass>NCLEGEND-1-2</subclass>
     </art_class_type>
     <art_class_type>
       <class>MANUFACTURING</class>
@@ -405,11 +408,11 @@
     </art_class_type>
     <art_class_type>
       <class>MANUFACTURING</class>
-      <subclass>NCLEGEND-1-2</subclass>
+      <subclass>NCDRILL_FIGURE</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -419,7 +422,7 @@
       <sequence>8</sequence>
       <film_name>08-PASTE_BOTTOM</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -450,19 +453,19 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>PACKAGE GEOMETRY</class>
-      <subclass>PASTEMASK_BOTTOM</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
       <class>PIN</class>
       <subclass>PASTEMASK_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
+      <class>PACKAGE GEOMETRY</class>
+      <subclass>PASTEMASK_BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -472,7 +475,7 @@
       <sequence>7</sequence>
       <film_name>07-PASTE_TOP</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -503,19 +506,19 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
-    </art_class_type>
-    <art_class_type>
-      <class>PACKAGE GEOMETRY</class>
-      <subclass>PASTEMASK_TOP</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
       <class>PIN</class>
       <subclass>PASTEMASK_TOP</subclass>
     </art_class_type>
     <art_class_type>
+      <class>PACKAGE GEOMETRY</class>
+      <subclass>PASTEMASK_TOP</subclass>
+    </art_class_type>
+    <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -525,7 +528,7 @@
       <sequence>6</sequence>
       <film_name>06-SOLDER_BOTTOM</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -556,10 +559,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
+      <class>PIN</class>
       <subclass>SOLDERMASK_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
@@ -567,12 +570,12 @@
       <subclass>SOLDERMASK_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
-      <class>PIN</class>
+      <class>BOARD GEOMETRY</class>
       <subclass>SOLDERMASK_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -582,7 +585,7 @@
       <sequence>5</sequence>
       <film_name>05-SOLDER_TOP</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -613,10 +616,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
+      <class>PIN</class>
       <subclass>SOLDERMASK_TOP</subclass>
     </art_class_type>
     <art_class_type>
@@ -624,12 +627,12 @@
       <subclass>SOLDERMASK_TOP</subclass>
     </art_class_type>
     <art_class_type>
-      <class>PIN</class>
+      <class>BOARD GEOMETRY</class>
       <subclass>SOLDERMASK_TOP</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -639,7 +642,7 @@
       <sequence>4</sequence>
       <film_name>04-SILK_BOTTOM</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -670,10 +673,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
+      <class>REF DES</class>
       <subclass>SILKSCREEN_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
@@ -681,12 +684,12 @@
       <subclass>SILKSCREEN_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
-      <class>REF DES</class>
+      <class>BOARD GEOMETRY</class>
       <subclass>SILKSCREEN_BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -696,7 +699,7 @@
       <sequence>3</sequence>
       <film_name>03-SILK_TOP</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -727,10 +730,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>BOARD GEOMETRY</class>
+      <class>REF DES</class>
       <subclass>SILKSCREEN_TOP</subclass>
     </art_class_type>
     <art_class_type>
@@ -738,12 +741,12 @@
       <subclass>SILKSCREEN_TOP</subclass>
     </art_class_type>
     <art_class_type>
-      <class>REF DES</class>
+      <class>BOARD GEOMETRY</class>
       <subclass>SILKSCREEN_TOP</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -753,7 +756,7 @@
       <sequence>2</sequence>
       <film_name>02-BOTTOM</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -784,10 +787,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>VIA CLASS</class>
+      <class>ETCH</class>
       <subclass>BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
@@ -795,12 +798,12 @@
       <subclass>BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
-      <class>ETCH</class>
+      <class>VIA CLASS</class>
       <subclass>BOTTOM</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>DESIGN_OUTLINE</subclass>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -810,7 +813,7 @@
       <sequence>1</sequence>
       <film_name>01-TOP</film_name>
       <ipc2581_layer_name/>
-      <undef_line_width>0.0991 MM</undef_line_width>
+      <undef_line_width>0.1500 MM</undef_line_width>
       <no_of_wheels>10</no_of_wheels>
       <wheelnum>1</wheelnum>
       <wheelnum>2</wheelnum>
@@ -841,10 +844,10 @@
     </art_film_block_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
-      <subclass>CUTOUT</subclass>
+      <subclass>DESIGN_OUTLINE</subclass>
     </art_class_type>
     <art_class_type>
-      <class>VIA CLASS</class>
+      <class>ETCH</class>
       <subclass>TOP</subclass>
     </art_class_type>
     <art_class_type>
@@ -852,12 +855,134 @@
       <subclass>TOP</subclass>
     </art_class_type>
     <art_class_type>
-      <class>ETCH</class>
+      <class>VIA CLASS</class>
       <subclass>TOP</subclass>
     </art_class_type>
     <art_class_type>
       <class>BOARD GEOMETRY</class>
+      <subclass>CUTOUT</subclass>
+    </art_class_type>
+  </artwork_film>
+
+  <artwork_film>
+    <art_film_type>
+      <film_negative>false</film_negative>
+      <sequence>12</sequence>
+      <film_name>12-ADT</film_name>
+      <ipc2581_layer_name/>
+      <undef_line_width>0.1500 MM</undef_line_width>
+      <no_of_wheels>10</no_of_wheels>
+      <wheelnum>1</wheelnum>
+      <wheelnum>2</wheelnum>
+      <wheelnum>3</wheelnum>
+      <wheelnum>4</wheelnum>
+      <wheelnum>5</wheelnum>
+      <wheelnum>6</wheelnum>
+      <wheelnum>7</wheelnum>
+      <wheelnum>8</wheelnum>
+      <wheelnum>9</wheelnum>
+      <wheelnum>10</wheelnum>
+      <film_mask>480</film_mask>
+    </art_film_type>
+    <art_film_block_type>
+      <mirror_code>0</mirror_code>
+      <rotate_code>0</rotate_code>
+      <offset>0.0000,0.0000</offset>
+      <block_name/>
+      <block_negative>false</block_negative>
+      <draw_pad>false</draw_pad>
+      <flash_unconnect_pads>true</flash_unconnect_pads>
+      <full_contact>false</full_contact>
+      <aper_rot>false</aper_rot>
+      <fill_out_shapes>true</fill_out_shapes>
+      <vector_based>1</vector_based>
+      <draw_holes>0</draw_holes>
+      <shape_bound>2.5400 MM</shape_bound>
+    </art_film_block_type>
+    <art_class_type>
+      <class>PIN</class>
+      <subclass>TOP</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>REF DES</class>
+      <subclass>SILKSCREEN_TOP</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>PACKAGE GEOMETRY</class>
+      <subclass>SILKSCREEN_TOP</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>SILKSCREEN_TOP</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
       <subclass>DESIGN_OUTLINE</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>CUTOUT</subclass>
+    </art_class_type>
+  </artwork_film>
+
+  <artwork_film>
+    <art_film_type>
+      <film_negative>false</film_negative>
+      <sequence>13</sequence>
+      <film_name>13-ADB</film_name>
+      <ipc2581_layer_name/>
+      <undef_line_width>0.1500 MM</undef_line_width>
+      <no_of_wheels>10</no_of_wheels>
+      <wheelnum>1</wheelnum>
+      <wheelnum>2</wheelnum>
+      <wheelnum>3</wheelnum>
+      <wheelnum>4</wheelnum>
+      <wheelnum>5</wheelnum>
+      <wheelnum>6</wheelnum>
+      <wheelnum>7</wheelnum>
+      <wheelnum>8</wheelnum>
+      <wheelnum>9</wheelnum>
+      <wheelnum>10</wheelnum>
+      <film_mask>480</film_mask>
+    </art_film_type>
+    <art_film_block_type>
+      <mirror_code>0</mirror_code>
+      <rotate_code>0</rotate_code>
+      <offset>0.0000,0.0000</offset>
+      <block_name/>
+      <block_negative>false</block_negative>
+      <draw_pad>false</draw_pad>
+      <flash_unconnect_pads>true</flash_unconnect_pads>
+      <full_contact>false</full_contact>
+      <aper_rot>false</aper_rot>
+      <fill_out_shapes>true</fill_out_shapes>
+      <vector_based>1</vector_based>
+      <draw_holes>0</draw_holes>
+      <shape_bound>2.5400 MM</shape_bound>
+    </art_film_block_type>
+    <art_class_type>
+      <class>PIN</class>
+      <subclass>BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>REF DES</class>
+      <subclass>SILKSCREEN_BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>PACKAGE GEOMETRY</class>
+      <subclass>SILKSCREEN_BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>SILKSCREEN_BOTTOM</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>DESIGN_OUTLINE</subclass>
+    </art_class_type>
+    <art_class_type>
+      <class>BOARD GEOMETRY</class>
+      <subclass>CUTOUT</subclass>
     </art_class_type>
   </artwork_film>
 
@@ -870,15 +995,15 @@
     <BOARD_GEOMETRY>
       <_NCROUTE_PATH>262168</_NCROUTE_PATH>
       <_DXF>327704</_DXF>
-      <_CUTOUT>327792</_CUTOUT>
-      <_DESIGN_OUTLINE>327681</_DESIGN_OUTLINE>
+      <_CUTOUT>458864</_CUTOUT>
+      <_DESIGN_OUTLINE>458753</_DESIGN_OUTLINE>
       <_WB_GUIDE_LINE>262168</_WB_GUIDE_LINE>
       <_OFF_GRID_AREA>262168</_OFF_GRID_AREA>
       <_SOLDERMASK_BOTTOM>262168</_SOLDERMASK_BOTTOM>
       <_SOLDERMASK_TOP>262168</_SOLDERMASK_TOP>
       <_ASSEMBLY_DETAIL>262168</_ASSEMBLY_DETAIL>
-      <_SILKSCREEN_BOTTOM>327762</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327762</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>458834</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>458834</_SILKSCREEN_TOP>
       <_SWITCH_AREA_BOTTOM>262168</_SWITCH_AREA_BOTTOM>
       <_SWITCH_AREA_TOP>262168</_SWITCH_AREA_TOP>
       <_BOTH_ROOMS>262168</_BOTH_ROOMS>
@@ -890,7 +1015,7 @@
       <_TOOLING_CORNERS>262168</_TOOLING_CORNERS>
       <_ASSEMBLY_NOTES>262168</_ASSEMBLY_NOTES>
       <_PLATING_BAR>262168</_PLATING_BAR>
-      <_OUTLINE>327705</_OUTLINE>
+      <_OUTLINE>393241</_OUTLINE>
     </BOARD_GEOMETRY>
     <COMPONENT_VALUE>
       <_ASSEMBLY_EMBEDDED>262168</_ASSEMBLY_EMBEDDED>
@@ -913,7 +1038,7 @@
       <_ASSEMBLY_TOP>262168</_ASSEMBLY_TOP>
     </DEVICE_TYPE>
     <DRAWING_FORMAT>
-      <_CONSTRUCTION>327704</_CONSTRUCTION>
+      <_CONSTRUCTION>262168</_CONSTRUCTION>
       <_DRAWING_ORIGIN>327681</_DRAWING_ORIGIN>
       <_REVISION_DATA>262168</_REVISION_DATA>
       <_REVISION_BLOCK>262168</_REVISION_BLOCK>
@@ -924,14 +1049,14 @@
     <DRC_ERROR_CLASS>
       <_TOP>327697</_TOP>
       <_BOTTOM>327697</_BOTTOM>
-      <_INTER_LAYER>262145</_INTER_LAYER>
-      <_PASTEMASK_BOTTOM>327681</_PASTEMASK_BOTTOM>
-      <_PASTEMASK_TOP>327681</_PASTEMASK_TOP>
-      <_WIRE>262145</_WIRE>
-      <_SOLDERMASK_BOTTOM>327681</_SOLDERMASK_BOTTOM>
-      <_SOLDERMASK_TOP>327681</_SOLDERMASK_TOP>
-      <_PACKAGE_BOTTOM>262145</_PACKAGE_BOTTOM>
-      <_PACKAGE_TOP>262145</_PACKAGE_TOP>
+      <_INTER_LAYER>327697</_INTER_LAYER>
+      <_PASTEMASK_BOTTOM>327697</_PASTEMASK_BOTTOM>
+      <_PASTEMASK_TOP>327697</_PASTEMASK_TOP>
+      <_WIRE>327697</_WIRE>
+      <_SOLDERMASK_BOTTOM>327697</_SOLDERMASK_BOTTOM>
+      <_SOLDERMASK_TOP>327697</_SOLDERMASK_TOP>
+      <_PACKAGE_BOTTOM>327697</_PACKAGE_BOTTOM>
+      <_PACKAGE_TOP>327697</_PACKAGE_TOP>
       <_ALL>327697</_ALL>
     </DRC_ERROR_CLASS>
     <ETCH>
@@ -942,11 +1067,12 @@
       <_WIRE>262161</_WIRE>
     </ETCH>
     <MANUFACTURING>
-      <_NCLEGEND-1-2>327704</_NCLEGEND-1-2>
+      <_NCLEGEND-1-2>262168</_NCLEGEND-1-2>
       <_TBX_COLORLEGEND>262168</_TBX_COLORLEGEND>
-      <_DETAILS>327704</_DETAILS>
-      <_TBX_CUSTOMVAR_SYS>327697</_TBX_CUSTOMVAR_SYS>
-      <_NCLEGEND-SLOTS-1-2>327704</_NCLEGEND-SLOTS-1-2>
+      <_DETAILS>262168</_DETAILS>
+      <_TBX_CUSTOMVAR_SYS>262161</_TBX_CUSTOMVAR_SYS>
+      <_NCLEGEND-SLOTS-1-2>262168</_NCLEGEND-SLOTS-1-2>
+      <_NCLEGEND-BL-1-2>327704</_NCLEGEND-BL-1-2>
       <_XSECTION_CHART>262168</_XSECTION_CHART>
       <_NO_PROBE_BOTTOM>262168</_NO_PROBE_BOTTOM>
       <_NO_PROBE_TOP>262168</_NO_PROBE_TOP>
@@ -960,9 +1086,10 @@
       <_NO_GLOSS_BOTTOM>262168</_NO_GLOSS_BOTTOM>
       <_NO_GLOSS_TOP>262168</_NO_GLOSS_TOP>
       <_NO_GLOSS_ALL>262168</_NO_GLOSS_ALL>
-      <_PHOTOPLOT_OUTLINE>327704</_PHOTOPLOT_OUTLINE>
+      <_PHOTOPLOT_OUTLINE>262168</_PHOTOPLOT_OUTLINE>
     </MANUFACTURING>
     <ANALYSIS>
+      <___EPB_SCRATCH_ACON_SPACE_POLY>327681</___EPB_SCRATCH_ACON_SPACE_POLY>
       <_PCB_TEMPERATURE>262168</_PCB_TEMPERATURE>
       <_HIGH_ISOCONTOUR>262168</_HIGH_ISOCONTOUR>
       <_MEDIUM3_ISOCONTOUR>262168</_MEDIUM3_ISOCONTOUR>
@@ -972,7 +1099,7 @@
     </ANALYSIS>
     <PACKAGE_GEOMETRY>
       <_DIMENSIONS>262168</_DIMENSIONS>
-      <_RFPCB_TEMP>327704</_RFPCB_TEMP>
+      <_RFPCB_TEMP>262168</_RFPCB_TEMP>
       <_PASTEMASK_BOTTOM>262168</_PASTEMASK_BOTTOM>
       <_PASTEMASK_TOP>262168</_PASTEMASK_TOP>
       <_DFA_BOUND_BOTTOM>262168</_DFA_BOUND_BOTTOM>
@@ -983,14 +1110,14 @@
       <_SOLDERMASK_BOTTOM>262168</_SOLDERMASK_BOTTOM>
       <_SOLDERMASK_TOP>262168</_SOLDERMASK_TOP>
       <_BODY_CENTER>262168</_BODY_CENTER>
-      <_SILKSCREEN_BOTTOM>327714</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327781</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>458786</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>458853</_SILKSCREEN_TOP>
       <_PAD_STACK_NAME>262168</_PAD_STACK_NAME>
-      <_PIN_NUMBER>327704</_PIN_NUMBER>
-      <_PLACE_BOUND_BOTTOM>262168</_PLACE_BOUND_BOTTOM>
-      <_PLACE_BOUND_TOP>327704</_PLACE_BOUND_TOP>
-      <_ASSEMBLY_BOTTOM>327685</_ASSEMBLY_BOTTOM>
-      <_ASSEMBLY_TOP>327754</_ASSEMBLY_TOP>
+      <_PIN_NUMBER>458776</_PIN_NUMBER>
+      <_PLACE_BOUND_BOTTOM>393240</_PLACE_BOUND_BOTTOM>
+      <_PLACE_BOUND_TOP>458776</_PLACE_BOUND_TOP>
+      <_ASSEMBLY_BOTTOM>262149</_ASSEMBLY_BOTTOM>
+      <_ASSEMBLY_TOP>458826</_ASSEMBLY_TOP>
     </PACKAGE_GEOMETRY>
     <PACKAGE_KEEPIN>
       <_ALL>327710</_ALL>
@@ -1001,8 +1128,8 @@
       <_ALL>262160</_ALL>
     </PACKAGE_KEEPOUT>
     <PIN>
-      <_TOP>327737</_TOP>
-      <_BOTTOM>327688</_BOTTOM>
+      <_TOP>458809</_TOP>
+      <_BOTTOM>458760</_BOTTOM>
       <_FILMMASKBOTTOM>262168</_FILMMASKBOTTOM>
       <_FILMMASKTOP>262168</_FILMMASKTOP>
       <_PASTEMASK_BOTTOM>327779</_PASTEMASK_BOTTOM>
@@ -1015,18 +1142,18 @@
       <_DISPLAY_EMBEDDED>262171</_DISPLAY_EMBEDDED>
       <_DISPLAY_BOTTOM>262171</_DISPLAY_BOTTOM>
       <_DISPLAY_TOP>262171</_DISPLAY_TOP>
-      <_SILKSCREEN_BOTTOM>327752</_SILKSCREEN_BOTTOM>
-      <_SILKSCREEN_TOP>327781</_SILKSCREEN_TOP>
+      <_SILKSCREEN_BOTTOM>262216</_SILKSCREEN_BOTTOM>
+      <_SILKSCREEN_TOP>262245</_SILKSCREEN_TOP>
       <_ASSEMBLY_BOTTOM>262171</_ASSEMBLY_BOTTOM>
       <_ASSEMBLY_TOP>327707</_ASSEMBLY_TOP>
     </REF_DES>
     <ROUTE_KEEPIN>
-      <_ALL>327734</_ALL>
+      <_ALL>458806</_ALL>
     </ROUTE_KEEPIN>
     <ROUTE_KEEPOUT>
-      <_TOP>262179</_TOP>
-      <_BOTTOM>262179</_BOTTOM>
-      <_ALL>262179</_ALL>
+      <_TOP>327715</_TOP>
+      <_BOTTOM>327715</_BOTTOM>
+      <_ALL>327715</_ALL>
     </ROUTE_KEEPOUT>
     <TOLERANCE>
       <_ASSEMBLY_EMBEDDED>262168</_ASSEMBLY_EMBEDDED>
@@ -1064,8 +1191,8 @@
       <_ALL>262179</_ALL>
     </VIA_KEEPOUT>
     <ANTI_ETCH>
-      <_TOP>327861</_TOP>
-      <_BOTTOM>327861</_BOTTOM>
+      <_TOP>262325</_TOP>
+      <_BOTTOM>262325</_BOTTOM>
       <_ALL>262168</_ALL>
     </ANTI_ETCH>
     <BOUNDARY>
@@ -1093,8 +1220,8 @@
       <_ALL>327704</_ALL>
     </PLAN>
     <CAVITY>
-      <_TOP>327685</_TOP>
-      <_BOTTOM>327765</_BOTTOM>
+      <_TOP>262149</_TOP>
+      <_BOTTOM>262229</_BOTTOM>
     </CAVITY>
     <EMBEDDED_GEOMETRY>
       <_SOLDERMASK>262168</_SOLDERMASK>
@@ -1116,7 +1243,7 @@
       <_TRANSITION_ZONE>262168</_TRANSITION_ZONE>
       <_BEND_LINE>262168</_BEND_LINE>
       <_BEND_AREA>262168</_BEND_AREA>
-      <_ZONE_OUTLINE>262168</_ZONE_OUTLINE>
+      <_ZONE_OUTLINE>393240</_ZONE_OUTLINE>
     </RIGID_FLEX>
     <SURFACE_FINISHES>
       <_SILVER_INK_BOTTOM>262168</_SILVER_INK_BOTTOM>
@@ -3472,12 +3599,15 @@
     <prior>0</prior>
     <mixedPriority>1</mixedPriority>
     <mixedPriority>49</mixedPriority>
-    <mixedPriority>24</mixedPriority>
     <mixedPriority>74</mixedPriority>
+    <mixedPriority>82</mixedPriority>
+    <mixedPriority>24</mixedPriority>
+    <mixedPriority>112</mixedPriority>
+    <mixedPriority>35</mixedPriority>
+    <mixedPriority>25</mixedPriority>
     <mixedPriority>27</mixedPriority>
     <mixedPriority>101</mixedPriority>
     <mixedPriority>54</mixedPriority>
-    <mixedPriority>82</mixedPriority>
     <mixedPriority>57</mixedPriority>
     <mixedPriority>17</mixedPriority>
     <mixedPriority>48</mixedPriority>
@@ -3502,7 +3632,6 @@
     <mixedPriority>21</mixedPriority>
     <mixedPriority>22</mixedPriority>
     <mixedPriority>23</mixedPriority>
-    <mixedPriority>25</mixedPriority>
     <mixedPriority>26</mixedPriority>
     <mixedPriority>28</mixedPriority>
     <mixedPriority>29</mixedPriority>
@@ -3511,7 +3640,6 @@
     <mixedPriority>32</mixedPriority>
     <mixedPriority>33</mixedPriority>
     <mixedPriority>34</mixedPriority>
-    <mixedPriority>35</mixedPriority>
     <mixedPriority>36</mixedPriority>
     <mixedPriority>37</mixedPriority>
     <mixedPriority>38</mixedPriority>
@@ -3581,7 +3709,6 @@
     <mixedPriority>109</mixedPriority>
     <mixedPriority>110</mixedPriority>
     <mixedPriority>111</mixedPriority>
-    <mixedPriority>112</mixedPriority>
     <mixedPriority>113</mixedPriority>
     <mixedPriority>114</mixedPriority>
     <mixedPriority>115</mixedPriority>
@@ -3949,51 +4076,6 @@
     </array>
     <array>
       <text_slant>0.000</text_slant>
-      <text_height>1.9050 MM</text_height>
-      <text_width>1.4224 MM</text_width>
-      <character_space>0.4826 MM</character_space>
-      <line_space>2.4384 MM</line_space>
-      <text_font>0.0000 MM</text_font>
-      <photoplot_width>0.0000 MM</photoplot_width>
-    </array>
-    <array>
-      <text_slant>0.000</text_slant>
-      <text_height>2.0320 MM</text_height>
-      <text_width>1.5240 MM</text_width>
-      <character_space>0.5080 MM</character_space>
-      <line_space>2.5400 MM</line_space>
-      <text_font>0.0000 MM</text_font>
-      <photoplot_width>0.0000 MM</photoplot_width>
-    </array>
-    <array>
-      <text_slant>0.000</text_slant>
-      <text_height>2.3876 MM</text_height>
-      <text_width>1.7526 MM</text_width>
-      <character_space>0.5842 MM</character_space>
-      <line_space>2.9718 MM</line_space>
-      <text_font>0.0000 MM</text_font>
-      <photoplot_width>0.0000 MM</photoplot_width>
-    </array>
-    <array>
-      <text_slant>0.000</text_slant>
-      <text_height>2.5400 MM</text_height>
-      <text_width>1.9050 MM</text_width>
-      <character_space>0.6350 MM</character_space>
-      <line_space>3.1750 MM</line_space>
-      <text_font>0.0000 MM</text_font>
-      <photoplot_width>0.0000 MM</photoplot_width>
-    </array>
-    <array>
-      <text_slant>0.000</text_slant>
-      <text_height>0.2032 MM</text_height>
-      <text_width>0.2032 MM</text_width>
-      <character_space>0.0000 MM</character_space>
-      <line_space>0.0000 MM</line_space>
-      <text_font>0.0000 MM</text_font>
-      <photoplot_width>0.0000 MM</photoplot_width>
-    </array>
-    <array>
-      <text_slant>0.000</text_slant>
       <text_height>1.0160 MM</text_height>
       <text_width>0.5080 MM</text_width>
       <character_space>0.1270 MM</character_space>
@@ -4030,1339 +4112,177 @@
     </array>
     <array>
       <text_slant>0.000</text_slant>
-      <text_height>5.0800 MM</text_height>
-      <text_width>3.8100 MM</text_width>
-      <character_space>1.2700 MM</character_space>
-      <line_space>6.3500 MM</line_space>
+      <text_height>2.5000 MM</text_height>
+      <text_width>1.8750 MM</text_width>
+      <character_space>0.0000 MM</character_space>
+      <line_space>0.0000 MM</line_space>
       <text_font>0.0000 MM</text_font>
       <photoplot_width>0.0000 MM</photoplot_width>
     </array>
     <array>
       <text_slant>0.000</text_slant>
-      <text_height>5.7150 MM</text_height>
-      <text_width>4.2418 MM</text_width>
-      <character_space>1.4224 MM</character_space>
-      <line_space>7.1374 MM</line_space>
+      <text_height>2.0000 MM</text_height>
+      <text_width>1.5000 MM</text_width>
+      <character_space>0.0000 MM</character_space>
+      <line_space>0.0000 MM</line_space>
       <text_font>0.0000 MM</text_font>
       <photoplot_width>0.0000 MM</photoplot_width>
     </array>
     <array>
       <text_slant>0.000</text_slant>
-      <text_height>6.3500 MM</text_height>
-      <text_width>4.8006 MM</text_width>
-      <character_space>1.6002 MM</character_space>
-      <line_space>7.9502 MM</line_space>
+      <text_height>4.0000 MM</text_height>
+      <text_width>3.0000 MM</text_width>
+      <character_space>1.6000 MM</character_space>
+      <line_space>5.0000 MM</line_space>
+      <text_font>0.0000 MM</text_font>
+      <photoplot_width>0.0000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>4.4000 MM</text_height>
+      <text_width>3.3000 MM</text_width>
+      <character_space>1.1000 MM</character_space>
+      <line_space>5.6000 MM</line_space>
+      <text_font>0.0000 MM</text_font>
+      <photoplot_width>0.0000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>4.8000 MM</text_height>
+      <text_width>3.6000 MM</text_width>
+      <character_space>1.2000 MM</character_space>
+      <line_space>6.0000 MM</line_space>
+      <text_font>0.0000 MM</text_font>
+      <photoplot_width>0.0000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>5.1000 MM</text_height>
+      <text_width>3.8000 MM</text_width>
+      <character_space>1.3000 MM</character_space>
+      <line_space>6.4000 MM</line_space>
+      <text_font>0.0000 MM</text_font>
+      <photoplot_width>0.0000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>5.7000 MM</text_height>
+      <text_width>4.2000 MM</text_width>
+      <character_space>1.4000 MM</character_space>
+      <line_space>7.1000 MM</line_space>
+      <text_font>0.0000 MM</text_font>
+      <photoplot_width>0.0000 MM</photoplot_width>
+    </array>
+    <array>
+      <text_slant>0.000</text_slant>
+      <text_height>6.4000 MM</text_height>
+      <text_width>4.8000 MM</text_width>
+      <character_space>1.6000 MM</character_space>
+      <line_space>8.0000 MM</line_space>
       <text_font>0.0000 MM</text_font>
       <photoplot_width>0.0000 MM</photoplot_width>
     </array>
     <array>
       <text_slant>0.000</text_slant>
       <text_height>12.7000 MM</text_height>
-      <text_width>9.5250 MM</text_width>
-      <character_space>3.1750 MM</character_space>
-      <line_space>15.8750 MM</line_space>
+      <text_width>9.5000 MM</text_width>
+      <character_space>3.2000 MM</character_space>
+      <line_space>15.9000 MM</line_space>
       <text_font>0.0000 MM</text_font>
       <photoplot_width>0.0000 MM</photoplot_width>
     </array>
   </text_size_table>
 
-  <placement_parameter_type>
-    <rev>11</rev>
-    <place_algorithm>1</place_algorithm>
-    <place_area>0</place_area>
-    <place_center>1</place_center>
-    <place_room/>
-    <place_window>
-      <min>0.0000,0.0000</min>
-      <max>0.0000,0.0000</max>
-    </place_window>
-    <place_leftover>true</place_leftover>
-    <place_overlap>false</place_overlap>
-    <soft_boundary>false</soft_boundary>
-    <qp_place_sch_rel_pos>false</qp_place_sch_rel_pos>
-    <rotate0_wt>50</rotate0_wt>
-    <rotate90_wt>0</rotate90_wt>
-    <rotate180_wt>0</rotate180_wt>
-    <rotate270_wt>0</rotate270_wt>
-    <north_wt>50</north_wt>
-    <east_wt>50</east_wt>
-    <south_wt>50</south_wt>
-    <west_wt>50</west_wt>
-    <mirror_wt>50</mirror_wt>
-    <straight_wt>50</straight_wt>
-    <cluster>false</cluster>
-    <overwrite>false</overwrite>
-    <remove_tag>false</remove_tag>
-    <norat>false</norat>
-    <max_pass>1</max_pass>
-    <clk_redist>false</clk_redist>
-    <qp_edge>true</qp_edge>
-    <qp_side>false</qp_side>
-    <qp_place_all>true</qp_place_all>
-    <qp_type>true</qp_type>
-    <qp_pin_min>0</qp_pin_min>
-    <qp_pin_max>100000</qp_pin_max>
-    <reserved>0</reserved>
-    <qp_sch_scaling_factor>0.000000</qp_sch_scaling_factor>
-    <pvenv_params>
-      <checkMode>0</checkMode>
-      <goodColor>104</goodColor>
-      <errorColor>97</errorColor>
-      <flag>1</flag>
-      <instanceRefdes/>
-    </pvenv_params>
-    <placement_vision_params>
-      <valid_color>0</valid_color>
-      <invalid_color>0</invalid_color>
-      <xnet_rat_color>0</xnet_rat_color>
-      <flags>0</flags>
-      <show_flag>0</show_flag>
-    </placement_vision_params>
-  </placement_parameter_type>
+  <gloss_dielectric_param_type>
+    <di_gen_parms>
+      <header>
+        <rev>3</rev>
+        <gloss_class>43</gloss_class>
+        <glossing_status_on>false</glossing_status_on>
+      </header>
+      <num_subclass_parms>0</num_subclass_parms>
+      <default_parms>
+        <subclass>32767</subclass>
+        <subclass>-1</subclass>
+        <subclass>-1</subclass>
+        <subclass>-1</subclass>
+        <dielect_size>
+          <width>0.0000 MM</width>
+          <height>0.0000 MM</height>
+        </dielect_size>
+        <dielect_size>
+          <width>0.0000 MM</width>
+          <height>0.0000 MM</height>
+        </dielect_size>
+        <incremental>false</incremental>
+        <incremental>false</incremental>
+        <merge_shape>false</merge_shape>
+      </default_parms>
+    </di_gen_parms>
+  </gloss_dielectric_param_type>
 
-  <av_parm_type>
-    <rev>3</rev>
-    <with_fill>0</with_fill>
-    <av_mode>0</av_mode>
-    <trim_control>0</trim_control>
-    <min_area>0.6350 MM</min_area>
-    <thermal_type>1</thermal_type>
-    <via_thermal_type>0</via_thermal_type>
-    <pad_clearance>0.0000 MM</pad_clearance>
-    <pad_connect_width>0.0000 MM</pad_connect_width>
-    <line_clearance>0.0000 MM</line_clearance>
-    <cline_clearance>0.0000 MM</cline_clearance>
-    <text_clearance>0.0000 MM</text_clearance>
-    <shape_clearance>0.0000 MM</shape_clearance>
-    <frect_clearance>0.0000 MM</frect_clearance>
-    <resolution>2</resolution>
-    <mult_shp_action>2</mult_shp_action>
-    <merge_shape>true</merge_shape>
-    <sho_errors>false</sho_errors>
-    <max_spokes>4</max_spokes>
-    <min_aper>0.1016 MM</min_aper>
-    <snap_to_xhatch>0</snap_to_xhatch>
-    <void_all_items>0</void_all_items>
-    <pin_pattern>0</pin_pattern>
-    <expansion>0</expansion>
-    <expansion>0</expansion>
-    <expansion>0</expansion>
-  </av_parm_type>
-
-  <arn_param_type>
-    <rev>4</rev>
-    <field_not_used>0</field_not_used>
-    <rename_area>3</rename_area>
-    <rename_side>2</rename_side>
-    <component_origin>0</component_origin>
-    <room/>
-    <window>
-      <min>0.0000,0.0000</min>
-      <max>0.0000,0.0000</max>
-    </window>
-    <use_placement_grid>false</use_placement_grid>
-    <rename_all_comps>true</rename_all_comps>
-    <start_layer>0</start_layer>
-    <top_first_dir>0</top_first_dir>
-    <bottom_first_dir>0</bottom_first_dir>
-    <top_row_dir>0</top_row_dir>
-    <top_column_dir>0</top_column_dir>
-    <bottom_row_dir>1</bottom_row_dir>
-    <bottom_column_dir>0</bottom_column_dir>
-    <renaming_method>0</renaming_method>
-    <refdes_digits>1</refdes_digits>
-    <preserve_prefix>1</preserve_prefix>
-    <refdes_prefix>*</refdes_prefix>
-    <top_layer_id/>
-    <bottom_layer_id/>
-    <first_dir_des>A</first_dir_des>
-    <second_dir_des>1</second_dir_des>
-    <first_suf_chars>1</first_suf_chars>
-    <skip_char_string>IOQ</skip_char_string>
-  </arn_param_type>
-
-  <baf_parm_type>
-    <rev>2</rev>
-    <old_name/>
-    <validformat>true</validformat>
-    <reuse>false</reuse>
-    <spares>false</spares>
-    <future_name/>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-    <future>0</future>
-  </baf_parm_type>
-
-  <ats_parm_type>
-    <rev>3</rev>
-    <top>true</top>
-    <bottom>true</bottom>
-    <flags>0</flags>
-    <elements>1</elements>
-    <user_def_spacing>0.2007 MM</user_def_spacing>
-    <max_text_disp>2.5400 MM</max_text_disp>
-    <zero>true</zero>
-    <ninety>true</ninety>
-    <oneeighty>false</oneeighty>
-    <twoseventy>false</twoseventy>
-    <under>true</under>
-    <clear_solder_pad>false</clear_solder_pad>
-    <refdes>1</refdes>
-    <partnum>0</partnum>
-    <devtype>0</devtype>
-    <compval>0</compval>
-    <tolerance>0</tolerance>
-    <brdgeo>1</brdgeo>
-    <pkggeo>1</pkggeo>
-    <topgen>true</topgen>
-    <botgen>true</botgen>
-    <min_line_length>0.2007 MM</min_line_length>
-    <text_disp_incr>0.8890 MM</text_disp_incr>
-  </ats_parm_type>
-
-  <ifp_parm_type>
-    <rev>2</rev>
-    <plan_auto_vis>true</plan_auto_vis>
-    <random_logic_vis>true</random_logic_vis>
-    <etch_shapes>0</etch_shapes>
-    <ifp_mask>0</ifp_mask>
-    <route_control_parms>
-      <router_flags>0</router_flags>
-      <max_via_transitions>0</max_via_transitions>
-      <min_space_bundle>-0.5159 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <min_space_bundle>214748.3640 MM</min_space_bundle>
-      <max_space_bundle>-0.5159 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <max_space_bundle>214748.3640 MM</max_space_bundle>
-      <min_space_other>-0.5159 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <min_space_other>214748.3640 MM</min_space_other>
-      <max_space_other>-0.5159 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <max_space_other>214748.3640 MM</max_space_other>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <optimize_category>0</optimize_category>
-      <elong_data>
-        <elong_control_flags>0</elong_control_flags>
-        <location>3</location>
-        <pattern>2</pattern>
-        <accordion_data>
-          <corner>1</corner>
-          <corner_size>0.0000 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <gap>0.0000 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <min_amplitude>0.0000 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <max_amplitude>0.0000 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-          <max_amplitude>214748.3640 MM</max_amplitude>
-        </accordion_data>
-        <trombone_data>
-          <corner>1</corner>
-          <max_levels>1</max_levels>
-          <corner_size>0.0000 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <corner_size>214748.3640 MM</corner_size>
-          <gap>0.0000 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <gap>214748.3640 MM</gap>
-          <min_amplitude>0.0000 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-          <min_amplitude>214748.3640 MM</min_amplitude>
-        </trombone_data>
-      </elong_data>
-    </route_control_parms>
-    <ifp_global_route_parms>
-      <layer_control>
-        <enable>true</enable>
-        <direction>0</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>1</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_control>
-        <enable>true</enable>
-        <direction>2</direction>
-      </layer_control>
-      <layer_enable_applies_to>1</layer_enable_applies_to>
-      <plan_effort>0</plan_effort>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-      <term_control>0</term_control>
-    </ifp_global_route_parms>
-    <autobundle_parms>
-      <min_rat_count>5</min_rat_count>
-      <pin_proximity>2.5400 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <pin_proximity>214748.3640 MM</pin_proximity>
-      <same_characteristic>4</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-      <same_characteristic>0</same_characteristic>
-    </autobundle_parms>
-    <ratbundle_defaults>
-      <autoname_prefix>BNDL_</autoname_prefix>
-      <name_prompt>false</name_prompt>
-      <flow_width_use_layers>1</flow_width_use_layers>
-      <flow_disp_layer>2</flow_disp_layer>
-      <flow_relative_width>3276850</flow_relative_width>
-      <ratbundle_flags>384</ratbundle_flags>
-    </ratbundle_defaults>
-  </ifp_parm_type>
-
-  <dynfill_parm_type>
-    <rev>1</rev>
-    <snap_void_xhatch>0</snap_void_xhatch>
-    <smooth_trim_control>0</smooth_trim_control>
-    <global_dynamic_fill>0</global_dynamic_fill>
-    <use_xhatch_therm_width>0</use_xhatch_therm_width>
-    <pin_control>
-      <therm_conn_type>18</therm_conn_type>
-      <min_therm_conns>2</min_therm_conns>
-      <max_therm_conns>4</max_therm_conns>
-      <clearance>0</clearance>
-      <oversize_val>0.2540 MM</oversize_val>
-    </pin_control>
-    <smd_control>
-      <therm_conn_type>18</therm_conn_type>
-      <min_therm_conns>2</min_therm_conns>
-      <max_therm_conns>4</max_therm_conns>
-      <clearance>0</clearance>
-      <oversize_val>0.2540 MM</oversize_val>
-    </smd_control>
-    <via_control>
-      <therm_conn_type>18</therm_conn_type>
-      <min_therm_conns>2</min_therm_conns>
-      <max_therm_conns>4</max_therm_conns>
-      <clearance>0</clearance>
-      <oversize_val>0.2540 MM</oversize_val>
-    </via_control>
-    <oversize_therm_width>0.0000 MM</oversize_therm_width>
-    <min_area>2.5400 MM</min_area>
-    <line_oversize>0.2540 MM</line_oversize>
-    <text_oversize>0.2540 MM</text_oversize>
-    <shape_oversize>0.2540 MM</shape_oversize>
-    <inline_pin_voids>0.0000 MM</inline_pin_voids>
-    <smooth_min_gap>0.2489 MM</smooth_min_gap>
-    <artwork_format>3</artwork_format>
-    <x_hatch_border_width>0.1270 MM</x_hatch_border_width>
-    <x_hatch_1>
-      <width>0.1270 MM</width>
-      <increment>0.1270 MM</increment>
-      <angle>0.000</angle>
-    </x_hatch_1>
-    <x_hatch_2>
-      <width>0.1270 MM</width>
-      <increment>0.1270 MM</increment>
-      <angle>90.000</angle>
-    </x_hatch_2>
-    <xhatch_origin>0.3000,-0.2081</xhatch_origin>
-  </dynfill_parm_type>
-
-  <probe_parm_type>
-    <rev>9</rev>
-    <top>false</top>
-    <bottom>true</bottom>
-    <display_text>true</display_text>
-    <disable_bubbling>false</disable_bubbling>
-    <smd_pad>false</smd_pad>
-    <thru_pad>true</thru_pad>
-    <filler2>false</filler2>
-    <auto_insert>false</auto_insert>
-    <filler3>0</filler3>
-    <bareboard>false</bareboard>
-    <execute_mode>false</execute_mode>
-    <direct_trace>false</direct_trace>
-    <unused>false</unused>
-    <direct_test>true</direct_test>
-    <test_method>0</test_method>
-    <interactive>true</interactive>
-    <replace_via>false</replace_via>
-    <extension_alpha>false</extension_alpha>
-    <outside_body>0</outside_body>
-    <component_rep>0</component_rep>
-    <string_numeric>false</string_numeric>
-    <remove_backdrill>false</remove_backdrill>
-    <filler>0</filler>
-    <min_test_spacing>0.0000 MM</min_test_spacing>
-    <pintype>4</pintype>
-    <min_pad_size>0.0000 MM</min_pad_size>
-    <min_test_disp>0.0000 MM</min_test_disp>
-    <max_test_disp>0.0000 MM</max_test_disp>
-    <test_grid_x>0.0000 MM</test_grid_x>
-    <test_grid_y>0.0000 MM</test_grid_y>
-    <text_offset_x>0.0000 MM</text_offset_x>
-    <text_offset_y>0.0000 MM</text_offset_y>
-    <text_angle>0</text_angle>
-    <test_pad/>
-    <test_via/>
-    <tpcount>0</tpcount>
-    <string_to_use>TP</string_to_use>
-    <density_size>0.0000 MM</density_size>
-    <density_disp>0.0000 MM</density_disp>
-    <density_max>0</density_max>
-    <vacuum_pres>0</vacuum_pres>
-    <def_pin_force>1</def_pin_force>
-  </probe_parm_type>
-
-  <drf_parm_type>
-    <rev>9</rev>
-    <dim_mask>69053</dim_mask>
-    <dd_border>0.3000,-0.2081</dd_border>
-    <balloon_size_l>11.9990 MM</balloon_size_l>
-    <dl_arrowlen_l>4.0005 MM</dl_arrowlen_l>
-    <dl_arrowwid_l>1.2497 MM</dl_arrowwid_l>
-    <dl_bulletdia_l>4.0005 MM</dl_bulletdia_l>
-    <dl_slashlen_l>4.0005 MM</dl_slashlen_l>
-    <dt_ctollower_l>0.0000 MM</dt_ctollower_l>
-    <dt_ctolupper_l>0.0000 MM</dt_ctolupper_l>
-    <el_extension_l>2.4994 MM</el_extension_l>
-    <el_offset_l>2.4994 MM</el_offset_l>
-    <dt_atollower_l>0</dt_atollower_l>
-    <dt_atolupper_l>0</dt_atolupper_l>
-    <dt_scale_l>10000</dt_scale_l>
-    <balloon_maxchars>2</balloon_maxchars>
-    <balloon_textsize>13</balloon_textsize>
-    <balloon_type>100</balloon_type>
-    <dim_standard>0</dim_standard>
-    <dl_arrowtype>0</dl_arrowtype>
-    <dl_odddim_axis>0</dl_odddim_axis>
-    <dl_ldrterm>0</dl_ldrterm>
-    <dl_term1>0</dl_term1>
-    <dl_term2>0</dl_term2>
-    <dt_ctoltype>1</dt_ctoltype>
-    <dt_ddimloc>1</dt_ddimloc>
-    <dt_ddimprec>1</dt_ddimprec>
-    <dt_ddimsymb>1</dt_ddimsymb>
-    <dt_ddimunits>1</dt_ddimunits>
-    <dt_point>46</dt_point>
-    <dt_prec>2</dt_prec>
-    <dt_spectype>0</dt_spectype>
-    <dt_textblock>2</dt_textblock>
-    <dt_units>3</dt_units>
-    <el_suppress>0</el_suppress>
-    <param_units>3</param_units>
-    <dt_atolprec>1</dt_atolprec>
-    <balloon_nextchar>1</balloon_nextchar>
-  </drf_parm_type>
+  <gloss_fat_parm_type>
+    <header>
+      <rev>2</rev>
+      <gloss_class>42</gloss_class>
+      <glossing_status_on>false</glossing_status_on>
+    </header>
+    <num_scheds>6</num_scheds>
+    <scheds>
+      <layer>254</layer>
+      <current_width>0.2000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+    <scheds>
+      <layer>254</layer>
+      <current_width>0.3000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+    <scheds>
+      <layer>254</layer>
+      <current_width>0.8000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+    <scheds>
+      <layer>0</layer>
+      <current_width>0.2000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+    <scheds>
+      <layer>0</layer>
+      <current_width>0.3000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+    <scheds>
+      <layer>0</layer>
+      <current_width>0.8000 MM</current_width>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <sched>0</sched>
+      <increment>0</increment>
+    </scheds>
+  </gloss_fat_parm_type>
 
   <ministat_parm_type>
     <rev>56</rev>
@@ -5403,14 +4323,14 @@
     <acon_corner_size>214748.3647 MM</acon_corner_size>
     <acon_corner_size>214748.3647 MM</acon_corner_size>
     <acon_corner_size>214748.3647 MM</acon_corner_size>
+    <acon_line_width>0.5000 MM</acon_line_width>
+    <acon_line_width>0.3000 MM</acon_line_width>
+    <acon_line_width>0.5800 MM</acon_line_width>
     <acon_line_width>0.2540 MM</acon_line_width>
     <acon_line_width>0.3810 MM</acon_line_width>
     <acon_line_width>0.5080 MM</acon_line_width>
     <acon_line_width>0.0254 MM</acon_line_width>
     <acon_line_width>1.0000 MM</acon_line_width>
-    <acon_line_width>214748.3647 MM</acon_line_width>
-    <acon_line_width>214748.3647 MM</acon_line_width>
-    <acon_line_width>214748.3647 MM</acon_line_width>
     <acon_line_width>214748.3647 MM</acon_line_width>
     <acon_line_width>214748.3647 MM</acon_line_width>
     <acon_line_width>214748.3647 MM</acon_line_width>
@@ -5451,16 +4371,16 @@
     <sld_min_corner_size>214748.3647 MM</sld_min_corner_size>
     <sld_min_corner_size>214748.3647 MM</sld_min_corner_size>
     <sld_min_corner_size>214748.3647 MM</sld_min_corner_size>
-    <dtun_corner_size>-0.0200 MM</dtun_corner_size>
     <dtun_corner_size>-0.0100 MM</dtun_corner_size>
+    <dtun_corner_size>-0.0200 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
     <dtun_corner_size>214748.3647 MM</dtun_corner_size>
-    <dtun_gap>-10.0100 MM</dtun_gap>
     <dtun_gap>-0.0200 MM</dtun_gap>
+    <dtun_gap>-10.0100 MM</dtun_gap>
     <dtun_gap>-0.0300 MM</dtun_gap>
     <dtun_gap>214748.3647 MM</dtun_gap>
     <dtun_gap>214748.3647 MM</dtun_gap>
@@ -5548,7 +4468,7 @@
     <acon_flags>31</acon_flags>
     <sld_flags>16778247</sld_flags>
     <vtx_flags>11</vtx_flags>
-    <diffpair_flags>1</diffpair_flags>
+    <diffpair_flags>0</diffpair_flags>
     <crfan_flags>0</crfan_flags>
     <crfan_via_direction_code>0</crfan_via_direction_code>
     <crfan_action_code>0</crfan_action_code>
@@ -5584,7 +4504,7 @@
     <apin_num_rows>1</apin_num_rows>
     <apin_num_cols>1</apin_num_cols>
     <cp_rotate_pt>0</cp_rotate_pt>
-    <mv_rotate_pt>0</mv_rotate_pt>
+    <mv_rotate_pt>1</mv_rotate_pt>
     <spin_rotate_pt>0</spin_rotate_pt>
     <mv_rotate_type>1</mv_rotate_type>
     <spin_rotate_type>1</spin_rotate_type>
@@ -5622,7 +4542,7 @@
     <moddef_reuseid>0</moddef_reuseid>
     <sld_bubble>4</sld_bubble>
     <sld_smooth>1</sld_smooth>
-    <acon_bubble>4</acon_bubble>
+    <acon_bubble>3</acon_bubble>
     <acon_smooth>1</acon_smooth>
     <acon_corner_mode>0</acon_corner_mode>
     <acon_via_pattern>0</acon_via_pattern>
@@ -5726,7 +4646,7 @@
       <arc_seg_for_lines>false</arc_seg_for_lines>
       <line_seg_for_clines>false</line_seg_for_clines>
       <arc_seg_for_clines>false</arc_seg_for_clines>
-      <line>false</line>
+      <line>true</line>
       <cline>false</cline>
       <frect>false</frect>
       <rect>false</rect>
@@ -5743,7 +4663,7 @@
       <invisible>false</invisible>
       <bondwire>false</bondwire>
       <figure>false</figure>
-      <drc_error>true</drc_error>
+      <drc_error>false</drc_error>
       <ratsnest>false</ratsnest>
       <net>false</net>
       <component>false</component>
@@ -6034,14 +4954,14 @@
       <arc_seg_for_clines>false</arc_seg_for_clines>
       <line>false</line>
       <cline>false</cline>
-      <frect>true</frect>
-      <rect>true</rect>
-      <text>true</text>
+      <frect>false</frect>
+      <rect>false</rect>
+      <text>false</text>
       <text_line>true</text_line>
       <pin>false</pin>
       <via>false</via>
       <symbol>true</symbol>
-      <shape>true</shape>
+      <shape>false</shape>
       <voids>true</voids>
       <void_segments>true</void_segments>
       <shape_segments>true</shape_segments>
@@ -6068,14 +4988,14 @@
       <arc_seg_for_clines>false</arc_seg_for_clines>
       <line>false</line>
       <cline>false</cline>
-      <frect>true</frect>
-      <rect>true</rect>
+      <frect>false</frect>
+      <rect>false</rect>
       <text>false</text>
       <text_line>true</text_line>
       <pin>true</pin>
-      <via>false</via>
+      <via>true</via>
       <symbol>false</symbol>
-      <shape>true</shape>
+      <shape>false</shape>
       <voids>true</voids>
       <void_segments>true</void_segments>
       <shape_segments>true</shape_segments>
@@ -6135,10 +5055,10 @@
       <line_seg_for_clines>false</line_seg_for_clines>
       <arc_seg_for_clines>false</arc_seg_for_clines>
       <line>false</line>
-      <cline>false</cline>
+      <cline>true</cline>
       <frect>false</frect>
       <rect>false</rect>
-      <text>true</text>
+      <text>false</text>
       <text_line>true</text_line>
       <pin>true</pin>
       <via>false</via>
@@ -7660,5 +6580,1303 @@
       <rat_t>true</rat_t>
     </ff_buf>
   </ministat_parm_type>
+
+  <drf_parm_type>
+    <rev>9</rev>
+    <dim_mask>69053</dim_mask>
+    <dd_border>0.3000,-0.2081</dd_border>
+    <balloon_size_l>11.9990 MM</balloon_size_l>
+    <dl_arrowlen_l>4.0005 MM</dl_arrowlen_l>
+    <dl_arrowwid_l>1.2497 MM</dl_arrowwid_l>
+    <dl_bulletdia_l>4.0005 MM</dl_bulletdia_l>
+    <dl_slashlen_l>4.0005 MM</dl_slashlen_l>
+    <dt_ctollower_l>0.0000 MM</dt_ctollower_l>
+    <dt_ctolupper_l>0.0000 MM</dt_ctolupper_l>
+    <el_extension_l>2.4994 MM</el_extension_l>
+    <el_offset_l>2.4994 MM</el_offset_l>
+    <dt_atollower_l>0</dt_atollower_l>
+    <dt_atolupper_l>0</dt_atolupper_l>
+    <dt_scale_l>10000</dt_scale_l>
+    <balloon_maxchars>2</balloon_maxchars>
+    <balloon_textsize>13</balloon_textsize>
+    <balloon_type>100</balloon_type>
+    <dim_standard>0</dim_standard>
+    <dl_arrowtype>0</dl_arrowtype>
+    <dl_odddim_axis>0</dl_odddim_axis>
+    <dl_ldrterm>0</dl_ldrterm>
+    <dl_term1>0</dl_term1>
+    <dl_term2>0</dl_term2>
+    <dt_ctoltype>1</dt_ctoltype>
+    <dt_ddimloc>1</dt_ddimloc>
+    <dt_ddimprec>1</dt_ddimprec>
+    <dt_ddimsymb>1</dt_ddimsymb>
+    <dt_ddimunits>1</dt_ddimunits>
+    <dt_point>46</dt_point>
+    <dt_prec>2</dt_prec>
+    <dt_spectype>0</dt_spectype>
+    <dt_textblock>2</dt_textblock>
+    <dt_units>3</dt_units>
+    <el_suppress>0</el_suppress>
+    <param_units>3</param_units>
+    <dt_atolprec>1</dt_atolprec>
+    <balloon_nextchar>1</balloon_nextchar>
+  </drf_parm_type>
+
+  <probe_parm_type>
+    <rev>9</rev>
+    <top>false</top>
+    <bottom>true</bottom>
+    <display_text>true</display_text>
+    <disable_bubbling>false</disable_bubbling>
+    <smd_pad>false</smd_pad>
+    <thru_pad>true</thru_pad>
+    <filler2>false</filler2>
+    <auto_insert>false</auto_insert>
+    <filler3>0</filler3>
+    <bareboard>false</bareboard>
+    <execute_mode>false</execute_mode>
+    <direct_trace>false</direct_trace>
+    <unused>false</unused>
+    <direct_test>true</direct_test>
+    <test_method>0</test_method>
+    <interactive>true</interactive>
+    <replace_via>false</replace_via>
+    <extension_alpha>false</extension_alpha>
+    <outside_body>0</outside_body>
+    <component_rep>0</component_rep>
+    <string_numeric>false</string_numeric>
+    <remove_backdrill>false</remove_backdrill>
+    <filler>0</filler>
+    <min_test_spacing>0.0000 MM</min_test_spacing>
+    <pintype>4</pintype>
+    <min_pad_size>0.0000 MM</min_pad_size>
+    <min_test_disp>0.0000 MM</min_test_disp>
+    <max_test_disp>0.0000 MM</max_test_disp>
+    <test_grid_x>0.0000 MM</test_grid_x>
+    <test_grid_y>0.0000 MM</test_grid_y>
+    <text_offset_x>0.0000 MM</text_offset_x>
+    <text_offset_y>0.0000 MM</text_offset_y>
+    <text_angle>0</text_angle>
+    <test_pad/>
+    <test_via/>
+    <tpcount>0</tpcount>
+    <string_to_use>TP</string_to_use>
+    <density_size>0.0000 MM</density_size>
+    <density_disp>0.0000 MM</density_disp>
+    <density_max>0</density_max>
+    <vacuum_pres>0</vacuum_pres>
+    <def_pin_force>1</def_pin_force>
+  </probe_parm_type>
+
+  <dynfill_parm_type>
+    <rev>1</rev>
+    <snap_void_xhatch>1</snap_void_xhatch>
+    <smooth_trim_control>0</smooth_trim_control>
+    <global_dynamic_fill>0</global_dynamic_fill>
+    <use_xhatch_therm_width>0</use_xhatch_therm_width>
+    <pin_control>
+      <therm_conn_type>18</therm_conn_type>
+      <min_therm_conns>2</min_therm_conns>
+      <max_therm_conns>4</max_therm_conns>
+      <clearance>0</clearance>
+      <oversize_val>0.2540 MM</oversize_val>
+    </pin_control>
+    <smd_control>
+      <therm_conn_type>18</therm_conn_type>
+      <min_therm_conns>2</min_therm_conns>
+      <max_therm_conns>4</max_therm_conns>
+      <clearance>0</clearance>
+      <oversize_val>0.2540 MM</oversize_val>
+    </smd_control>
+    <via_control>
+      <therm_conn_type>18</therm_conn_type>
+      <min_therm_conns>2</min_therm_conns>
+      <max_therm_conns>4</max_therm_conns>
+      <clearance>0</clearance>
+      <oversize_val>0.2540 MM</oversize_val>
+    </via_control>
+    <oversize_therm_width>0.2000 MM</oversize_therm_width>
+    <min_area>1.0000 MM</min_area>
+    <line_oversize>0.2540 MM</line_oversize>
+    <text_oversize>0.2540 MM</text_oversize>
+    <shape_oversize>0.2540 MM</shape_oversize>
+    <inline_pin_voids>0.0000 MM</inline_pin_voids>
+    <smooth_min_gap>0.2540 MM</smooth_min_gap>
+    <artwork_format>3</artwork_format>
+    <x_hatch_border_width>0.2000 MM</x_hatch_border_width>
+    <x_hatch_1>
+      <width>0.1000 MM</width>
+      <increment>0.1000 MM</increment>
+      <angle>0.000</angle>
+    </x_hatch_1>
+    <x_hatch_2>
+      <width>0.1000 MM</width>
+      <increment>0.1270 MM</increment>
+      <angle>90.000</angle>
+    </x_hatch_2>
+    <xhatch_origin>0.0000,0.0000</xhatch_origin>
+  </dynfill_parm_type>
+
+  <ifp_parm_type>
+    <rev>2</rev>
+    <plan_auto_vis>true</plan_auto_vis>
+    <random_logic_vis>true</random_logic_vis>
+    <etch_shapes>0</etch_shapes>
+    <ifp_mask>0</ifp_mask>
+    <route_control_parms>
+      <router_flags>0</router_flags>
+      <max_via_transitions>0</max_via_transitions>
+      <min_space_bundle>-0.5159 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <min_space_bundle>214748.3640 MM</min_space_bundle>
+      <max_space_bundle>-0.5159 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <max_space_bundle>214748.3640 MM</max_space_bundle>
+      <min_space_other>-0.5159 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <min_space_other>214748.3640 MM</min_space_other>
+      <max_space_other>-0.5159 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <max_space_other>214748.3640 MM</max_space_other>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <optimize_category>0</optimize_category>
+      <elong_data>
+        <elong_control_flags>0</elong_control_flags>
+        <location>3</location>
+        <pattern>2</pattern>
+        <accordion_data>
+          <corner>1</corner>
+          <corner_size>0.0000 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <gap>0.0000 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <min_amplitude>0.0000 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <max_amplitude>0.0000 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+          <max_amplitude>214748.3640 MM</max_amplitude>
+        </accordion_data>
+        <trombone_data>
+          <corner>1</corner>
+          <max_levels>1</max_levels>
+          <corner_size>0.0000 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <corner_size>214748.3640 MM</corner_size>
+          <gap>0.0000 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <gap>214748.3640 MM</gap>
+          <min_amplitude>0.0000 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+          <min_amplitude>214748.3640 MM</min_amplitude>
+        </trombone_data>
+      </elong_data>
+    </route_control_parms>
+    <ifp_global_route_parms>
+      <layer_control>
+        <enable>true</enable>
+        <direction>0</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>1</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_control>
+        <enable>true</enable>
+        <direction>2</direction>
+      </layer_control>
+      <layer_enable_applies_to>1</layer_enable_applies_to>
+      <plan_effort>0</plan_effort>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+      <term_control>0</term_control>
+    </ifp_global_route_parms>
+    <autobundle_parms>
+      <min_rat_count>5</min_rat_count>
+      <pin_proximity>2.5400 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <pin_proximity>214748.3640 MM</pin_proximity>
+      <same_characteristic>4</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+      <same_characteristic>0</same_characteristic>
+    </autobundle_parms>
+    <ratbundle_defaults>
+      <autoname_prefix>BNDL_</autoname_prefix>
+      <name_prompt>false</name_prompt>
+      <flow_width_use_layers>1</flow_width_use_layers>
+      <flow_disp_layer>2</flow_disp_layer>
+      <flow_relative_width>3276850</flow_relative_width>
+      <ratbundle_flags>384</ratbundle_flags>
+    </ratbundle_defaults>
+  </ifp_parm_type>
+
+  <ats_parm_type>
+    <rev>3</rev>
+    <top>true</top>
+    <bottom>true</bottom>
+    <flags>0</flags>
+    <elements>1</elements>
+    <user_def_spacing>0.2007 MM</user_def_spacing>
+    <max_text_disp>2.5400 MM</max_text_disp>
+    <zero>true</zero>
+    <ninety>true</ninety>
+    <oneeighty>false</oneeighty>
+    <twoseventy>false</twoseventy>
+    <under>true</under>
+    <clear_solder_pad>false</clear_solder_pad>
+    <refdes>1</refdes>
+    <partnum>0</partnum>
+    <devtype>0</devtype>
+    <compval>0</compval>
+    <tolerance>0</tolerance>
+    <brdgeo>1</brdgeo>
+    <pkggeo>1</pkggeo>
+    <topgen>true</topgen>
+    <botgen>true</botgen>
+    <min_line_length>0.2007 MM</min_line_length>
+    <text_disp_incr>0.8890 MM</text_disp_incr>
+  </ats_parm_type>
+
+  <baf_parm_type>
+    <rev>2</rev>
+    <old_name/>
+    <validformat>true</validformat>
+    <reuse>false</reuse>
+    <spares>false</spares>
+    <future_name/>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+    <future>0</future>
+  </baf_parm_type>
+
+  <arn_param_type>
+    <rev>4</rev>
+    <field_not_used>0</field_not_used>
+    <rename_area>3</rename_area>
+    <rename_side>2</rename_side>
+    <component_origin>0</component_origin>
+    <room/>
+    <window>
+      <min>0.0000,0.0000</min>
+      <max>0.0000,0.0000</max>
+    </window>
+    <use_placement_grid>false</use_placement_grid>
+    <rename_all_comps>true</rename_all_comps>
+    <start_layer>0</start_layer>
+    <top_first_dir>0</top_first_dir>
+    <bottom_first_dir>0</bottom_first_dir>
+    <top_row_dir>0</top_row_dir>
+    <top_column_dir>0</top_column_dir>
+    <bottom_row_dir>1</bottom_row_dir>
+    <bottom_column_dir>0</bottom_column_dir>
+    <renaming_method>0</renaming_method>
+    <refdes_digits>1</refdes_digits>
+    <preserve_prefix>1</preserve_prefix>
+    <refdes_prefix>*</refdes_prefix>
+    <top_layer_id/>
+    <bottom_layer_id/>
+    <first_dir_des>A</first_dir_des>
+    <second_dir_des>1</second_dir_des>
+    <first_suf_chars>1</first_suf_chars>
+    <skip_char_string>IOQ</skip_char_string>
+  </arn_param_type>
+
+  <av_parm_type>
+    <rev>3</rev>
+    <with_fill>0</with_fill>
+    <av_mode>0</av_mode>
+    <trim_control>0</trim_control>
+    <min_area>0.6350 MM</min_area>
+    <thermal_type>1</thermal_type>
+    <via_thermal_type>0</via_thermal_type>
+    <pad_clearance>0.0000 MM</pad_clearance>
+    <pad_connect_width>0.0000 MM</pad_connect_width>
+    <line_clearance>0.0000 MM</line_clearance>
+    <cline_clearance>0.0000 MM</cline_clearance>
+    <text_clearance>0.0000 MM</text_clearance>
+    <shape_clearance>0.0000 MM</shape_clearance>
+    <frect_clearance>0.0000 MM</frect_clearance>
+    <resolution>2</resolution>
+    <mult_shp_action>2</mult_shp_action>
+    <merge_shape>true</merge_shape>
+    <sho_errors>false</sho_errors>
+    <max_spokes>4</max_spokes>
+    <min_aper>0.1016 MM</min_aper>
+    <snap_to_xhatch>0</snap_to_xhatch>
+    <void_all_items>0</void_all_items>
+    <pin_pattern>0</pin_pattern>
+    <expansion>0</expansion>
+    <expansion>0</expansion>
+    <expansion>0</expansion>
+  </av_parm_type>
+
+  <placement_parameter_type>
+    <rev>11</rev>
+    <place_algorithm>1</place_algorithm>
+    <place_area>0</place_area>
+    <place_center>1</place_center>
+    <place_room/>
+    <place_window>
+      <min>0.0000,0.0000</min>
+      <max>0.0000,0.0000</max>
+    </place_window>
+    <place_leftover>true</place_leftover>
+    <place_overlap>false</place_overlap>
+    <soft_boundary>false</soft_boundary>
+    <qp_place_sch_rel_pos>false</qp_place_sch_rel_pos>
+    <rotate0_wt>50</rotate0_wt>
+    <rotate90_wt>0</rotate90_wt>
+    <rotate180_wt>0</rotate180_wt>
+    <rotate270_wt>0</rotate270_wt>
+    <north_wt>50</north_wt>
+    <east_wt>50</east_wt>
+    <south_wt>50</south_wt>
+    <west_wt>50</west_wt>
+    <mirror_wt>50</mirror_wt>
+    <straight_wt>50</straight_wt>
+    <cluster>false</cluster>
+    <overwrite>false</overwrite>
+    <remove_tag>false</remove_tag>
+    <norat>false</norat>
+    <max_pass>1</max_pass>
+    <clk_redist>false</clk_redist>
+    <qp_edge>true</qp_edge>
+    <qp_side>false</qp_side>
+    <qp_place_all>true</qp_place_all>
+    <qp_type>true</qp_type>
+    <qp_pin_min>0</qp_pin_min>
+    <qp_pin_max>100000</qp_pin_max>
+    <reserved>0</reserved>
+    <qp_sch_scaling_factor>1.000000</qp_sch_scaling_factor>
+    <pvenv_params>
+      <checkMode>0</checkMode>
+      <goodColor>104</goodColor>
+      <errorColor>97</errorColor>
+      <flag>1</flag>
+      <instanceRefdes/>
+    </pvenv_params>
+    <placement_vision_params>
+      <valid_color>0</valid_color>
+      <invalid_color>0</invalid_color>
+      <xnet_rat_color>0</xnet_rat_color>
+      <flags>0</flags>
+      <show_flag>0</show_flag>
+    </placement_vision_params>
+  </placement_parameter_type>
 
 </CadenceAllegroParameter>

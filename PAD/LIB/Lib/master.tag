@@ -1,1 +1,1 @@
-LQFP-48_7x7x05P.dra
+DC3-2X3P-2D54-SMD.dra
