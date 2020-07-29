@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : 1210_C.dra                                    )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Sat Jul 25 19:19:04 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Name      = 1210_c.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

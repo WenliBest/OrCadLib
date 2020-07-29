@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIP-A72110.dra                                )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Thu Jul 16 15:43:21 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Name      = dip-a72110.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

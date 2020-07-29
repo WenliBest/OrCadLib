@@ -1,1 +1,1 @@
-goldfinger_2.dra
+stamp_flash-1d8.dra

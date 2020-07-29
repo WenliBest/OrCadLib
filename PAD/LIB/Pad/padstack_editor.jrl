@@ -1,6 +1,9 @@
-\t (00:00:00) padstack_editor 17.2 S051 Windows SPB 64-bit Edition
-\t (00:00:00)     Journal start - Mon Mar 18 16:00:13 2019
-\t (00:00:00)         Host=DESKTOP-P5LE3FE User=master Pid=9332 CPUs=4
-\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe E:\PCBLib\ORCAD\PAD\LIB\Pad\sm_o0d28x1d8.pad
+\t (00:00:00) padstack_editor 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Jul 09 17:21:09 2020
+\t (00:00:00)         Host=DESKTOP-P5LE3FE User=master Pid=8108 CPUs=4
+\t (00:00:00) CmdLine= c:\cadence\cadence_spb_17.2-2016\tools\bin\padstack_editor.exe E:\PCBLib\ORCAD\PAD\LIB\Pad\sm_r0d6x0d65.pad
 \t (00:00:00) 
-\t (00:00:07)     Journal end - Mon Mar 18 16:00:20 2019
+\d (00:00:37) QtSignal GuidedTabsParent GuidedTabs currentChanged "Design Layers"
+\d (00:00:39) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:46) QtFillin No
+\t (00:00:46)     Journal end - Thu Jul 09 17:21:55 2020

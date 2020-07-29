@@ -2,15 +2,15 @@
 (                                                                     )
 (    Parameter File READ                                              )
 (                                                                     )
-(    Drawing          : goldfinger_2.dra                              )
-(    Software Version : 17.2S056                                      )
-(    Date/Time        : Tue Aug 20 14:52:33 2019                      )
+(    Drawing          : shape-1d6.dra                                 )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Wed Jul 29 16:25:20 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
-	Layout Name   : goldfinger_2.dra
+	Layout Name   : E:/PCBLib/ORCAD/PAD/LIB/Pad/shape-1d6.dra
 
 Reading...parameter_header:
 Reading...db_common_type:
@@ -102,10 +102,29 @@ Reading...artwork_film:
 	Reading...art_class_type:
 	Reading...art_class_type:
 	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
 Reading...color_table_table:
 Reading...ColorParmType:
-Reading...profileCustomColors:
 Reading...text_size_table:
+Reading...gloss_dielectric_param_type:
+Reading...gloss_fat_parm_type:
 Reading...ministat_parm_type:
 Reading...drf_parm_type:
 Reading...probe_parm_type:

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : flash-1d4.dra                                 )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Wed Jul 29 16:59:09 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: FLASH
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Pad
+    Name      = flash-1d4.fsm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
