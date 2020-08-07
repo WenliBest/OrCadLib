@@ -17,18 +17,11 @@
       (Path "Design Resources")
       (Path "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb")
       (Select "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"
-         "BMI055"))
+         "STM32F412RET6"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 931 52 457"))
-      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
-      (Package "TD2786MR")
-      (PartType "1")))
+      (Tab 0)))
   (MPSSessionName "master"))

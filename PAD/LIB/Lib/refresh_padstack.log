@@ -2,19 +2,19 @@
 (                                                                     )
 (    Refresh Padstack                                                 )
 (                                                                     )
-(    Drawing          : DIP-8P-2D54.dra                               )
+(    Drawing          : DIP-8P-2D54-STAMP.dra                         )
 (    Software Version : 17.2S067                                      )
-(    Date/Time        : Fri Jul 17 15:10:58 2020                      )
+(    Date/Time        : Sat Aug 01 11:32:57 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Fri Jul 17 15:10:58 2020				Page     1
+Sat Aug 01 11:32:57 2020				Page     1
 
 
 ------ Pad Stack Refresh Options ------
 
-Input design  = 'E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-8P-2D54.dra'
+Input design  = 'DIP-8P-2D54-STAMP.dra'
 Output design = ''
 Reset symbol text and size locations   = 'NO'
 
@@ -36,12 +36,8 @@ PADPATH =  E:/PCBLib/ORCAD/PAD/LIB/Pad/
 
      'TSP_32MIL'  pad stack refreshed successfully.
      
-'TH_C1D0X1D8'  pad stack refresh starting.
+'STAMP_TH_1D0X2D4'  pad stack refresh starting.
 
-     'TH_C1D0X1D8'  pad stack refreshed successfully.
-     
-'TH_R1D0X1D8'  pad stack refresh starting.
-
-     'TH_R1D0X1D8'  pad stack refreshed successfully.
+     'STAMP_TH_1D0X2D4'  pad stack refreshed successfully.
      
 Completed refreshing all pad stacks successfully.

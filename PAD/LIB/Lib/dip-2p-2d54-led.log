@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : stamp_flash-1d8.dra                           )
+(    Drawing          : DIP-2P-2D54-LED.dra                           )
 (    Software Version : 17.2S067                                      )
-(    Date/Time        : Wed Jul 29 17:07:56 2020                      )
+(    Date/Time        : Sun Aug 02 16:19:30 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Create Symbol of type: FLASH
-    Directory = E:/PCBLib/ORCAD/PAD/LIB/Pad
-    Name      = stamp_flash-1d8.fsm
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Name      = dip-2p-2d54-led.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 

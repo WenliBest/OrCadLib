@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : SOP-8_EP-150mil.dra                           )
+(    Drawing          : DIP-8P-2D54-STAMP.dra                         )
 (    Software Version : 17.2S067                                      )
-(    Date/Time        : Fri Jul 31 12:16:33 2020                      )
+(    Date/Time        : Sat Aug 01 15:33:52 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
-    Name      = sop-8_ep-150mil.psm
+    Name      = dip-8p-2d54-stamp.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 
