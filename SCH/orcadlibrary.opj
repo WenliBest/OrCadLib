@@ -16,12 +16,25 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb")
-      (Select "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"
-         "STM32F412RET6"))
+      (Select "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
-      (Tab 0)))
+      (Tab 0))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 208 1318 208 698"))
+      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
+      (Package "CH340G")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 1110 0 490"))
+      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
+      (Package "TYPE-C-12P")
+      (PartType "1")))
   (MPSSessionName "master"))
