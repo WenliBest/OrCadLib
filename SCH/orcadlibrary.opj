@@ -21,20 +21,34 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 305 0 901"))
       (Tab 0))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 208 1318 208 698"))
+        (Placement "44 0 1 -1 -1 -1 -1 104 1471 104 594"))
       (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
       (Package "CH340G")
       (PartType "1"))
     (Doc
       (Type "COrPrmBrowserDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 1110 0 490"))
+        (Placement "44 0 1 -1 -1 -1 -1 130 1497 130 620"))
       (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
       (Package "TYPE-C-12P")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 156 1211 156 646"))
+      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
+      (Package "AMS1117-3V3")
+      (PartType "1"))
+    (Doc
+      (Type "COrPrmBrowserDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 208 1263 208 698"))
+      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
+      (Package "LD1117AG-33-TN3-A-R")
       (PartType "1")))
   (MPSSessionName "master"))

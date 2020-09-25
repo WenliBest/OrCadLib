@@ -1,0 +1,988 @@
+\t (00:00:01) allegro 17.2 S067 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Fri Sep 25 15:44:41 2020
+\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=17936 CPUs=4
+\t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+   (00:00:01) *Error* load: can't access file - "./FanySkill/FanySkill_main.il"
+\t (00:00:05) Starting new design...
+\i (00:00:06) trapsize 744483
+\i (00:00:06) yepdesignermenuload 
+\i (00:00:07) replay D:/YepEda/YepChecker/env.scr 
+\i (00:00:07) alias ~E move 
+\i (00:00:07) funckey e move 
+\i (00:00:07) funckey E move 
+\i (00:00:07) alias ~R angle 90 
+\i (00:00:07) funckey ' ' angle 90 
+\i (00:00:07) alias ~F mirror 
+\i (00:00:07) funckey f mirror 
+\i (00:00:07) funckey F mirror 
+\i (00:00:07) alias ~N new 
+\i (00:00:07) alias ~O open 
+\i (00:00:07) alias ~S save 
+\w (00:00:07) alias ~S is marked read-only, not changed.
+\i (00:00:07) alias ~Z oops 
+\w (00:00:07) alias ~Z is marked read-only, not changed.
+\i (00:00:07) funckey z oops 
+\i (00:00:07) funckey Z oops 
+\i (00:00:07) alias ~A add connect 
+\i (00:00:07) funckey a add connect 
+\i (00:00:07) funckey A add connect 
+\i (00:00:07) alias ~Q slide 
+\i (00:00:07) funckey q slide 
+\i (00:00:07) funckey Q slide 
+\i (00:00:07) alias ~D reject 
+\i (00:00:07) alias ~W change 
+\i (00:00:07) funckey w change 
+\i (00:00:07) funckey W change 
+\i (00:00:07) alias ~@ toggle 
+\i (00:00:07) alias ~AC color 
+\i (00:00:07) alias ~G status 
+\i (00:00:07) alias ~AG status 
+\i (00:00:07) alias ~SQ 'slide;pop cut' 
+\i (00:00:07) alias ~SA 'pop singletrace' 
+\i (00:00:07) alias ~ASG 'drawing param' 
+\i (00:00:07) alias CInsert 'show measure' 
+\i (00:00:07) alias Pgup Zoom In 
+\i (00:00:07) alias Pgdown Zoom Out 
+\i (00:00:07) alias Esc Cancel 
+\i (00:00:07) alias Del Delete 
+\i (00:00:07) alias CDel 'delete;pop cut' 
+\i (00:00:07) alias SDel clinescut 
+\i (00:00:07) alias Home hilight 
+\i (00:00:07) alias End dehilight 
+\i (00:00:07) alias Insert show element 
+\i (00:00:07) alias CHome 'rats net' 
+\i (00:00:07) alias CEnd 'unrats net' 
+\i (00:00:07) alias Up iy 1 
+\i (00:00:07) alias Down iy -1 
+\i (00:00:07) alias Right ix 1 
+\i (00:00:07) alias Left ix -1 
+\i (00:00:07) alias x pick 
+\i (00:00:07) alias X pick 
+\i (00:00:07) alias y pick 0 
+\i (00:00:07) alias Y pick 0 
+\i (00:00:07) alias ix ipick 
+\i (00:00:07) alias IX ipick 
+\i (00:00:07) alias iy ipick 0 
+\i (00:00:07) alias IY ipick 0 
+\i (00:00:07) alias ip polar 
+\i (00:00:07) alias env enved 
+\i (00:00:07) alias g 'define grid' 
+\i (00:00:07) funckey 1 move 
+\i (00:00:07) funckey 2 angle 90 
+\i (00:00:07) funckey 3 mirror 
+\i (00:00:07) alias ~S1 autoplc 
+\i (00:00:07) alias CAF1 replay f1 
+\i (00:00:07) alias CAF2 replay f2 
+\i (00:00:07) alias CAF3 replay f3 
+\i (00:00:07) alias CAF4 replay f4 
+\i (00:00:07) alias CAF5 replay f5 
+\i (00:00:07) alias CAF6 replay f6 
+\i (00:00:07) alias CAF7 replay f7 
+\i (00:00:07) alias CAF8 replay f8 
+\i (00:00:07) alias CAF9 replay f9 
+\i (00:00:07) alias CAF10 replay f10 
+\i (00:00:07) alias CAF11 replay f11 
+\i (00:00:07) alias CAF12 replay f12 
+\i (00:00:07) alias F2 'setlayer MyLayer1' 
+\i (00:00:07) alias F3 'setlayer MyLayer2' 
+\i (00:00:07) alias F4 'setlayer MyLayer3' 
+\i (00:00:07) alias F5 'setlayer MyLayer4' 
+\i (00:00:07) alias F6 'setlayer MyLayer5' 
+\i (00:00:07) alias F7 'setlayer MyLayer6' 
+\i (00:00:07) alias F8 'setlayer MyLayer7' 
+\i (00:00:07) alias F10 plctools 
+\i (00:00:07) alias F12 'property edit' 
+\i (00:00:07) alias SF2 'savelayer MyLayer1' 
+\i (00:00:07) alias SF3 'savelayer MyLayer2' 
+\i (00:00:07) alias SF4 'savelayer MyLayer3' 
+\i (00:00:07) alias SF5 'savelayer MyLayer4' 
+\i (00:00:07) alias SF6 'savelayer MyLayer5' 
+\i (00:00:07) alias SF7 'savelayer MyLayer6' 
+\i (00:00:07) alias SF8 'savelayer MyLayer7' 
+\i (00:00:07) alias SF11 fanoutbypackage 
+\i (00:00:07) alias CF11 packagetofanout 
+\i (00:00:07) alias CF12 'identify nets' 
+\i (00:00:07) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:00:07) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:00:07) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:00:07) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:00:07) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:00:07) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:00:07) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:00:07) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:00:07) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:00:07) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:00:07) set GLOBAL = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:07) set ALIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib 
+\i (00:00:07) set COMPLIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib 
+\i (00:00:07) set GLOBALPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:07) set ADSPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:07) set FORMPATH = . C:/Cadence/SPB_Data/pcbenv/forms C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/forms 
+\i (00:00:07) set MENUPATH = . C:/Cadence/SPB_Data/pcbenv/cuimenus C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/cuimenus 
+\i (00:00:07) set UNITS = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/units.dat 
+\i (00:00:07) set BMPPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/icons 
+\i (00:00:07) set RESOURCE = resource 
+\i (00:00:07) set PRFEDITPATH = . configure/prfedit C:/Cadence/SPB_Data/pcbenv/configure/prfedit C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/configure/prfedit 
+\i (00:00:07) set materialpath = 'C:`\Cadence`\Cadence_SPB_17.2-2016`\share`\pcb`\text' 
+\i (00:00:07) set SIGNAL_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal 
+\i (00:00:07) set SIGNAL_OPTLIB_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib 
+\i (00:00:07) set SIGNOISEPATH = . .. C:/Cadence/SPB_Data/pcbenv C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:07) set SCFPATH = . scfs .. ../scfs 
+\i (00:00:07) set THERMAX_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/thermal 
+\i (00:00:07) set VECTORFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:07) set ANSIFONT = ansifont0 
+\i (00:00:07) set KANJIFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/fonts/kanji 
+\i (00:00:07) set KANJIFONT1 = kanjifont1 
+\i (00:00:07) set KANJIFONT2 = kanjifont2 
+\i (00:00:07) set IMAGEPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/examples/image 
+\i (00:00:07) set ads_boardrevs = 1 
+\i (00:00:07) set ads_logrevs = 1 
+\i (00:00:07) set ads_textrevs = 1 
+\i (00:00:07) set display_backingstore = on 
+\i (00:00:07) set display_shapefill_analysis 1 
+\i (00:00:07) set display_nocolor_dynamics 
+\i (00:00:07) set noshow_current_selections 
+\i (00:00:07) set slide_arcs 
+\i (00:00:07) set readme_never 
+\i (00:00:07) set form_oldreturn 
+\i (00:00:07) set display_drcfill 
+\i (00:00:07) set find_nongui_reject 
+\i (00:00:07) set noformscriptbutton 
+\i (00:00:07) set plot_vectorize_text 
+\i (00:00:07) set display_nohilitefont 
+\i (00:00:07) set mouse_drag_delay = 150 
+\i (00:00:07) set drc_diff_pair_primary_separation_tolerance 0 mil:2 mil 
+\i (00:00:07) set no_dragpopup 
+\i (00:00:07) set pre_12.0_delay_rule 
+\i (00:00:07) set noplotmargins 
+\i (00:00:07) set autosave_time = 10 
+\i (00:00:07) set autosave 
+\i (00:00:07) unset color_nofilmrecord 
+\i (00:00:07) unset wv_voltage_nets 
+\i (00:00:07) unset find_reject_graphics 
+\i (00:00:07) set find_nongui_reject = Always 
+\i (00:00:07) unset color_lastgroup 
+\i (00:00:07) set modulepath = . C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+\i (00:00:07) unset bug_solaris_thin_lines 
+\i (00:00:07) set no_dynamic_zoom 
+\i (00:00:07) set display_nohilitefont 
+\i (00:00:07) unset display_shapefill 
+\i (00:00:07) unset bug_solaris_hlt_lines 
+\i (00:00:07) unset display_nolinewidth 
+\i (00:00:07) unset display_nodynamicarcwidth 
+\i (00:00:07) set no_zoom_to_object 
+\i (00:00:07) set display_backingstore = on 
+\i (00:00:07) unset display_manual_colorpriority 
+\i (00:00:07) unset display_thintext 
+\i (00:00:07) set display_drcfill 
+\i (00:00:07) unset display_nocolor_dynamics 
+\i (00:00:07) unset display_noskeletal_draw 
+\i (00:00:07) set display_shapefill_analysis = 100 
+\i (00:00:07) set allegro_dynam_timing_fixedpos 
+\i (00:00:07) set allegro_dynam_timing = off 
+\i (00:00:07) unset allegro_etch_length_on 
+\i (00:00:07) set acon_oldhlt = all 
+\i (00:00:07) unset acon_route_on_active_subclass 
+\i (00:00:07) unset pcb_autoroam 
+\i (00:00:07) set roaminc = 16 
+\i (00:00:07) unset highlight_shape_net 
+\i (00:00:07) set new_shape_fill_nt 
+\i (00:00:07) unset old_shape_fill_style 
+\i (00:00:07) unset shape_drag_move 
+\i (00:00:07) set no_shape_fill 
+\i (00:00:07) unset av_endcapstyle 
+\i (00:00:07) unset telskill 
+\i (00:00:07) unset skill_old_ilinit 
+\i (00:00:07) unset noformscriptbutton 
+\i (00:00:07) unset pcb_cursor_angle 
+\i (00:00:07) unset film_nosort 
+\i (00:00:07) unset wv_voltage_nets 
+\i (00:00:07) set find_nongui_reject = Always 
+\i (00:00:07) unset control_auto_raise 
+\i (00:00:07) unset display_thintext 
+\i (00:00:07) set no_zoom_to_object 
+\i (00:00:07) unset display_nodynamicarcwidth 
+\i (00:00:07) set display_nohilitefont 
+\i (00:00:07) unset display_nolinewidth 
+\i (00:00:07) set no_dynamic_zoom 
+\i (00:00:07) unset display_nocolor_dynamics 
+\i (00:00:07) set display_backingstore = on 
+\i (00:00:07) unset display_manual_colorpriority 
+\i (00:00:07) unset allegro_etch_length_on 
+\i (00:00:07) unset acon_restore_space_mode 
+\i (00:00:07) unset no_show_dynam_elec_errors 
+\i (00:00:07) set slide_no_snap 
+\i (00:00:07) unset bubble_no_display_invisible 
+\i (00:00:07) set allegro_dynam_timing = on 
+\i (00:00:07) set acon_no_impedance_width 
+\i (00:00:07) unset ratt_off_if_connected 
+\i (00:00:07) unset acon_route_on_active_subclass 
+\i (00:00:07) unset bubble_shove_bondpads 
+\i (00:00:07) unset allegro_dynam_timing_fixedpos 
+\i (00:00:07) set form_oldreturn 
+\i (00:00:07) unset draft_retain_class_subclass 
+\i (00:00:07) set noswapripup 
+\i (00:00:07) set logic_edit_enabled 
+\i (00:00:07) unset highlight_shape_net 
+\i (00:00:07) set new_shape_fill_nt 
+\i (00:00:07) unset old_shape_fill_style 
+\i (00:00:07) unset no_shape_fill 
+\i (00:00:07) trapsize 744483
+\i (00:00:07) button wheel_up zoom in 1 
+\i (00:00:07) button wheel_down zoom out 1 
+\i (00:00:07) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:00:07) set no_dragpopup 
+\i (00:00:07) generaledit 
+\i (00:00:09) trapsize 30070
+\i (00:00:09) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
+\i (00:00:09) opencd E:/PCBLib/ORCAD/LIB/Psm/TO-252-2.dra 
+\t (00:00:09) Opening existing design...
+\i (00:00:09) trapsize 1503
+\i (00:00:10) trapsize 1537
+\i (00:00:10) trapsize 1503
+\i (00:00:10) trapsize 1973
+\d (00:00:10) Design opened: E:/PCBLib/ORCAD/LIB/Psm/TO-252-2.dra
+\i (00:00:10) trapsize 2346
+\i (00:00:10) yepdesignermenuload 
+\i (00:00:11) replay D:/YepEda/YepChecker/env.scr 
+\i (00:00:11) alias ~E move 
+\i (00:00:11) funckey e move 
+\i (00:00:11) funckey E move 
+\i (00:00:11) alias ~R angle 90 
+\i (00:00:11) funckey ' ' angle 90 
+\i (00:00:11) alias ~F mirror 
+\i (00:00:11) funckey f mirror 
+\i (00:00:11) funckey F mirror 
+\i (00:00:11) alias ~N new 
+\i (00:00:11) alias ~O open 
+\i (00:00:11) alias ~S save 
+\w (00:00:11) alias ~S is marked read-only, not changed.
+\i (00:00:11) alias ~Z oops 
+\w (00:00:11) alias ~Z is marked read-only, not changed.
+\i (00:00:11) funckey z oops 
+\i (00:00:11) funckey Z oops 
+\i (00:00:11) alias ~A add connect 
+\i (00:00:11) funckey a add connect 
+\i (00:00:11) funckey A add connect 
+\i (00:00:11) alias ~Q slide 
+\i (00:00:11) funckey q slide 
+\i (00:00:11) funckey Q slide 
+\i (00:00:11) alias ~D reject 
+\i (00:00:11) alias ~W change 
+\i (00:00:11) funckey w change 
+\i (00:00:11) funckey W change 
+\i (00:00:11) alias ~@ toggle 
+\i (00:00:11) alias ~AC color 
+\i (00:00:11) alias ~G status 
+\i (00:00:11) alias ~AG status 
+\i (00:00:11) alias ~SQ 'slide;pop cut' 
+\i (00:00:11) alias ~SA 'pop singletrace' 
+\i (00:00:11) alias ~ASG 'drawing param' 
+\i (00:00:11) alias CInsert 'show measure' 
+\i (00:00:11) alias Pgup Zoom In 
+\i (00:00:11) alias Pgdown Zoom Out 
+\i (00:00:11) alias Esc Cancel 
+\i (00:00:11) alias Del Delete 
+\i (00:00:11) alias CDel 'delete;pop cut' 
+\i (00:00:11) alias SDel clinescut 
+\i (00:00:11) alias Home hilight 
+\i (00:00:11) alias End dehilight 
+\i (00:00:11) alias Insert show element 
+\i (00:00:11) alias CHome 'rats net' 
+\i (00:00:11) alias CEnd 'unrats net' 
+\i (00:00:11) alias Up iy 1 
+\i (00:00:11) alias Down iy -1 
+\i (00:00:11) alias Right ix 1 
+\i (00:00:11) alias Left ix -1 
+\i (00:00:11) alias x pick 
+\i (00:00:11) alias X pick 
+\i (00:00:11) alias y pick 0 
+\i (00:00:11) alias Y pick 0 
+\i (00:00:11) alias ix ipick 
+\i (00:00:11) alias IX ipick 
+\i (00:00:11) alias iy ipick 0 
+\i (00:00:11) alias IY ipick 0 
+\i (00:00:11) alias ip polar 
+\i (00:00:11) alias env enved 
+\i (00:00:11) alias g 'define grid' 
+\i (00:00:11) funckey 1 move 
+\i (00:00:11) funckey 2 angle 90 
+\i (00:00:11) funckey 3 mirror 
+\i (00:00:11) alias ~S1 autoplc 
+\i (00:00:11) alias CAF1 replay f1 
+\i (00:00:11) alias CAF2 replay f2 
+\i (00:00:11) alias CAF3 replay f3 
+\i (00:00:11) alias CAF4 replay f4 
+\i (00:00:11) alias CAF5 replay f5 
+\i (00:00:11) alias CAF6 replay f6 
+\i (00:00:11) alias CAF7 replay f7 
+\i (00:00:11) alias CAF8 replay f8 
+\i (00:00:11) alias CAF9 replay f9 
+\i (00:00:11) alias CAF10 replay f10 
+\i (00:00:11) alias CAF11 replay f11 
+\i (00:00:11) alias CAF12 replay f12 
+\i (00:00:11) alias F2 'setlayer MyLayer1' 
+\i (00:00:11) alias F3 'setlayer MyLayer2' 
+\i (00:00:11) alias F4 'setlayer MyLayer3' 
+\i (00:00:11) alias F5 'setlayer MyLayer4' 
+\i (00:00:11) alias F6 'setlayer MyLayer5' 
+\i (00:00:11) alias F7 'setlayer MyLayer6' 
+\i (00:00:11) alias F8 'setlayer MyLayer7' 
+\i (00:00:11) alias F10 plctools 
+\i (00:00:11) alias F12 'property edit' 
+\i (00:00:11) alias SF2 'savelayer MyLayer1' 
+\i (00:00:11) alias SF3 'savelayer MyLayer2' 
+\i (00:00:11) alias SF4 'savelayer MyLayer3' 
+\i (00:00:11) alias SF5 'savelayer MyLayer4' 
+\i (00:00:11) alias SF6 'savelayer MyLayer5' 
+\i (00:00:11) alias SF7 'savelayer MyLayer6' 
+\i (00:00:11) alias SF8 'savelayer MyLayer7' 
+\i (00:00:11) alias SF11 fanoutbypackage 
+\i (00:00:11) alias CF11 packagetofanout 
+\i (00:00:11) alias CF12 'identify nets' 
+\i (00:00:11) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:00:11) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:00:11) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:00:11) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:00:11) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:00:11) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:00:11) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:00:11) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:00:11) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:00:11) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:00:11) set GLOBAL = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:11) set ALIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib 
+\i (00:00:11) set COMPLIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib 
+\i (00:00:11) set GLOBALPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:11) set ADSPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:11) set FORMPATH = . C:/Cadence/SPB_Data/pcbenv/forms C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/forms 
+\i (00:00:11) set MENUPATH = . C:/Cadence/SPB_Data/pcbenv/cuimenus C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/cuimenus 
+\i (00:00:11) set UNITS = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/units.dat 
+\i (00:00:11) set BMPPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/icons 
+\i (00:00:11) set RESOURCE = resource 
+\i (00:00:11) set PRFEDITPATH = . configure/prfedit C:/Cadence/SPB_Data/pcbenv/configure/prfedit C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/configure/prfedit 
+\i (00:00:11) set materialpath = 'C:`\Cadence`\Cadence_SPB_17.2-2016`\share`\pcb`\text' 
+\i (00:00:11) set SIGNAL_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal 
+\i (00:00:11) set SIGNAL_OPTLIB_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib 
+\i (00:00:11) set SIGNOISEPATH = . .. C:/Cadence/SPB_Data/pcbenv C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:11) set SCFPATH = . scfs .. ../scfs 
+\i (00:00:11) set THERMAX_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/thermal 
+\i (00:00:11) set VECTORFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
+\i (00:00:11) set ANSIFONT = ansifont0 
+\i (00:00:11) set KANJIFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/fonts/kanji 
+\i (00:00:11) set KANJIFONT1 = kanjifont1 
+\i (00:00:11) set KANJIFONT2 = kanjifont2 
+\i (00:00:11) set IMAGEPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/examples/image 
+\i (00:00:11) set ads_boardrevs = 1 
+\i (00:00:11) set ads_logrevs = 1 
+\i (00:00:11) set ads_textrevs = 1 
+\i (00:00:11) set display_backingstore = on 
+\i (00:00:11) set display_shapefill_analysis 1 
+\i (00:00:11) set display_nocolor_dynamics 
+\i (00:00:11) set noshow_current_selections 
+\i (00:00:11) set slide_arcs 
+\i (00:00:11) set readme_never 
+\i (00:00:11) set form_oldreturn 
+\i (00:00:11) set display_drcfill 
+\i (00:00:11) set find_nongui_reject 
+\i (00:00:11) set noformscriptbutton 
+\i (00:00:11) set plot_vectorize_text 
+\i (00:00:11) set display_nohilitefont 
+\i (00:00:11) set mouse_drag_delay = 150 
+\i (00:00:11) set drc_diff_pair_primary_separation_tolerance 0 mil:2 mil 
+\i (00:00:11) set no_dragpopup 
+\i (00:00:11) set pre_12.0_delay_rule 
+\i (00:00:11) set noplotmargins 
+\i (00:00:11) set autosave_time = 10 
+\i (00:00:11) set autosave 
+\i (00:00:11) unset color_nofilmrecord 
+\i (00:00:11) unset wv_voltage_nets 
+\i (00:00:11) unset find_reject_graphics 
+\i (00:00:11) set find_nongui_reject = Always 
+\i (00:00:11) unset color_lastgroup 
+\i (00:00:11) set modulepath = . C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+\i (00:00:11) unset bug_solaris_thin_lines 
+\i (00:00:11) set no_dynamic_zoom 
+\i (00:00:11) set display_nohilitefont 
+\i (00:00:11) unset display_shapefill 
+\i (00:00:11) unset bug_solaris_hlt_lines 
+\i (00:00:11) unset display_nolinewidth 
+\i (00:00:11) unset display_nodynamicarcwidth 
+\i (00:00:11) set no_zoom_to_object 
+\i (00:00:11) set display_backingstore = on 
+\i (00:00:11) unset display_manual_colorpriority 
+\i (00:00:11) unset display_thintext 
+\i (00:00:11) set display_drcfill 
+\i (00:00:11) unset display_nocolor_dynamics 
+\i (00:00:11) unset display_noskeletal_draw 
+\i (00:00:11) set display_shapefill_analysis = 100 
+\i (00:00:11) set allegro_dynam_timing_fixedpos 
+\i (00:00:11) set allegro_dynam_timing = off 
+\i (00:00:11) unset allegro_etch_length_on 
+\i (00:00:11) set acon_oldhlt = all 
+\i (00:00:11) unset acon_route_on_active_subclass 
+\i (00:00:11) unset pcb_autoroam 
+\i (00:00:11) set roaminc = 16 
+\i (00:00:11) unset highlight_shape_net 
+\i (00:00:11) set new_shape_fill_nt 
+\i (00:00:11) unset old_shape_fill_style 
+\i (00:00:11) unset shape_drag_move 
+\i (00:00:11) set no_shape_fill 
+\i (00:00:11) unset av_endcapstyle 
+\i (00:00:11) unset telskill 
+\i (00:00:11) unset skill_old_ilinit 
+\i (00:00:11) unset noformscriptbutton 
+\i (00:00:11) unset pcb_cursor_angle 
+\i (00:00:11) unset film_nosort 
+\i (00:00:11) unset wv_voltage_nets 
+\i (00:00:11) set find_nongui_reject = Always 
+\i (00:00:11) unset control_auto_raise 
+\i (00:00:11) unset display_thintext 
+\i (00:00:11) set no_zoom_to_object 
+\i (00:00:11) unset display_nodynamicarcwidth 
+\i (00:00:11) set display_nohilitefont 
+\i (00:00:11) unset display_nolinewidth 
+\i (00:00:11) set no_dynamic_zoom 
+\i (00:00:11) unset display_nocolor_dynamics 
+\i (00:00:11) set display_backingstore = on 
+\i (00:00:11) unset display_manual_colorpriority 
+\i (00:00:11) unset allegro_etch_length_on 
+\i (00:00:11) unset acon_restore_space_mode 
+\i (00:00:11) unset no_show_dynam_elec_errors 
+\i (00:00:11) set slide_no_snap 
+\i (00:00:11) unset bubble_no_display_invisible 
+\i (00:00:11) set allegro_dynam_timing = on 
+\i (00:00:11) set acon_no_impedance_width 
+\i (00:00:11) unset ratt_off_if_connected 
+\i (00:00:11) unset acon_route_on_active_subclass 
+\i (00:00:11) unset bubble_shove_bondpads 
+\i (00:00:11) unset allegro_dynam_timing_fixedpos 
+\i (00:00:11) set form_oldreturn 
+\i (00:00:11) unset draft_retain_class_subclass 
+\i (00:00:11) set noswapripup 
+\i (00:00:11) set logic_edit_enabled 
+\i (00:00:11) unset highlight_shape_net 
+\i (00:00:11) set new_shape_fill_nt 
+\i (00:00:11) unset old_shape_fill_style 
+\i (00:00:11) unset no_shape_fill 
+\i (00:00:11) trapsize 2346
+\i (00:00:11) button wheel_up zoom in 1 
+\i (00:00:11) button wheel_down zoom out 1 
+\i (00:00:11) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:00:11) set no_dragpopup 
+\i (00:00:11) generaledit 
+\i (00:00:16) param in 
+\i (00:00:18) setwindow form.parm_in
+\i (00:00:18) FORM parm_in libbrowse  
+\i (00:00:19) fillin "AllegroEnvSet"
+\i (00:00:21) FORM parm_in execute  
+\t (00:00:21) Starting Importing parameter file...
+\t (00:00:21) Opening existing design...
+\i (00:00:21) setwindow pcb
+\i (00:00:21) trapsize 2346
+\i (00:00:21) trapsize 2410
+\i (00:00:21) trapsize 2346
+\i (00:00:21) trapsize 2494
+\t (00:00:23) Parameter file read completed.
+\i (00:00:24) setwindow form.parm_in
+\i (00:00:24) FORM parm_in cancel  
+\i (00:00:24) setwindow pcb
+\i (00:00:24) generaledit 
+\i (00:00:25) pick grid 2.5102 2.5637
+\t (00:00:25) last pick:  2.5000 2.6000
+\i (00:00:26) pick grid -5.0207 7.3516
+\t (00:00:26) last pick:  -5.0000 7.4000
+\i (00:00:35) add pin 
+\t (00:00:35) Using 'TSP_32MIL.pad'.
+\i (00:00:37) setwindow form.mini
+\i (00:00:37) FORM mini pad_browse  
+\i (00:00:46) fillin "Sm_R1d2x2d2"
+\t (00:00:46) Using 'SM_R1D2X2D2.pad'.
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom in 2.2109 -2.1244
+\i (00:00:47) trapsize 1247
+\i (00:00:48) prepopup 1.6872 -0.4536
+\i (00:00:49) rotate 
+\t (00:00:49) Spin the element(s).
+\i (00:00:53) setwindow form.mini
+\i (00:00:53) FORM mini rotate_pin 90.000 
+\t (00:00:53) Using 'SM_R1D2X2D2.pad'.
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 1 
+\i (00:00:55) setwindow pcb
+\i (00:00:55) zoom in 0.8394 0.5189
+\i (00:00:55) trapsize 623
+\i (00:01:26) setwindow form.mini
+\i (00:01:26) FORM mini y_count 2 
+\i (00:01:36) FORM mini y_spacing 4.7200 
+\i (00:01:37) FORM mini text_name Pin 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) pick 2.36 0 
+\t (00:02:02) last pick:  2.3600 0.0000
+\t (00:02:02) Using 'SM_R1D2X2D2.pad'.
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 2.3854 1.0550
+\i (00:02:04) trapsize 1247
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 2.8842 1.5289
+\i (00:02:04) trapsize 2494
+\i (00:02:05) zoom in 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom in 4.5301 -0.4661
+\i (00:02:05) trapsize 1247
+\i (00:02:07) prepopup 4.6797 0.0326
+\i (00:02:10) oops 
+\t (00:02:10) Using 'SM_R1D2X2D2.pad'.
+\i (00:02:18) pick 0 2.36 
+\t (00:02:18) last pick:  0.0000 2.3600
+\t (00:02:18) Using 'SM_R1D2X2D2.pad'.
+\i (00:02:21) prepopup 3.3581 -1.6381
+\i (00:02:26) done 
+\t (00:02:26) Exiting from Add Pin.
+\i (00:02:26) generaledit 
+\i (00:02:27) zoom in 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom in -0.5320 -1.0646
+\i (00:02:27) trapsize 623
+\i (00:02:27) zoom out 1 
+\i (00:02:27) setwindow pcb
+\i (00:02:27) zoom out -0.3948 -0.9274
+\i (00:02:27) trapsize 1247
+\i (00:02:28) roam start
+\i (00:02:28) roam x -16
+\i (00:02:28) roam x -16
+\i (00:02:28) roam x -16
+\i (00:02:28) roam x 16
+\i (00:02:28) roam x 64
+\i (00:02:28) roam y 16
+\i (00:02:28) roam x 48
+\i (00:02:28) roam x 32
+\i (00:02:28) roam y 16
+\i (00:02:28) roam x 48
+\i (00:02:29) roam x -80
+\i (00:02:29) roam x -80
+\i (00:02:29) roam x -48
+\i (00:02:29) roam x -48
+\i (00:02:29) roam x -80
+\i (00:02:29) roam x -64
+\i (00:02:29) roam x -16
+\i (00:02:29) roam end
+\i (00:02:29) zoom in 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom in 1.2384 -1.4049
+\i (00:02:29) trapsize 623
+\i (00:02:30) zoom in 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom in 1.4130 -1.5420
+\i (00:02:30) trapsize 312
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 1.3133 -1.5483
+\i (00:02:30) trapsize 623
+\i (00:02:30) zoom out 1 
+\i (00:02:30) setwindow pcb
+\i (00:02:30) zoom out 1.3133 -1.5482
+\i (00:02:30) trapsize 1247
+\i (00:02:31) roam start
+\i (00:02:31) roam y -16
+\i (00:02:31) roam x -32
+\i (00:02:31) roam y -96
+\i (00:02:31) roam y -32
+\i (00:02:32) roam end
+\i (00:02:32) zoom in 1 
+\i (00:02:32) setwindow pcb
+\i (00:02:32) zoom in -0.5333 0.9878
+\i (00:02:32) trapsize 623
+\i (00:02:32) zoom in 1 
+\i (00:02:33) setwindow pcb
+\i (00:02:33) zoom in -0.5333 1.0003
+\i (00:02:33) trapsize 312
+\i (00:02:34) zoom out 1 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) zoom out -0.5208 1.6986
+\i (00:02:34) trapsize 623
+\i (00:03:02) add pin 
+\t (00:03:02) Using 'SM_R1D2X2D2.pad'.
+\i (00:03:03) setwindow form.mini
+\i (00:03:03) FORM mini pad_browse  
+\i (00:03:12) fillin "Sm_R6d0x6d5"
+\t (00:03:12) Using 'SM_R6D0X6D5.pad'.
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom out 1 
+\i (00:03:26) setwindow pcb
+\i (00:03:26) zoom out -4.4607 0.5888
+\i (00:03:26) trapsize 1247
+\i (00:03:32) pick -7 '0`\' 
+\t (00:03:32) last pick:  -7.0000 0.0000
+\t (00:03:32) Using 'SM_R6D0X6D5.pad'.
+\i (00:03:34) zoom out 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out 2.1723 1.8606
+\i (00:03:34) trapsize 2494
+\i (00:03:35) prepopup 2.2222 1.9604
+\i (00:03:35) done 
+\t (00:03:35) Exiting from Add Pin.
+\i (00:03:36) generaledit 
+\i (00:03:37) delete 
+\i (00:03:38) pick grid -6.6552 -6.5180
+\t (00:03:38) last pick:  -6.7000 -6.5000
+\t (00:03:38) Pin "Sm_R6d0x6d5, 4"
+\i (00:03:38) pick grid 6.1622 -6.1689
+\t (00:03:38) last pick:  6.2000 -6.2000
+\i (00:03:39) zoom in 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom in 1.6736 -1.6305
+\i (00:03:39) trapsize 1247
+\i (00:03:51) text edit 
+\i (00:03:52) zoom in 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom in 0.6513 -2.3536
+\i (00:03:52) trapsize 623
+\i (00:03:52) pick grid 0.0279 -2.3785
+\t (00:03:52) last pick:  0.0000 -2.4000
+\i (00:03:55) setwindow pcb
+\i (00:03:55) roam start
+\i (00:03:55) roam x -32
+\i (00:03:55) roam x -368
+\i (00:03:55) roam y -48
+\i (00:03:55) roam x -176
+\i (00:03:55) roam y -16
+\i (00:03:55) roam x -112
+\i (00:03:55) roam y -48
+\i (00:03:55) roam x -48
+\i (00:03:55) roam x -96
+\i (00:03:55) roam y -32
+\i (00:03:55) roam end
+\i (00:03:56) pick grid -7.3035 -0.0096
+\t (00:03:56) last pick:  -7.3000 0.0000
+\i (00:03:56) setwindow pcb
+\i (00:03:56) pick 0.0279 -2.3785
+\t (00:03:56) Pick text to edit.
+\i (00:03:57) setwindow pcb
+\i (00:03:57) roam start
+\i (00:03:57) roam x 32
+\i (00:03:57) roam x 352
+\i (00:03:57) roam y -80
+\i (00:03:57) roam x 128
+\i (00:03:57) roam y -48
+\i (00:03:57) roam x 96
+\i (00:03:57) roam y -32
+\i (00:03:57) roam x 16
+\i (00:03:57) roam x 16
+\i (00:03:57) roam y -48
+\i (00:03:57) roam x -48
+\i (00:03:57) roam y -32
+\i (00:03:57) roam end
+\i (00:03:58) pick grid 0.0029 2.4840
+\t (00:03:58) last pick:  0.0000 2.5000
+\i (00:03:58) setwindow pcb
+\i (00:03:58) pick -7.3035 -0.0096
+\t (00:03:58) Pick text to edit.
+\i (00:03:59) setwindow pcb
+\i (00:03:59) pick grid 1.1873 1.5364
+\t (00:03:59) last pick:  1.2000 1.5000
+\i (00:03:59) setwindow pcb
+\i (00:03:59) pick 0.0029 2.4840
+\t (00:03:59) Pick text to edit.
+\e (00:03:59) ERROR(SPMHA1-441): Text not found.
+\i (00:04:00) setwindow pcb
+\i (00:04:00) prepopup 1.1873 1.5364
+\i (00:04:01) done 
+\i (00:04:01) generaledit 
+\i (00:04:01) zoom out 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom out 0.8258 2.0726
+\i (00:04:01) trapsize 1247
+\i (00:04:01) zoom out 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom out 0.8008 2.1723
+\i (00:04:01) trapsize 2494
+\i (00:04:01) zoom in 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom in 0.6512 0.9754
+\i (00:04:01) trapsize 1247
+\i (00:04:02) roam start
+\i (00:04:02) roam x 16
+\i (00:04:02) roam y 64
+\i (00:04:02) roam y 16
+\i (00:04:02) roam end
+\i (00:04:42) add line 
+\i (00:04:49) setwindow form.mini
+\i (00:04:49) FORM mini subclass SILKSCREEN_TOP 
+\i (00:04:54) FORM mini line_width 0.1000 
+\i (00:05:09) setwindow pcb
+\i (00:05:09) zoom in 1 
+\i (00:05:09) setwindow pcb
+\i (00:05:09) zoom in -11.7797 4.1547
+\i (00:05:09) trapsize 623
+\i (00:05:12) pick grid -10.7698 3.5188
+\t (00:05:12) last pick:  -10.8000 3.5000
+\i (00:05:13) prepopup -7.3535 3.5438
+\i (00:05:13) oops 
+\i (00:06:18) pick -10.7 3.6 
+\t (00:06:18) last pick:  -10.7000 3.6000
+\i (00:06:20) roam start
+\i (00:06:21) roam x 64
+\i (00:06:21) roam x 32
+\i (00:06:21) roam y 16
+\i (00:06:21) roam x 16
+\i (00:06:21) roam x 32
+\i (00:06:21) roam end
+\i (00:06:49) ipick 8 
+\t (00:06:49) last pick:  -2.7000 3.6000
+\i (00:06:51) roam start
+\i (00:06:51) roam y 16
+\i (00:06:51) roam y 16
+\i (00:06:51) roam y 16
+\i (00:06:51) roam y 48
+\i (00:06:51) roam x -16
+\i (00:06:51) roam y 48
+\i (00:06:51) roam x -16
+\i (00:06:51) roam y 48
+\i (00:06:51) roam x -16
+\i (00:06:51) roam y 32
+\i (00:06:51) roam y 16
+\i (00:06:51) roam y 32
+\i (00:06:52) roam y 32
+\i (00:06:52) roam end
+\i (00:07:08) ipick 0 -7.2 
+\t (00:07:08) last pick:  -2.7000 -3.6000
+\i (00:07:11) ipick -8 
+\t (00:07:11) last pick:  -10.7000 -3.6000
+\i (00:07:17) ipick 0 7.2 
+\t (00:07:17) last pick:  -10.7000 3.6000
+\i (00:07:18) roam start
+\i (00:07:18) roam x -48
+\i (00:07:18) roam y -80
+\i (00:07:18) roam x -32
+\i (00:07:18) roam y -64
+\i (00:07:18) roam x -32
+\i (00:07:18) roam y -32
+\i (00:07:18) roam x -16
+\i (00:07:18) roam y -32
+\i (00:07:18) roam y -16
+\i (00:07:18) roam end
+\i (00:07:19) prepopup -4.7351 -0.1842
+\i (00:07:20) done 
+\i (00:07:20) generaledit 
+\i (00:07:20) zoom out 1 
+\i (00:07:20) setwindow pcb
+\i (00:07:20) zoom out -5.1964 -0.4336
+\i (00:07:20) trapsize 1247
+\i (00:07:20) roam start
+\i (00:07:20) roam x 16
+\i (00:07:21) roam x 80
+\i (00:07:21) roam y 16
+\i (00:07:21) roam x 32
+\i (00:07:21) roam x 32
+\i (00:07:21) roam y 16
+\i (00:07:21) roam x 64
+\i (00:07:21) roam x 32
+\i (00:07:21) roam end
+\i (00:07:22) zoom in 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom in -0.6580 -1.8051
+\i (00:07:22) trapsize 623
+\i (00:07:24) add line 
+\i (00:07:29) pick grid -2.6778 2.9952
+\t (00:07:29) last pick:  -2.7000 3.0000
+\i (00:07:33) pick grid -1.6429 2.9827
+\t (00:07:33) last pick:  -1.6000 3.0000
+\i (00:07:35) pick grid -1.6180 1.6611
+\t (00:07:35) last pick:  -1.6000 1.7000
+\i (00:07:37) pick grid -2.7277 1.6611
+\t (00:07:37) last pick:  -2.7000 1.7000
+\i (00:07:38) prepopup -2.6903 1.6736
+\i (00:07:38) done 
+\i (00:07:38) generaledit 
+\i (00:07:39) drag_start grid -1.2315 1.3494
+\i (00:07:40) drag_stop -2.3786 3.2945
+\i (00:07:44) copy 
+\t (00:07:44) Select the element(s) to copy.
+\i (00:07:46) drag_start grid -1.7178 1.2372
+\i (00:07:46) drag_stop -2.2290 2.8955
+\i (00:07:47) setwindow form.find
+\i (00:07:47) FORM find all_off  
+\i (00:07:48) FORM find other_segs YES 
+\i (00:07:50) setwindow pcb
+\i (00:07:50) drag_start grid -1.3312 1.4367
+\i (00:07:51) drag_stop -2.3412 3.3443
+\i (00:07:52) drag_start grid -1.2814 1.6362
+\i (00:07:53) drag_stop grid -2.0918 3.1199
+\i (00:07:57) pick grid -2.0669 -1.6430
+\t (00:07:57) last pick:  -2.1000 -1.6000
+\i (00:07:59) prepopup 2.2222 -0.4335
+\i (00:08:00) done 
+\i (00:08:00) generaledit 
+\i (00:08:08) zoom out 1 
+\i (00:08:08) setwindow pcb
+\i (00:08:08) zoom out 0.0153 -0.2091
+\i (00:08:08) trapsize 1247
+\i (00:08:09) zoom in 1 
+\i (00:08:09) setwindow pcb
+\i (00:08:09) zoom in -1.0569 -3.9247
+\i (00:08:09) trapsize 623
+\i (00:08:14) shape add circle 
+\i (00:08:21) pick grid -1.8549 -3.6005
+\t (00:08:21) last pick:  -1.9000 -3.6000
+\i (00:08:24) pick grid -1.4434 -3.7626
+\t (00:08:24) last pick:  -1.4000 -3.8000
+\i (00:08:29) prepopup -1.3811 -3.7377
+\i (00:08:29) oops 
+\t (00:08:29) last pick:  -1.9000 -3.6000
+\i (00:08:34) pick grid -1.4310 -3.7003
+\t (00:08:34) last pick:  -1.4000 -3.7000
+\i (00:08:35) prepopup -1.6180 -3.6504
+\i (00:08:35) oops 
+\t (00:08:36) last pick:  -1.9000 -3.6000
+\i (00:08:39) pick grid -1.4559 -3.6504
+\t (00:08:39) last pick:  -1.5000 -3.7000
+\i (00:08:40) prepopup -1.1816 -3.7377
+\i (00:08:40) done 
+\i (00:08:41) generaledit 
+\i (00:08:41) zoom out 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom out -1.3561 -3.5880
+\i (00:08:41) trapsize 1247
+\i (00:08:41) zoom out 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom out -1.3562 -3.5881
+\i (00:08:41) trapsize 2494
+\i (00:08:41) zoom out 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom out -1.1567 -3.5881
+\i (00:08:41) trapsize 4987
+\i (00:08:41) zoom in 1 
+\i (00:08:41) setwindow pcb
+\i (00:08:41) zoom in 2.4342 -6.4807
+\i (00:08:41) trapsize 2494
+\i (00:08:42) zoom in 1 
+\i (00:08:42) setwindow pcb
+\i (00:08:42) zoom in 2.1849 -6.4807
+\i (00:08:42) trapsize 1247
+\i (00:08:43) roam start
+\i (00:08:43) roam x -48
+\i (00:08:43) roam x -32
+\i (00:08:44) roam end
+\i (00:08:54) zcopy shape 
+\t (00:08:54) Select cline, cline segment, shape, rectangle or closed polygon.
+   (00:08:54) Loading cmds.cxt 
+\i (00:08:57) setwindow form.mini
+\i (00:08:57) FORM mini class_name BOARD GEOMETRY 
+\i (00:09:00) FORM mini class_name PACKAGE GEOMETRY 
+\i (00:09:08) FORM mini subclass_name PLACE_BOUND_TOP 
+\i (00:09:11) setwindow pcb
+\i (00:09:11) pick -3.3012 -3.5880
+\t (00:09:11) last pick:  -3.3012 -3.5880
+\i (00:09:13) setwindow form.mini
+\i (00:09:13) FORM mini subclass_name ASSEMBLY_TOP 
+\i (00:09:16) FORM mini offset 0.2000 
+\i (00:09:17) setwindow pcb
+\i (00:09:17) pick -3.4010 -0.9946
+\t (00:09:17) last pick:  -3.4010 -0.9946
+\i (00:09:18) zoom in 1 
+\i (00:09:18) setwindow pcb
+\i (00:09:18) zoom in -3.0518 0.4766
+\i (00:09:18) trapsize 623
+\i (00:09:19) zoom out 1 
+\i (00:09:19) setwindow pcb
+\i (00:09:19) zoom out -2.6030 0.3270
+\i (00:09:19) trapsize 1247
+\i (00:09:19) prepopup -0.5831 -0.4460
+\i (00:09:20) pop Done 
+\i (00:09:20) generaledit 
+\i (00:09:20) zoom in 1 
+\i (00:09:20) setwindow pcb
+\i (00:09:20) zoom in -3.1515 -2.6155
+\i (00:09:20) trapsize 623
+\i (00:09:20) zoom in 1 
+\i (00:09:20) setwindow pcb
+\i (00:09:20) zoom in -3.3260 -2.7526
+\i (00:09:20) trapsize 312
+\i (00:09:21) zoom out 1 
+\i (00:09:21) setwindow pcb
+\i (00:09:21) zoom out -3.2637 -2.7401
+\i (00:09:21) trapsize 623
+\i (00:09:22) zoom out 1 
+\i (00:09:22) setwindow pcb
+\i (00:09:22) zoom out -1.7176 -2.7152
+\i (00:09:22) trapsize 1247
+\i (00:09:23) roam start
+\i (00:09:23) roam y -32
+\i (00:09:23) roam x 16
+\i (00:09:23) roam y -16
+\i (00:09:23) roam x -32
+\i (00:09:23) roam x -32
+\i (00:09:23) roam x 32
+\i (00:09:23) roam y 16
+\i (00:09:23) roam x 32
+\i (00:09:23) roam x 16
+\i (00:09:23) roam y 16
+\i (00:09:23) roam x 16
+\i (00:09:24) roam end
+\i (00:09:26) add text 
+\t (00:09:27) Pick text location.
+\i (00:09:29) setwindow form.mini
+\i (00:09:29) FORM mini class REF DES 
+\i (00:09:31) FORM mini subclass SILKSCREEN_TOP 
+\i (00:09:34) setwindow pcb
+\i (00:09:34) pick grid -8.4881 4.1796
+\t (00:09:34) last pick:  -8.5000 4.2000
+\t (00:09:34) Enter text string.
+\i (00:09:38) setwindow pcb
+\i (00:09:38) pick grid -8.3385 3.9802
+\t (00:09:38) last pick:  -8.3000 4.0000
+\i (00:09:38) setwindow pcb
+\i (00:09:38) pick -8.5000 4.2000
+\i (00:09:41) setwindow form.mini
+\i (00:09:41) FORM mini text_name Assembly 
+\i (00:09:43) FORM mini subclass DISPLAY_BOTTOM 
+\i (00:09:44) FORM mini subclass ASSEMBLY_TOP 
+\i (00:09:46) setwindow pcb
+\i (00:09:46) pick grid -8.2138 0.6387
+\t (00:09:46) last pick:  -8.2000 0.6000
+\t (00:09:46) Enter text string.
+\i (00:09:48) setwindow pcb
+\i (00:09:48) pick grid -4.8224 -1.1069
+\t (00:09:48) last pick:  -4.8000 -1.1000
+\i (00:09:48) setwindow pcb
+\i (00:09:48) pick -8.2000 0.6000
+\i (00:09:49) prepopup -5.8448 -0.3837
+\i (00:09:49) done 
+\i (00:09:49) generaledit 
+\i (00:09:50) zoom out 1 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom out -5.8448 -0.1842
+\i (00:09:50) trapsize 2494
+\i (00:09:50) zoom in 1 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom in -7.8896 5.1023
+\i (00:09:50) trapsize 1247
+\i (00:09:52) save 
+\i (00:09:54) fillin yes 
+\t (00:09:54) Symbol 'to-252-2.psm' created.
+\i (00:09:54) generaledit 
+\i (00:10:03) prmed 
+\i (00:10:05) setwindow form.prmedit
+\i (00:10:05) FORM prmedit text  
+\i (00:10:06) FORM prmedit text_setup_button  
+\i (00:10:19) setwindow form.textblock
+\i (00:10:19) FORM textblock cancel  
+\i (00:10:20) setwindow form.prmedit
+\i (00:10:20) FORM prmedit done  
+\i (00:10:20) setwindow pcb
+\i (00:10:20) trapsize 1281
+\i (00:10:21) trapsize 1247
+\i (00:10:21) generaledit 
+\i (00:10:25) save 
+\i (00:10:27) fillin yes 
+\t (00:10:27) Symbol 'to-252-2.psm' created.
+\i (00:10:27) generaledit 
+\i (00:10:29) exit 
+\t (00:10:29)     Journal end - Fri Sep 25 15:55:10 2020

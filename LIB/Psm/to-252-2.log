@@ -1,14 +1,23 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    Parameter File WRITE                                             )
+(    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : unnamed.brd                                   )
+(    Drawing          : TO-252-2.dra                                  )
 (    Software Version : 17.2S067                                      )
-(    Date/Time        : Fri Sep 25 15:44:29 2020                      )
+(    Date/Time        : Fri Sep 25 15:55:08 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-	Layout Name   : E:/PCBLib/ORCAD/LIB/Psm/unnamed.brd
-	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
+    Name      = to-252-2.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
 

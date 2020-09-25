@@ -2,15 +2,15 @@
 (                                                                     )
 (    Parameter File READ                                              )
 (                                                                     )
-(    Drawing          : DIP-5P-2D54.dra                               )
+(    Drawing          : TO-252-2.dra                                  )
 (    Software Version : 17.2S067                                      )
-(    Date/Time        : Fri Sep 04 16:45:02 2020                      )
+(    Date/Time        : Fri Sep 25 15:45:01 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
-	Layout Name   : E:/PCBLib/ORCAD/PAD/LIB/Lib/DIP-5P-2D54.dra
+	Layout Name   : E:/PCBLib/ORCAD/LIB/Psm/TO-252-2.dra
 
 Reading...parameter_header:
 Reading...db_common_type:
@@ -123,18 +123,18 @@ Reading...artwork_film:
 Reading...color_table_table:
 Reading...ColorParmType:
 Reading...text_size_table:
-Reading...gloss_dielectric_param_type:
-Reading...gloss_fat_parm_type:
-Reading...ministat_parm_type:
-Reading...drf_parm_type:
-Reading...probe_parm_type:
-Reading...dynfill_parm_type:
-Reading...ifp_parm_type:
-Reading...ats_parm_type:
-Reading...baf_parm_type:
-Reading...arn_param_type:
-Reading...av_parm_type:
 Reading...placement_parameter_type:
+Reading...av_parm_type:
+Reading...arn_param_type:
+Reading...baf_parm_type:
+Reading...ats_parm_type:
+Reading...ifp_parm_type:
+Reading...dynfill_parm_type:
+Reading...probe_parm_type:
+Reading...drf_parm_type:
+Reading...ministat_parm_type:
+Reading...gloss_fat_parm_type:
+Reading...gloss_dielectric_param_type:
 
 
 ..... Total number of errors: 0.
