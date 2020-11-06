@@ -1,245 +1,479 @@
-\t (00:00:01) allegro 17.2 S067 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Fri Sep 25 16:26:01 2020
-\t (00:00:01)         Host=DESKTOP-P5LE3FE User=master Pid=6368 CPUs=4
-\t (00:00:01) CmdLine= C:\Cadence\Cadence_SPB_17.2-2016\tools\bin\allegro.exe
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-   (00:00:01) *Error* load: can't access file - "./FanySkill/FanySkill_main.il"
-\t (00:00:03) Starting new design...
-\i (00:00:04) trapsize 744483
-\i (00:00:04) yepdesignermenuload 
-\i (00:00:05) replay D:/YepEda/YepChecker/env.scr 
-\i (00:00:05) alias ~E move 
-\i (00:00:05) funckey e move 
-\i (00:00:05) funckey E move 
-\i (00:00:05) alias ~R angle 90 
-\i (00:00:05) funckey ' ' angle 90 
-\i (00:00:05) alias ~F mirror 
-\i (00:00:05) funckey f mirror 
-\i (00:00:05) funckey F mirror 
-\i (00:00:05) alias ~N new 
-\i (00:00:05) alias ~O open 
-\i (00:00:05) alias ~S save 
-\w (00:00:05) alias ~S is marked read-only, not changed.
-\i (00:00:05) alias ~Z oops 
-\w (00:00:05) alias ~Z is marked read-only, not changed.
-\i (00:00:05) funckey z oops 
-\i (00:00:05) funckey Z oops 
-\i (00:00:05) alias ~A add connect 
-\i (00:00:05) funckey a add connect 
-\i (00:00:05) funckey A add connect 
-\i (00:00:05) alias ~Q slide 
-\i (00:00:05) funckey q slide 
-\i (00:00:05) funckey Q slide 
-\i (00:00:05) alias ~D reject 
-\i (00:00:05) alias ~W change 
-\i (00:00:05) funckey w change 
-\i (00:00:05) funckey W change 
-\i (00:00:05) alias ~@ toggle 
-\i (00:00:05) alias ~AC color 
-\i (00:00:05) alias ~G status 
-\i (00:00:05) alias ~AG status 
-\i (00:00:05) alias ~SQ 'slide;pop cut' 
-\i (00:00:05) alias ~SA 'pop singletrace' 
-\i (00:00:05) alias ~ASG 'drawing param' 
-\i (00:00:05) alias CInsert 'show measure' 
-\i (00:00:05) alias Pgup Zoom In 
-\i (00:00:05) alias Pgdown Zoom Out 
-\i (00:00:05) alias Esc Cancel 
-\i (00:00:05) alias Del Delete 
-\i (00:00:05) alias CDel 'delete;pop cut' 
-\i (00:00:05) alias SDel clinescut 
-\i (00:00:05) alias Home hilight 
-\i (00:00:05) alias End dehilight 
-\i (00:00:05) alias Insert show element 
-\i (00:00:05) alias CHome 'rats net' 
-\i (00:00:05) alias CEnd 'unrats net' 
-\i (00:00:05) alias Up iy 1 
-\i (00:00:05) alias Down iy -1 
-\i (00:00:05) alias Right ix 1 
-\i (00:00:05) alias Left ix -1 
-\i (00:00:05) alias x pick 
-\i (00:00:05) alias X pick 
-\i (00:00:05) alias y pick 0 
-\i (00:00:05) alias Y pick 0 
-\i (00:00:05) alias ix ipick 
-\i (00:00:05) alias IX ipick 
-\i (00:00:05) alias iy ipick 0 
-\i (00:00:05) alias IY ipick 0 
-\i (00:00:05) alias ip polar 
-\i (00:00:05) alias env enved 
-\i (00:00:05) alias g 'define grid' 
-\i (00:00:05) funckey 1 move 
-\i (00:00:05) funckey 2 angle 90 
-\i (00:00:05) funckey 3 mirror 
-\i (00:00:05) alias ~S1 autoplc 
-\i (00:00:05) alias CAF1 replay f1 
-\i (00:00:05) alias CAF2 replay f2 
-\i (00:00:05) alias CAF3 replay f3 
-\i (00:00:05) alias CAF4 replay f4 
-\i (00:00:05) alias CAF5 replay f5 
-\i (00:00:05) alias CAF6 replay f6 
-\i (00:00:05) alias CAF7 replay f7 
-\i (00:00:05) alias CAF8 replay f8 
-\i (00:00:05) alias CAF9 replay f9 
-\i (00:00:05) alias CAF10 replay f10 
-\i (00:00:05) alias CAF11 replay f11 
-\i (00:00:05) alias CAF12 replay f12 
-\i (00:00:05) alias F2 'setlayer MyLayer1' 
-\i (00:00:05) alias F3 'setlayer MyLayer2' 
-\i (00:00:05) alias F4 'setlayer MyLayer3' 
-\i (00:00:05) alias F5 'setlayer MyLayer4' 
-\i (00:00:05) alias F6 'setlayer MyLayer5' 
-\i (00:00:05) alias F7 'setlayer MyLayer6' 
-\i (00:00:05) alias F8 'setlayer MyLayer7' 
-\i (00:00:05) alias F10 plctools 
-\i (00:00:05) alias F12 'property edit' 
-\i (00:00:05) alias SF2 'savelayer MyLayer1' 
-\i (00:00:05) alias SF3 'savelayer MyLayer2' 
-\i (00:00:05) alias SF4 'savelayer MyLayer3' 
-\i (00:00:05) alias SF5 'savelayer MyLayer4' 
-\i (00:00:05) alias SF6 'savelayer MyLayer5' 
-\i (00:00:05) alias SF7 'savelayer MyLayer6' 
-\i (00:00:05) alias SF8 'savelayer MyLayer7' 
-\i (00:00:05) alias SF11 fanoutbypackage 
-\i (00:00:05) alias CF11 packagetofanout 
-\i (00:00:05) alias CF12 'identify nets' 
-\i (00:00:05) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
-\i (00:00:05) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
-\i (00:00:05) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
-\i (00:00:05) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
-\i (00:00:05) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
-\i (00:00:05) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
-\i (00:00:05) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
-\i (00:00:05) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
-\i (00:00:05) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
-\i (00:00:05) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
-\i (00:00:05) set GLOBAL = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
-\i (00:00:05) set ALIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib 
-\i (00:00:05) set COMPLIBPATH = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib 
-\i (00:00:05) set GLOBALPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
-\i (00:00:05) set ADSPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
-\i (00:00:05) set FORMPATH = . C:/Cadence/SPB_Data/pcbenv/forms C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/forms 
-\i (00:00:05) set MENUPATH = . C:/Cadence/SPB_Data/pcbenv/cuimenus C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/cuimenus 
-\i (00:00:05) set UNITS = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/units.dat 
-\i (00:00:05) set BMPPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/icons 
-\i (00:00:05) set RESOURCE = resource 
-\i (00:00:05) set PRFEDITPATH = . configure/prfedit C:/Cadence/SPB_Data/pcbenv/configure/prfedit C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/configure/prfedit 
-\i (00:00:05) set materialpath = 'C:`\Cadence`\Cadence_SPB_17.2-2016`\share`\pcb`\text' 
-\i (00:00:05) set SIGNAL_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal 
-\i (00:00:05) set SIGNAL_OPTLIB_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib 
-\i (00:00:05) set SIGNOISEPATH = . .. C:/Cadence/SPB_Data/pcbenv C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/signal/optlib C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
-\i (00:00:05) set SCFPATH = . scfs .. ../scfs 
-\i (00:00:05) set THERMAX_INSTALL_DIR = C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/thermal 
-\i (00:00:05) set VECTORFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text 
-\i (00:00:05) set ANSIFONT = ansifont0 
-\i (00:00:05) set KANJIFONTPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/text/fonts/kanji 
-\i (00:00:05) set KANJIFONT1 = kanjifont1 
-\i (00:00:05) set KANJIFONT2 = kanjifont2 
-\i (00:00:05) set IMAGEPATH = . C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/examples/image 
-\i (00:00:05) set ads_boardrevs = 1 
-\i (00:00:05) set ads_logrevs = 1 
-\i (00:00:05) set ads_textrevs = 1 
-\i (00:00:05) set display_backingstore = on 
-\i (00:00:05) set display_shapefill_analysis 1 
-\i (00:00:05) set display_nocolor_dynamics 
-\i (00:00:05) set noshow_current_selections 
-\i (00:00:05) set slide_arcs 
-\i (00:00:05) set readme_never 
-\i (00:00:05) set form_oldreturn 
-\i (00:00:05) set display_drcfill 
-\i (00:00:05) set find_nongui_reject 
-\i (00:00:05) set noformscriptbutton 
-\i (00:00:05) set plot_vectorize_text 
-\i (00:00:05) set display_nohilitefont 
-\i (00:00:05) set mouse_drag_delay = 150 
-\i (00:00:05) set drc_diff_pair_primary_separation_tolerance 0 mil:2 mil 
-\i (00:00:05) set no_dragpopup 
-\i (00:00:05) set pre_12.0_delay_rule 
-\i (00:00:05) set noplotmargins 
-\i (00:00:05) set autosave_time = 10 
-\i (00:00:05) set autosave 
-\i (00:00:05) unset color_nofilmrecord 
-\i (00:00:05) unset wv_voltage_nets 
-\i (00:00:05) unset find_reject_graphics 
-\i (00:00:05) set find_nongui_reject = Always 
-\i (00:00:05) unset color_lastgroup 
-\i (00:00:05) set modulepath = . C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
-\i (00:00:05) unset bug_solaris_thin_lines 
-\i (00:00:05) set no_dynamic_zoom 
-\i (00:00:05) set display_nohilitefont 
-\i (00:00:05) unset display_shapefill 
-\i (00:00:05) unset bug_solaris_hlt_lines 
-\i (00:00:05) unset display_nolinewidth 
-\i (00:00:05) unset display_nodynamicarcwidth 
-\i (00:00:05) set no_zoom_to_object 
-\i (00:00:05) set display_backingstore = on 
-\i (00:00:05) unset display_manual_colorpriority 
-\i (00:00:05) unset display_thintext 
-\i (00:00:05) set display_drcfill 
-\i (00:00:05) unset display_nocolor_dynamics 
-\i (00:00:05) unset display_noskeletal_draw 
-\i (00:00:05) set display_shapefill_analysis = 100 
-\i (00:00:05) set allegro_dynam_timing_fixedpos 
-\i (00:00:05) set allegro_dynam_timing = off 
-\i (00:00:05) unset allegro_etch_length_on 
-\i (00:00:05) set acon_oldhlt = all 
-\i (00:00:05) unset acon_route_on_active_subclass 
-\i (00:00:05) unset pcb_autoroam 
-\i (00:00:05) set roaminc = 16 
-\i (00:00:05) unset highlight_shape_net 
-\i (00:00:05) set new_shape_fill_nt 
-\i (00:00:05) unset old_shape_fill_style 
-\i (00:00:05) unset shape_drag_move 
-\i (00:00:05) set no_shape_fill 
-\i (00:00:05) unset av_endcapstyle 
-\i (00:00:05) unset telskill 
-\i (00:00:05) unset skill_old_ilinit 
-\i (00:00:05) unset noformscriptbutton 
-\i (00:00:05) unset pcb_cursor_angle 
-\i (00:00:05) unset film_nosort 
-\i (00:00:05) unset wv_voltage_nets 
-\i (00:00:05) set find_nongui_reject = Always 
-\i (00:00:05) unset control_auto_raise 
-\i (00:00:05) unset display_thintext 
-\i (00:00:05) set no_zoom_to_object 
-\i (00:00:05) unset display_nodynamicarcwidth 
-\i (00:00:05) set display_nohilitefont 
-\i (00:00:05) unset display_nolinewidth 
-\i (00:00:05) set no_dynamic_zoom 
-\i (00:00:05) unset display_nocolor_dynamics 
-\i (00:00:05) set display_backingstore = on 
-\i (00:00:05) unset display_manual_colorpriority 
-\i (00:00:05) unset allegro_etch_length_on 
-\i (00:00:05) unset acon_restore_space_mode 
-\i (00:00:05) unset no_show_dynam_elec_errors 
-\i (00:00:05) set slide_no_snap 
-\i (00:00:05) unset bubble_no_display_invisible 
-\i (00:00:05) set allegro_dynam_timing = on 
-\i (00:00:05) set acon_no_impedance_width 
-\i (00:00:05) unset ratt_off_if_connected 
-\i (00:00:05) unset acon_route_on_active_subclass 
-\i (00:00:05) unset bubble_shove_bondpads 
-\i (00:00:05) unset allegro_dynam_timing_fixedpos 
-\i (00:00:05) set form_oldreturn 
-\i (00:00:05) unset draft_retain_class_subclass 
-\i (00:00:05) set noswapripup 
-\i (00:00:05) set logic_edit_enabled 
-\i (00:00:05) unset highlight_shape_net 
-\i (00:00:05) set new_shape_fill_nt 
-\i (00:00:05) unset old_shape_fill_style 
-\i (00:00:05) unset no_shape_fill 
-\i (00:00:05) trapsize 744483
-\i (00:00:05) button wheel_up zoom in 1 
-\i (00:00:05) button wheel_down zoom out 1 
-\i (00:00:05) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
-\i (00:00:05) set no_dragpopup 
-\i (00:00:05) generaledit 
-\i (00:00:07) open 
-\i (00:00:21) fillin "E:/Allegro/GnssBoard/PCB/GnssControl.brd"
-\i (00:00:21) cd "E:/Allegro/GnssBoard/PCB"
-\i (00:00:21) trapsize 30070
-\i (00:00:21) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged unnamed
-\t (00:00:21) Opening existing design...
-\i (00:00:21) trapsize 15035
-\t (00:00:21)     Journal end - Fri Sep 25 16:26:22 2020
+\t (00:00:02) allegro 17.4 S011 Windows SPB 64-bit Edition
+\t (00:00:02)     Journal start - Fri Nov  6 15:16:09 2020
+\t (00:00:02)         Host=DESKTOP-P5LE3FE User=master Pid=8524 CPUs=4
+\t (00:00:02) CmdLine= E:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:02) 
+   (00:00:02) Loading axlcore.cxt 
+\t (00:00:07) Starting new design...
+\i (00:00:21) fillin yes 
+\i (00:00:22) trapsize 2963333
+\i (00:00:22) yepdesignermenuload 
+\i (00:00:23) replay D:/YepEda/YepChecker/env.scr 
+\i (00:00:23) alias ~E move 
+\i (00:00:23) funckey e move 
+\i (00:00:23) funckey E move 
+\i (00:00:23) alias ~R angle 90 
+\i (00:00:23) funckey ' ' angle 90 
+\i (00:00:23) alias ~F mirror 
+\i (00:00:23) funckey f mirror 
+\i (00:00:23) funckey F mirror 
+\i (00:00:23) alias ~N new 
+\i (00:00:23) alias ~O open 
+\i (00:00:23) alias ~S save 
+\w (00:00:23) alias ~S is marked read-only, not changed.
+\i (00:00:23) alias ~Z oops 
+\w (00:00:23) alias ~Z is marked read-only, not changed.
+\i (00:00:23) funckey z oops 
+\i (00:00:23) funckey Z oops 
+\i (00:00:23) alias ~A add connect 
+\i (00:00:23) funckey a add connect 
+\i (00:00:23) funckey A add connect 
+\i (00:00:23) alias ~Q slide 
+\i (00:00:23) funckey q slide 
+\i (00:00:23) funckey Q slide 
+\i (00:00:23) alias ~D reject 
+\i (00:00:23) alias ~W change 
+\i (00:00:23) funckey w change 
+\i (00:00:23) funckey W change 
+\i (00:00:23) alias ~@ toggle 
+\i (00:00:23) alias ~AC color 
+\i (00:00:23) alias ~G status 
+\i (00:00:23) alias ~AG status 
+\i (00:00:23) alias ~SQ 'slide;pop cut' 
+\i (00:00:23) alias ~SA 'pop singletrace' 
+\i (00:00:23) alias ~ASG 'drawing param' 
+\i (00:00:23) alias CInsert 'show measure' 
+\i (00:00:23) alias Pgup Zoom In 
+\i (00:00:23) alias Pgdown Zoom Out 
+\i (00:00:23) alias Esc Cancel 
+\i (00:00:23) alias Del Delete 
+\i (00:00:23) alias CDel 'delete;pop cut' 
+\i (00:00:23) alias SDel clinescut 
+\i (00:00:23) alias Home hilight 
+\i (00:00:23) alias End dehilight 
+\i (00:00:23) alias Insert show element 
+\i (00:00:23) alias CHome 'rats net' 
+\i (00:00:23) alias CEnd 'unrats net' 
+\i (00:00:23) alias Up iy 1 
+\i (00:00:23) alias Down iy -1 
+\i (00:00:23) alias Right ix 1 
+\i (00:00:23) alias Left ix -1 
+\i (00:00:23) alias x pick 
+\i (00:00:23) alias X pick 
+\i (00:00:23) alias y pick 0 
+\i (00:00:23) alias Y pick 0 
+\i (00:00:23) alias ix ipick 
+\i (00:00:23) alias IX ipick 
+\i (00:00:23) alias iy ipick 0 
+\i (00:00:23) alias IY ipick 0 
+\i (00:00:23) alias ip polar 
+\i (00:00:23) alias env enved 
+\i (00:00:23) alias g 'define grid' 
+\i (00:00:23) funckey 1 move 
+\i (00:00:23) funckey 2 angle 90 
+\i (00:00:23) funckey 3 mirror 
+\i (00:00:23) alias ~S1 autoplc 
+\i (00:00:23) alias CAF1 replay f1 
+\i (00:00:23) alias CAF2 replay f2 
+\i (00:00:23) alias CAF3 replay f3 
+\i (00:00:23) alias CAF4 replay f4 
+\i (00:00:23) alias CAF5 replay f5 
+\i (00:00:23) alias CAF6 replay f6 
+\i (00:00:23) alias CAF7 replay f7 
+\i (00:00:23) alias CAF8 replay f8 
+\i (00:00:23) alias CAF9 replay f9 
+\i (00:00:23) alias CAF10 replay f10 
+\i (00:00:23) alias CAF11 replay f11 
+\i (00:00:23) alias CAF12 replay f12 
+\i (00:00:23) alias F2 'setlayer MyLayer1' 
+\i (00:00:23) alias F3 'setlayer MyLayer2' 
+\i (00:00:23) alias F4 'setlayer MyLayer3' 
+\i (00:00:23) alias F5 'setlayer MyLayer4' 
+\i (00:00:23) alias F6 'setlayer MyLayer5' 
+\i (00:00:23) alias F7 'setlayer MyLayer6' 
+\i (00:00:23) alias F8 'setlayer MyLayer7' 
+\i (00:00:23) alias F10 plctools 
+\i (00:00:23) alias F12 'property edit' 
+\i (00:00:23) alias SF2 'savelayer MyLayer1' 
+\i (00:00:23) alias SF3 'savelayer MyLayer2' 
+\i (00:00:23) alias SF4 'savelayer MyLayer3' 
+\i (00:00:23) alias SF5 'savelayer MyLayer4' 
+\i (00:00:23) alias SF6 'savelayer MyLayer5' 
+\i (00:00:23) alias SF7 'savelayer MyLayer6' 
+\i (00:00:23) alias SF8 'savelayer MyLayer7' 
+\i (00:00:23) alias SF11 fanoutbypackage 
+\i (00:00:23) alias CF11 packagetofanout 
+\i (00:00:23) alias CF12 'identify nets' 
+\i (00:00:23) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:00:23) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:00:23) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:00:23) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:00:23) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:00:23) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:00:23) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:00:23) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:00:23) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:00:23) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:00:23) set GLOBAL = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ALIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib 
+\i (00:00:23) set COMPLIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib 
+\i (00:00:23) set GLOBALPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ADSPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set FORMPATH = . C:/Users/master/pcbenv/forms E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/forms 
+\i (00:00:23) set MENUPATH = . C:/Users/master/pcbenv/cuimenus E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/cuimenus 
+\i (00:00:23) set UNITS = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/units.dat 
+\i (00:00:23) set BMPPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/icons 
+\i (00:00:23) set RESOURCE = resource 
+\i (00:00:23) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/configure/prfedit 
+\i (00:00:23) set materialpath = 'E:`\Cadence`\Cadence`\Cadence_SPB_17.4-2019`\share`\pcb`\text' 
+\i (00:00:23) set SIGNAL_INSTALL_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal 
+\i (00:00:23) set SIGNAL_OPTLIB_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/optlib 
+\i (00:00:23) set SIGNOISEPATH = . .. C:/Users/master/pcbenv E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/optlib E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set SCFPATH = . scfs .. ../scfs 
+\i (00:00:23) set THERMAX_INSTALL_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/thermal 
+\i (00:00:23) set VECTORFONTPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ANSIFONT = ansifont0 
+\i (00:00:23) set KANJIFONTPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/fonts/kanji 
+\i (00:00:23) set KANJIFONT1 = kanjifont1 
+\i (00:00:23) set KANJIFONT2 = kanjifont2 
+\i (00:00:23) set IMAGEPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/examples/image 
+\i (00:00:23) set ads_boardrevs = 1 
+\i (00:00:23) set ads_logrevs = 1 
+\i (00:00:23) set ads_textrevs = 1 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) set display_shapefill_analysis 1 
+\i (00:00:23) set display_nocolor_dynamics 
+\i (00:00:23) set noshow_current_selections 
+\i (00:00:23) set slide_arcs 
+\i (00:00:23) set readme_never 
+\i (00:00:23) set form_oldreturn 
+\i (00:00:23) set display_drcfill 
+\i (00:00:23) set find_nongui_reject 
+\i (00:00:23) set noformscriptbutton 
+\i (00:00:23) set plot_vectorize_text 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) set mouse_drag_delay = 150 
+\i (00:00:23) set drc_diff_pair_primary_separation_tolerance 0 mil:2 mil 
+\i (00:00:23) set no_dragpopup 
+\i (00:00:23) set pre_12.0_delay_rule 
+\i (00:00:23) set noplotmargins 
+\i (00:00:23) set autosave_time = 10 
+\i (00:00:23) set autosave 
+\i (00:00:23) unset color_nofilmrecord 
+\i (00:00:23) unset wv_voltage_nets 
+\i (00:00:23) unset find_reject_graphics 
+\i (00:00:23) set find_nongui_reject = Always 
+\i (00:00:23) unset color_lastgroup 
+\i (00:00:23) set modulepath = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/modules 
+\i (00:00:23) unset bug_solaris_thin_lines 
+\i (00:00:23) set no_dynamic_zoom 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) unset display_shapefill 
+\i (00:00:23) unset bug_solaris_hlt_lines 
+\i (00:00:23) unset display_nolinewidth 
+\i (00:00:23) unset display_nodynamicarcwidth 
+\i (00:00:23) set no_zoom_to_object 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) unset display_manual_colorpriority 
+\i (00:00:23) unset display_thintext 
+\i (00:00:23) set display_drcfill 
+\i (00:00:23) unset display_nocolor_dynamics 
+\i (00:00:23) unset display_noskeletal_draw 
+\i (00:00:23) set display_shapefill_analysis = 100 
+\i (00:00:23) set allegro_dynam_timing_fixedpos 
+\i (00:00:23) set allegro_dynam_timing = off 
+\i (00:00:23) unset allegro_etch_length_on 
+\i (00:00:23) set acon_oldhlt = all 
+\i (00:00:23) unset acon_route_on_active_subclass 
+\i (00:00:23) unset pcb_autoroam 
+\i (00:00:23) set roaminc = 16 
+\i (00:00:23) unset highlight_shape_net 
+\i (00:00:23) set new_shape_fill_nt 
+\i (00:00:23) unset old_shape_fill_style 
+\i (00:00:23) unset shape_drag_move 
+\i (00:00:23) set no_shape_fill 
+\i (00:00:23) unset av_endcapstyle 
+\i (00:00:23) unset telskill 
+\i (00:00:23) unset skill_old_ilinit 
+\i (00:00:23) unset noformscriptbutton 
+\i (00:00:23) unset pcb_cursor_angle 
+\i (00:00:23) unset film_nosort 
+\i (00:00:23) unset wv_voltage_nets 
+\i (00:00:23) set find_nongui_reject = Always 
+\i (00:00:23) unset control_auto_raise 
+\i (00:00:23) unset display_thintext 
+\i (00:00:23) set no_zoom_to_object 
+\i (00:00:23) unset display_nodynamicarcwidth 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) unset display_nolinewidth 
+\i (00:00:23) set no_dynamic_zoom 
+\i (00:00:23) unset display_nocolor_dynamics 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) unset display_manual_colorpriority 
+\i (00:00:23) unset allegro_etch_length_on 
+\i (00:00:23) unset acon_restore_space_mode 
+\i (00:00:23) unset no_show_dynam_elec_errors 
+\i (00:00:23) set slide_no_snap 
+\i (00:00:23) unset bubble_no_display_invisible 
+\i (00:00:23) set allegro_dynam_timing = on 
+\i (00:00:23) set acon_no_impedance_width 
+\i (00:00:23) unset ratt_off_if_connected 
+\i (00:00:23) unset acon_route_on_active_subclass 
+\i (00:00:23) unset bubble_shove_bondpads 
+\i (00:00:23) unset allegro_dynam_timing_fixedpos 
+\i (00:00:23) set form_oldreturn 
+\i (00:00:23) unset draft_retain_class_subclass 
+\i (00:00:23) set noswapripup 
+\i (00:00:23) set logic_edit_enabled 
+\i (00:00:23) unset highlight_shape_net 
+\i (00:00:23) set new_shape_fill_nt 
+\i (00:00:23) unset old_shape_fill_style 
+\i (00:00:23) unset no_shape_fill 
+\i (00:00:23) trapsize 2963333
+\i (00:00:23) button wheel_up zoom in 1 
+\i (00:00:23) button wheel_down zoom out 1 
+\i (00:00:23) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:00:23) set no_dragpopup 
+\i (00:00:23) yepdesignermenuload 
+\i (00:00:23) replay D:/YepEda/YepChecker/env.scr 
+\i (00:00:23) alias ~E move 
+\i (00:00:23) funckey e move 
+\i (00:00:23) funckey E move 
+\i (00:00:23) alias ~R angle 90 
+\i (00:00:23) funckey ' ' angle 90 
+\i (00:00:23) alias ~F mirror 
+\i (00:00:23) funckey f mirror 
+\i (00:00:23) funckey F mirror 
+\i (00:00:23) alias ~N new 
+\i (00:00:23) alias ~O open 
+\i (00:00:23) alias ~S save 
+\w (00:00:23) alias ~S is marked read-only, not changed.
+\i (00:00:23) alias ~Z oops 
+\w (00:00:23) alias ~Z is marked read-only, not changed.
+\i (00:00:23) funckey z oops 
+\i (00:00:23) funckey Z oops 
+\i (00:00:23) alias ~A add connect 
+\i (00:00:23) funckey a add connect 
+\i (00:00:23) funckey A add connect 
+\i (00:00:23) alias ~Q slide 
+\i (00:00:23) funckey q slide 
+\i (00:00:23) funckey Q slide 
+\i (00:00:23) alias ~D reject 
+\i (00:00:23) alias ~W change 
+\i (00:00:23) funckey w change 
+\i (00:00:23) funckey W change 
+\i (00:00:23) alias ~@ toggle 
+\i (00:00:23) alias ~AC color 
+\i (00:00:23) alias ~G status 
+\i (00:00:23) alias ~AG status 
+\i (00:00:23) alias ~SQ 'slide;pop cut' 
+\i (00:00:23) alias ~SA 'pop singletrace' 
+\i (00:00:23) alias ~ASG 'drawing param' 
+\i (00:00:23) alias CInsert 'show measure' 
+\i (00:00:23) alias Pgup Zoom In 
+\i (00:00:23) alias Pgdown Zoom Out 
+\i (00:00:23) alias Esc Cancel 
+\i (00:00:23) alias Del Delete 
+\i (00:00:23) alias CDel 'delete;pop cut' 
+\i (00:00:23) alias SDel clinescut 
+\i (00:00:23) alias Home hilight 
+\i (00:00:23) alias End dehilight 
+\i (00:00:23) alias Insert show element 
+\i (00:00:23) alias CHome 'rats net' 
+\i (00:00:23) alias CEnd 'unrats net' 
+\i (00:00:23) alias Up iy 1 
+\i (00:00:23) alias Down iy -1 
+\i (00:00:23) alias Right ix 1 
+\i (00:00:23) alias Left ix -1 
+\i (00:00:23) alias x pick 
+\i (00:00:23) alias X pick 
+\i (00:00:23) alias y pick 0 
+\i (00:00:23) alias Y pick 0 
+\i (00:00:23) alias ix ipick 
+\i (00:00:23) alias IX ipick 
+\i (00:00:23) alias iy ipick 0 
+\i (00:00:23) alias IY ipick 0 
+\i (00:00:23) alias ip polar 
+\i (00:00:23) alias env enved 
+\i (00:00:23) alias g 'define grid' 
+\i (00:00:23) funckey 1 move 
+\i (00:00:23) funckey 2 angle 90 
+\i (00:00:23) funckey 3 mirror 
+\i (00:00:23) alias ~S1 autoplc 
+\i (00:00:23) alias CAF1 replay f1 
+\i (00:00:23) alias CAF2 replay f2 
+\i (00:00:23) alias CAF3 replay f3 
+\i (00:00:23) alias CAF4 replay f4 
+\i (00:00:23) alias CAF5 replay f5 
+\i (00:00:23) alias CAF6 replay f6 
+\i (00:00:23) alias CAF7 replay f7 
+\i (00:00:23) alias CAF8 replay f8 
+\i (00:00:23) alias CAF9 replay f9 
+\i (00:00:23) alias CAF10 replay f10 
+\i (00:00:23) alias CAF11 replay f11 
+\i (00:00:23) alias CAF12 replay f12 
+\i (00:00:23) alias F2 'setlayer MyLayer1' 
+\i (00:00:23) alias F3 'setlayer MyLayer2' 
+\i (00:00:23) alias F4 'setlayer MyLayer3' 
+\i (00:00:23) alias F5 'setlayer MyLayer4' 
+\i (00:00:23) alias F6 'setlayer MyLayer5' 
+\i (00:00:23) alias F7 'setlayer MyLayer6' 
+\i (00:00:23) alias F8 'setlayer MyLayer7' 
+\i (00:00:23) alias F10 plctools 
+\i (00:00:23) alias F12 'property edit' 
+\i (00:00:23) alias SF2 'savelayer MyLayer1' 
+\i (00:00:23) alias SF3 'savelayer MyLayer2' 
+\i (00:00:23) alias SF4 'savelayer MyLayer3' 
+\i (00:00:23) alias SF5 'savelayer MyLayer4' 
+\i (00:00:23) alias SF6 'savelayer MyLayer5' 
+\i (00:00:23) alias SF7 'savelayer MyLayer6' 
+\i (00:00:23) alias SF8 'savelayer MyLayer7' 
+\i (00:00:23) alias SF11 fanoutbypackage 
+\i (00:00:23) alias CF11 packagetofanout 
+\i (00:00:23) alias CF12 'identify nets' 
+\i (00:00:23) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:00:23) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:00:23) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:00:23) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:00:23) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:00:23) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:00:23) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:00:23) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:00:23) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:00:23) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:00:23) set GLOBAL = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ALIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib 
+\i (00:00:23) set COMPLIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib 
+\i (00:00:23) set GLOBALPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ADSPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set FORMPATH = . C:/Users/master/pcbenv/forms E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/forms 
+\i (00:00:23) set MENUPATH = . C:/Users/master/pcbenv/cuimenus E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/cuimenus 
+\i (00:00:23) set UNITS = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/units.dat 
+\i (00:00:23) set BMPPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/icons 
+\i (00:00:23) set RESOURCE = resource 
+\i (00:00:23) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/configure/prfedit 
+\i (00:00:23) set materialpath = 'E:`\Cadence`\Cadence`\Cadence_SPB_17.4-2019`\share`\pcb`\text' 
+\i (00:00:23) set SIGNAL_INSTALL_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal 
+\i (00:00:23) set SIGNAL_OPTLIB_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/optlib 
+\i (00:00:23) set SIGNOISEPATH = . .. C:/Users/master/pcbenv E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/signal/optlib E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set SCFPATH = . scfs .. ../scfs 
+\i (00:00:23) set THERMAX_INSTALL_DIR = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/thermal 
+\i (00:00:23) set VECTORFONTPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:23) set ANSIFONT = ansifont0 
+\i (00:00:23) set KANJIFONTPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/fonts/kanji 
+\i (00:00:23) set KANJIFONT1 = kanjifont1 
+\i (00:00:23) set KANJIFONT2 = kanjifont2 
+\i (00:00:23) set IMAGEPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/examples/image 
+\i (00:00:23) set ads_boardrevs = 1 
+\i (00:00:23) set ads_logrevs = 1 
+\i (00:00:23) set ads_textrevs = 1 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) set display_shapefill_analysis 1 
+\i (00:00:23) set display_nocolor_dynamics 
+\i (00:00:23) set noshow_current_selections 
+\i (00:00:23) set slide_arcs 
+\i (00:00:23) set readme_never 
+\i (00:00:23) set form_oldreturn 
+\i (00:00:23) set display_drcfill 
+\i (00:00:23) set find_nongui_reject 
+\i (00:00:23) set noformscriptbutton 
+\i (00:00:23) set plot_vectorize_text 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) set mouse_drag_delay = 150 
+\i (00:00:23) set drc_diff_pair_primary_separation_tolerance 0 mil:2 mil 
+\i (00:00:23) set no_dragpopup 
+\i (00:00:23) set pre_12.0_delay_rule 
+\i (00:00:23) set noplotmargins 
+\i (00:00:23) set autosave_time = 10 
+\i (00:00:23) set autosave 
+\i (00:00:23) unset color_nofilmrecord 
+\i (00:00:23) unset wv_voltage_nets 
+\i (00:00:23) unset find_reject_graphics 
+\i (00:00:23) set find_nongui_reject = Always 
+\i (00:00:23) unset color_lastgroup 
+\i (00:00:23) set modulepath = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/local/pcb/modules 
+\i (00:00:23) unset bug_solaris_thin_lines 
+\i (00:00:23) set no_dynamic_zoom 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) unset display_shapefill 
+\i (00:00:23) unset bug_solaris_hlt_lines 
+\i (00:00:23) unset display_nolinewidth 
+\i (00:00:23) unset display_nodynamicarcwidth 
+\i (00:00:23) set no_zoom_to_object 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) unset display_manual_colorpriority 
+\i (00:00:23) unset display_thintext 
+\i (00:00:23) set display_drcfill 
+\i (00:00:23) unset display_nocolor_dynamics 
+\i (00:00:23) unset display_noskeletal_draw 
+\i (00:00:23) set display_shapefill_analysis = 100 
+\i (00:00:23) set allegro_dynam_timing_fixedpos 
+\i (00:00:23) set allegro_dynam_timing = off 
+\i (00:00:23) unset allegro_etch_length_on 
+\i (00:00:23) set acon_oldhlt = all 
+\i (00:00:23) unset acon_route_on_active_subclass 
+\i (00:00:23) unset pcb_autoroam 
+\i (00:00:23) set roaminc = 16 
+\i (00:00:23) unset highlight_shape_net 
+\i (00:00:23) set new_shape_fill_nt 
+\i (00:00:23) unset old_shape_fill_style 
+\i (00:00:23) unset shape_drag_move 
+\i (00:00:23) set no_shape_fill 
+\i (00:00:23) unset av_endcapstyle 
+\i (00:00:23) unset telskill 
+\i (00:00:23) unset skill_old_ilinit 
+\i (00:00:23) unset noformscriptbutton 
+\i (00:00:23) unset pcb_cursor_angle 
+\i (00:00:23) unset film_nosort 
+\i (00:00:23) unset wv_voltage_nets 
+\i (00:00:23) set find_nongui_reject = Always 
+\i (00:00:23) unset control_auto_raise 
+\i (00:00:23) unset display_thintext 
+\i (00:00:23) set no_zoom_to_object 
+\i (00:00:23) unset display_nodynamicarcwidth 
+\i (00:00:23) set display_nohilitefont 
+\i (00:00:23) unset display_nolinewidth 
+\i (00:00:23) set no_dynamic_zoom 
+\i (00:00:23) unset display_nocolor_dynamics 
+\i (00:00:23) set display_backingstore = on 
+\i (00:00:23) unset display_manual_colorpriority 
+\i (00:00:23) unset allegro_etch_length_on 
+\i (00:00:23) unset acon_restore_space_mode 
+\i (00:00:23) unset no_show_dynam_elec_errors 
+\i (00:00:23) set slide_no_snap 
+\i (00:00:23) unset bubble_no_display_invisible 
+\i (00:00:23) set allegro_dynam_timing = on 
+\i (00:00:23) set acon_no_impedance_width 
+\i (00:00:23) unset ratt_off_if_connected 
+\i (00:00:23) unset acon_route_on_active_subclass 
+\i (00:00:23) unset bubble_shove_bondpads 
+\i (00:00:23) unset allegro_dynam_timing_fixedpos 
+\i (00:00:23) set form_oldreturn 
+\i (00:00:23) unset draft_retain_class_subclass 
+\i (00:00:23) set noswapripup 
+\i (00:00:23) set logic_edit_enabled 
+\i (00:00:23) unset highlight_shape_net 
+\i (00:00:23) set new_shape_fill_nt 
+\i (00:00:23) unset old_shape_fill_style 
+\i (00:00:23) unset no_shape_fill 
+\i (00:00:23) trapsize 2963333
+\i (00:00:23) button wheel_up zoom in 1 
+\i (00:00:23) button wheel_down zoom out 1 
+\i (00:00:23) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:00:23) set no_dragpopup 
+\i (00:00:23) generaledit 
+\i (00:00:27) enved 
+\i (00:00:27) setwindow form.prfedit
+\i (00:00:27) FORM prfedit treelist  My_favorites 
+\i (00:00:27) setwindow pcb
+\i (00:00:27) generaledit 
+\i (00:00:31) setwindow form.prfedit
+\i (00:00:31) FORM prfedit next_prfs  
+\i (00:00:38) FORM prfedit treelist  Display 
+\i (00:00:42) FORM prfedit treelist  Drawing 
+\i (00:00:47) FORM prfedit treelist  My_favorites 
+\i (00:00:49) FORM prfedit apply  
+\i (00:00:50) FORM prfedit done  
+\i (00:00:51) setwindow pcb
+\i (00:00:51) exit 
+\t (00:00:53)     Journal end - Fri Nov  6 15:16:59 2020
