@@ -4,14 +4,14 @@
 (                                                                     )
 (    Drawing          : E22-900T30S.dra                               )
 (    Software Version : 17.4S012                                      )
-(    Date/Time        : Wed Nov 25 15:43:41 2020                      )
+(    Date/Time        : Wed Nov 25 15:44:15 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = E:/PCBLib/ORCAD/LIB/Psm
-    Name      = e22-900t30s.psm
+    Name      = e29-2g4t27sx.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 
