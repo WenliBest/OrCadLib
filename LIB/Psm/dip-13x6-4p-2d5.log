@@ -3,14 +3,14 @@
 (    CREATE SYMBOL                                                    )
 (                                                                     )
 (    Drawing          : DIP-13X6-4P-2D5.dra                           )
-(    Software Version : 17.2S065                                      )
-(    Date/Time        : Tue May 19 16:03:56 2020                      )
+(    Software Version : 17.4S012                                      )
+(    Date/Time        : Mon Dec  7 16:52:27 2020                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
     Name      = dip-13x6-4p-2d5.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE

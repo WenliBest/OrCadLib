@@ -1,0 +1,60 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : E28-2G4T27SX.dra                              )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Fri Dec 18 16:53:18 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Dec 18 16:53:18 2020				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'E:/PCBLib/ORCAD/LIB/Psm/E28-2G4T27SX.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           =set 
+           PSMPATH 
+           = 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           C:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+           E:/PCBLib/ORCAD/LIB/Psm/ 
+           E:/PCBLib/ORCAD/LIB/Pad/ 
+
+PADPATH =  . 
+           E:/PCBLib/ORCAD/LIB/Via 
+           E:/PCBLib/ORCAD/LIB/Pad/ 
+
+
+------ Pad Stack Refresh Messages ------
+
+'SM_R6D4X7D3'  pad stack refresh starting.
+
+     'SM_R6D4X7D3'  pad stack refreshed successfully.
+     
+'SM_R1D5X2D5'  pad stack refresh starting.
+
+     'SM_R1D5X2D5'  pad stack refreshed successfully.
+     
+'SM_R0D8X1D8'  pad stack refresh starting.
+
+     'SM_R0D8X1D8'  pad stack refreshed successfully.
+     
+'TSP_32MIL'  pad stack refresh starting.
+
+     'TSP_32MIL'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

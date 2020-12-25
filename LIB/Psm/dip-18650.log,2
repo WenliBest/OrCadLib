@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIP-18650.dra                                 )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Sat Dec 19 11:33:02 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
+    Name      = dip-18650.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

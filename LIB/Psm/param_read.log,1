@@ -1,0 +1,141 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Parameter File READ                                              )
+(                                                                     )
+(    Drawing          : TO-252-2.dra                                  )
+(    Software Version : 17.2S067                                      )
+(    Date/Time        : Fri Sep 25 15:45:01 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+	Paramfile Name : E:/PCBLib/ORCAD/AllegroEnvSet.prm
+	Layout Name   : E:/PCBLib/ORCAD/LIB/Psm/TO-252-2.dra
+
+Reading...parameter_header:
+Reading...db_common_type:
+Reading...grid_parms_type:
+Reading...UnusedPadsSuppressionSettings:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...artwork_film:
+	Reading...art_film_type:
+	Reading...art_film_block_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+	Reading...art_class_type:
+Reading...color_table_table:
+Reading...ColorParmType:
+Reading...text_size_table:
+Reading...placement_parameter_type:
+Reading...av_parm_type:
+Reading...arn_param_type:
+Reading...baf_parm_type:
+Reading...ats_parm_type:
+Reading...ifp_parm_type:
+Reading...dynfill_parm_type:
+Reading...probe_parm_type:
+Reading...drf_parm_type:
+Reading...ministat_parm_type:
+Reading...gloss_fat_parm_type:
+Reading...gloss_dielectric_param_type:
+
+
+..... Total number of errors: 0.
+..... Total number of warnings: 0.

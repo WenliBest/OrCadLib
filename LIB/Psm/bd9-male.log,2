@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : BD9-Male.dra                                  )
+(    Software Version : 17.2S071                                      )
+(    Date/Time        : Tue Dec 22 09:58:53 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
+    Name      = bd9-male.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

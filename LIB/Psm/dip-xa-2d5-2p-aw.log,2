@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIP-XA-2D5-2P-AW.dra                          )
+(    Software Version : 17.4S012                                      )
+(    Date/Time        : Mon Dec 14 16:30:05 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
+    Name      = dip-xa-2d5-2p-aw.psm
+    User      = master
+    Machine   = DESKTOP-P5LE3FE
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
