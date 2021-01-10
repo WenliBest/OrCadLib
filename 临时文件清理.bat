@@ -62,9 +62,10 @@ del *.rpt*13 /s
 del *.rpt*14 /s
 del *.rpt*15 /s
 del *.jrl*1 /s
-
-del *dat*1 /s
-del *dat*2 /s
-del *dat*3 /s
-
+del *.jrl*1 /s
+del *.dat*1 /s
+del *.dat*2 /s
+del *.dat*3 /s
+del *.dat*4 /s
+del *.dat*5 /s
 exit
